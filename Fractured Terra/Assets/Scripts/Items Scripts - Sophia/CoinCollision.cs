@@ -9,6 +9,7 @@ public class CoinCollision : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Coin")) // When player collides with a coin 
         {
+            Destroy(other.gameObject); // Coin disappears
             cm.cointCount++; // Increases coin count
         }
     }

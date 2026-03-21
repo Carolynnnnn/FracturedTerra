@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - Coin
+  - NPC
   layers:
   - Default
   - TransparentFX

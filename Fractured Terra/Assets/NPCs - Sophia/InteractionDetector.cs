@@ -9,7 +9,7 @@ public class InteractionDetector : MonoBehaviour
     {
         if (context.performed)
         {
-            interactableInRange?.Interact();
+            interactableInRange?.Interact(); // Finds closest interactable in range and interacts with it (see below)
         }
     }
     

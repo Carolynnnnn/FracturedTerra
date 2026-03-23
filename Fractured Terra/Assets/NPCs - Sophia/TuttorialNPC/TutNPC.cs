@@ -4,6 +4,8 @@ using TMPro;
 
 public class TutNPC : MonoBehaviour, IInteractable
 {
+    [SerializeField] private PlayerController playerController; // Helps pause movement
+    
     public NpcDialogue dialogueData;
     public GameObject dialoguePanel;
     public TMP_Text dialogueText, nameText;
@@ -11,7 +13,7 @@ public class TutNPC : MonoBehaviour, IInteractable
     private int dialogueIndex;
     private bool isTyping, isDialogueActive;
 
-    public bool CanInteract()
+    public bool CanInteract() // NPC can be interacted with when no dialogue is active
     {
         return !isDialogueActive;
     }
@@ -21,21 +23,21 @@ public class TutNPC : MonoBehaviour, IInteractable
         if (dialogueData == null) return;
         if (isDialogueActive) // TODO: Or pause is active and dialogue is not
         {
-            NextLine();
+            NextLine(); // Goes to next dialogue line dialogue is active
         }
         else
         {
-            StartDialogue();
+            StartDialogue(); // Starts talking to NPC
         }
     }
-    void StartDialogue()
+    void StartDialogue() // Controls UI display
     {
             isDialogueActive = true;
             dialogueIndex = 0;
+            playerController.CanMove = false; // Pause player movement
             
             nameText.SetText(dialogueData.npcName);
             dialoguePanel.SetActive(true);
-            // TODO: Set pause to true
 
             StartCoroutine(TypeLine());
     }
@@ -44,7 +46,11 @@ public class TutNPC : MonoBehaviour, IInteractable
     {
         if (isTyping)
         {
+<<<<<<< Updated upstream:Fractured Terra/Assets/NPCs - Sophia/TuttorialNPC/TutNPC.cs
             // Skip typing animation and show full line
+=======
+            // Skip typing animation if not done yet
+>>>>>>> Stashed changes:Fractured Terra/Assets/NPCs - Sophia/NPC.cs
             StopAllCoroutines();
             dialogueText.SetText(dialogueData.dialogueLines[dialogueIndex]);
             isTyping = false;
@@ -78,8 +84,8 @@ public class TutNPC : MonoBehaviour, IInteractable
     {
         StopAllCoroutines();
         isDialogueActive = false;
-        dialogueText.SetText("");
-        dialoguePanel.SetActive(false);
-        // TODO: Unpause the game
+        dialogueText.SetText(""); // Reset text
+        dialoguePanel.SetActive(false); // Close dialogue panel
+        playerController.CanMove = true; // Unpause the game
     }
 }

@@ -2,7 +2,7 @@ using System.Collections;
 using UnityEngine;
 using TMPro;
 
-public class TutNPC : MonoBehaviour, IInteractable
+public class NPC : MonoBehaviour, IInteractable
 {
     public NpcDialogue dialogueData;
     public GameObject dialoguePanel;

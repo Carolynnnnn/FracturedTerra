@@ -44,20 +44,25 @@ public class TutNPC : MonoBehaviour, IInteractable
     {
         if (isTyping)
         {
-            // Skip typing animation and show full line
+            // Skip typing animation
             StopAllCoroutines();
             dialogueText.SetText(dialogueData.dialogueLines[dialogueIndex]);
             isTyping = false;
         }
-        else if (++dialogueIndex >= dialogueData.dialogueLines.Length)
-        {
-            // If another line, type next line
-            StartCoroutine(TypeLine());
-        }
         else
         {
-            // Stop dialogue
-            EndDialogue();
+            dialogueIndex++;
+
+            if (dialogueIndex < dialogueData.dialogueLines.Length)
+            {
+                // Show next line
+                StartCoroutine(TypeLine());
+            }
+            else
+            {
+                // End dialogue
+                EndDialogue();
+            }
         }
     }
 

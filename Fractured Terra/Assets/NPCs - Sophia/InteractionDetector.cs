@@ -15,7 +15,7 @@ public class InteractionDetector : MonoBehaviour
     
     private void OnTriggerEnter2D(Collider2D collision) // When an interactable object is close
     {
-        if (collision.TryGetComponent(out IInteractable interactable) && interactable.CanInteract())
+        if (collision.TryGetComponent(out IInteractable interactable))
         {
             interactableInRange = interactable;
         }

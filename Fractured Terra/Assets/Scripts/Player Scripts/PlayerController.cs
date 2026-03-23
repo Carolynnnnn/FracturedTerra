@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
     // Internal data
     private Vector2 _moveDir = Vector2.zero;
     private InputAction _moveAction;
+    public bool CanMove = true; // Helps prevent movement when dialogue is open
     
     // Keybinds
     private void Awake()
@@ -43,6 +44,12 @@ public class PlayerController : MonoBehaviour
     // Tick
     private void FixedUpdate() // Used for physics system
     {
+        if (!CanMove) // When a dialogue is open, don't change position
+        {
+            _rb.linearVelocity = Vector2.zero; // stop instantly
+            return;
+        }
+        
         _rb.linearVelocity = _moveDir.normalized * _moveSpeed;
     }
 }

@@ -46,11 +46,7 @@ public class TutNPC : MonoBehaviour, IInteractable
     {
         if (isTyping)
         {
-<<<<<<< Updated upstream:Fractured Terra/Assets/NPCs - Sophia/TuttorialNPC/TutNPC.cs
             // Skip typing animation and show full line
-=======
-            // Skip typing animation if not done yet
->>>>>>> Stashed changes:Fractured Terra/Assets/NPCs - Sophia/NPC.cs
             StopAllCoroutines();
             dialogueText.SetText(dialogueData.dialogueLines[dialogueIndex]);
             isTyping = false;

@@ -2,7 +2,7 @@ using System.Collections;
 using UnityEngine;
 using TMPro;
 
-public class TutNPC : MonoBehaviour, IInteractable
+public class NPC : MonoBehaviour, IInteractable
 {
     [SerializeField] private PlayerController playerController; // Helps pause movement
     
@@ -51,7 +51,7 @@ public class TutNPC : MonoBehaviour, IInteractable
             dialogueText.SetText(dialogueData.dialogueLines[dialogueIndex]);
             isTyping = false;
         }
-        else if (++dialogueIndex >= dialogueData.dialogueLines.Length)
+        else if (++dialogueIndex < dialogueData.dialogueLines.Length)
         {
             // If another line, type next line
             StartCoroutine(TypeLine());

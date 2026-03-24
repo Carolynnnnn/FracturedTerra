@@ -1201,8 +1201,8 @@ GameObject:
   - component: {fileID: 1888865980}
   - component: {fileID: 1888865979}
   - component: {fileID: 1888865982}
-  - component: {fileID: 1888865983}
   - component: {fileID: 1888865984}
+  - component: {fileID: 1888865985}
   m_Layer: 0
   m_Name: TutNPC
   m_TagString: NPC
@@ -1352,23 +1352,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.0669789, y: 1.1500974}
   m_EdgeRadius: 0
---- !u!114 &1888865983
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1888865978}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfdbd8070564f7f4f9b6d3ee4dd28c4c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TutNPC
-  playerController: {fileID: 803896743}
-  dialogueData: {fileID: 11400000, guid: 27f4605d815a4f34393ee0a472bffd77, type: 2}
-  dialoguePanel: {fileID: 1642931050}
-  dialogueText: {fileID: 616344296}
-  nameText: {fileID: 573712804}
 --- !u!50 &1888865984
 Rigidbody2D:
   serializedVersion: 5
@@ -1396,6 +1379,23 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
+--- !u!114 &1888865985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1888865978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfdbd8070564f7f4f9b6d3ee4dd28c4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NPC
+  playerController: {fileID: 803896743}
+  dialogueData: {fileID: 11400000, guid: 27f4605d815a4f34393ee0a472bffd77, type: 2}
+  dialoguePanel: {fileID: 1642931050}
+  dialogueText: {fileID: 616344296}
+  nameText: {fileID: 573712804}
 --- !u!1001 &1089969111273640945
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1540,8 +1540,33 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1534142082904467258, guid: 5c1dd710cb3723448a121df18ccbaaf2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3979331705828813839}
   m_SourcePrefab: {fileID: 100100000, guid: 5c1dd710cb3723448a121df18ccbaaf2, type: 3}
+--- !u!1 &3979331705828813838 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1534142082904467258, guid: 5c1dd710cb3723448a121df18ccbaaf2, type: 3}
+  m_PrefabInstance: {fileID: 3979331705828813837}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3979331705828813839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3979331705828813838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfdbd8070564f7f4f9b6d3ee4dd28c4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NPC
+  playerController: {fileID: 803896743}
+  dialogueData: {fileID: 11400000, guid: abaf5f80d54380f4cbe2748c0a5bd782, type: 2}
+  dialoguePanel: {fileID: 1642931050}
+  dialogueText: {fileID: 616344296}
+  nameText: {fileID: 573712804}
 --- !u!1001 &6624161972524728927
 PrefabInstance:
   m_ObjectHideFlags: 0

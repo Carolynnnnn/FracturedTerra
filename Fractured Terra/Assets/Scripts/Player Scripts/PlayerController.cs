@@ -6,7 +6,7 @@ public class PlayerController : MonoBehaviour
 {
     // Editor data
     // Movement Attributes 
-    [SerializeField] float _moveSpeed = 1;
+    [SerializeField] float _moveSpeed = 6;
     // Dependencies
     [SerializeField] Rigidbody2D _rb;
     

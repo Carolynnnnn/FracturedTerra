@@ -47,19 +47,18 @@ public class NPC : MonoBehaviour, IInteractable
         if (isTyping)
         {
             // Skip typing animation and show full line
-            // Skip typing animation if not done yet
             StopAllCoroutines();
             dialogueText.SetText(dialogueData.dialogueLines[dialogueIndex]);
             isTyping = false;
         }
         else if (++dialogueIndex < dialogueData.dialogueLines.Length)
         {
-            // If there's another line, type it
+            // If another line, type next line
             StartCoroutine(TypeLine());
         }
         else
         {
-            // Otherwise, end dialogue
+            // Stop dialogue
             EndDialogue();
         }
     }

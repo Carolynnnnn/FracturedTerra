@@ -1453,7 +1453,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e99f07cf7ae0a1b45973e0fc51fa63ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  cointCount: 0
+  coinCount: 0
   coinUI: {fileID: 489439584}
 --- !u!4 &937770665
 Transform:
@@ -1861,6 +1861,7 @@ MonoBehaviour:
   dialoguePanel: {fileID: 1642931050}
   dialogueText: {fileID: 616344296}
   nameText: {fileID: 573712804}
+  npcState: 1
 --- !u!1001 &1089969111273640945
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2032,6 +2033,7 @@ MonoBehaviour:
   dialoguePanel: {fileID: 1642931050}
   dialogueText: {fileID: 616344296}
   nameText: {fileID: 573712804}
+  npcState: 0
 --- !u!1001 &6624161972524728927
 PrefabInstance:
   m_ObjectHideFlags: 0

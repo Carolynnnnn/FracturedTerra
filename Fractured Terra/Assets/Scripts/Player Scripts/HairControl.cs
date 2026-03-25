@@ -1,51 +1,81 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class HairControl : MonoBehaviour
 {
+    [Header("REAL GAME HAIR")]
     public SpriteRenderer shortHair;
     public SpriteRenderer longHair;
 
-    private bool isShort = true;
+    [Header("PREVIEW HAIR")]
+    public Image previewHair;
+    public RectTransform previewHairRect;
+
+    [Header("PREVIEW SPRITES")]
+    public Sprite shortHairPreviewSprite;
+    public Sprite longHairPreviewSprite;
+
+    [Header("PREVIEW POSITIONS")]
+    public Vector2 shortHairPreviewPosition = new Vector2(0f, 0f);
+    public Vector2 longHairPreviewPosition = new Vector2(0f, 0f);
 
     private Color[] hairColors;
-    private int currentColor = 0;
 
-    void Start()
+    private void Start()
     {
-        // define colors
         hairColors = new Color[5];
 
-        ColorUtility.TryParseHtmlString("#C78235", out hairColors[0]); // ginger
-        ColorUtility.TryParseHtmlString("#dcbd92", out hairColors[1]); // blond
-        ColorUtility.TryParseHtmlString("#805A40", out hairColors[2]); // brown
-        ColorUtility.TryParseHtmlString("#000000", out hairColors[3]); // purple
-        ColorUtility.TryParseHtmlString("#FF8DA1", out hairColors[4]); // hot pink
+        ColorUtility.TryParseHtmlString("#C78235", out hairColors[0]);
+        ColorUtility.TryParseHtmlString("#DCBD92", out hairColors[1]);
+        ColorUtility.TryParseHtmlString("#805A40", out hairColors[2]);
+        ColorUtility.TryParseHtmlString("#000000", out hairColors[3]);
+        ColorUtility.TryParseHtmlString("#FF8DA1", out hairColors[4]);
 
-        ApplyColor();
+        ApplyHairFromData();
     }
 
-    void Update()
+    public void SetShortHair()
     {
-        // SWITCH HAIR TYPE
-        if (Input.GetKeyDown(KeyCode.H))
-        {
-            isShort = !isShort;
-
-            shortHair.enabled = isShort;
-            longHair.enabled = !isShort;
-        }
-
-        // CHANGE COLOR
-        if (Input.GetKeyDown(KeyCode.J))
-        {
-            currentColor = (currentColor + 1) % hairColors.Length;
-            ApplyColor();
-        }
+        PlayerAppearanceData.Instance.isShortHair = true;
+        ApplyHairFromData();
     }
 
-    void ApplyColor()
+    public void SetLongHair()
     {
-        shortHair.color = hairColors[currentColor];
-        longHair.color = hairColors[currentColor];
+        PlayerAppearanceData.Instance.isShortHair = false;
+        ApplyHairFromData();
+    }
+
+    public void SetHairColorByIndex(int index)
+    {
+        if (index < 0 || index >= hairColors.Length) return;
+
+        PlayerAppearanceData.Instance.hairColorIndex = index;
+        ApplyHairFromData();
+    }
+
+    public void ApplyHairFromData()
+    {
+        bool isShort = PlayerAppearanceData.Instance.isShortHair;
+        int colorIndex = PlayerAppearanceData.Instance.hairColorIndex;
+
+        if (shortHair != null) shortHair.enabled = isShort;
+        if (longHair != null) longHair.enabled = !isShort;
+
+        if (shortHair != null) shortHair.color = hairColors[colorIndex];
+        if (longHair != null) longHair.color = hairColors[colorIndex];
+
+        if (previewHair != null)
+        {
+            previewHair.sprite = isShort ? shortHairPreviewSprite : longHairPreviewSprite;
+            previewHair.color = hairColors[colorIndex];
+        }
+
+        if (previewHairRect != null)
+        {
+            previewHairRect.anchoredPosition = isShort
+                ? shortHairPreviewPosition
+                : longHairPreviewPosition;
+        }
     }
 }

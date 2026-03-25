@@ -37,5 +37,24 @@ public class PlayerActions : MonoBehaviour // Handles attack, use item, and menu
     }
 
     
+
+    private void Attack() // Handles attack key
+    {
+        if (state != null && !state.canMove) return; // Optional safety check
+        Debug.Log("Attack pressed (O)"); // Placeholder for attack logic
+    }
+
+
+    private void UseItem() // Handles use item key
+    {
+        if (state != null && !state.canMove) return; // Optional safety check
+        Debug.Log("Use item pressed (E)"); // Placeholder for use-item logic
+    }
+
+
+    private void OpenMenu() // Handles menu/info key
+    {
+        Debug.Log("Menu/info pressed (M)"); // Placeholder for menu logic
+    }
 }
     

@@ -17,9 +17,9 @@ public class Shop : MonoBehaviour, IInteractable
     
     void TryBuy()
     {
-        if (cm.cointCount >= stock.price)
+        if (cm.coinCount >= stock.price)
         {
-            cm.cointCount -= stock.price; // Takes away player's coins
+            cm.coinCount -= stock.price; // Takes away player's coins
             GiveItem(); // Give player the item
         }
     }

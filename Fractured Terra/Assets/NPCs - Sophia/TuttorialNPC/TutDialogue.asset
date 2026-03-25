@@ -19,4 +19,8 @@ MonoBehaviour:
   - Hmmmm... I dunno.
   - A nice juicy apple sounds good right about now.
   - How's about you go fetch me one?
+  - Thank you kindly!
+  - Here's that doohickey ya wanted.
+  - Mmmmm... Apple...
   typingSpeed: 0.05
+  dialogueStates: 0400000006000000

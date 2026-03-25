@@ -43,3 +43,4 @@ private void Awake() // Runs when the script first loads
 
     runAction = new InputAction("Run", binding: "<Keyboard>/leftShift"); // Shift key for running
 }
+

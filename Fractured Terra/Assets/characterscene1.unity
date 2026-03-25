@@ -2557,6 +2557,7 @@ GameObject:
   m_Component:
   - component: {fileID: 349270582}
   - component: {fileID: 349270583}
+  - component: {fileID: 349270584}
   m_Layer: 5
   m_Name: InventoryManager
   m_TagString: Untagged
@@ -2609,6 +2610,40 @@ MonoBehaviour:
   - {fileID: 1800638811}
   - {fileID: 532077540}
   selectedIndex: 0
+  inventoryManager: {fileID: 349270584}
+--- !u!114 &349270584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 349270581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8a8c43e60b86624aa5115d4bb570414, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InventoryManager
+  items: []
+  maxSlots: 12
+  slots:
+  - {fileID: 1059148568}
+  - {fileID: 1846175785}
+  - {fileID: 40943304}
+  - {fileID: 1402188598}
+  - {fileID: 36017512}
+  - {fileID: 1204222377}
+  - {fileID: 315757952}
+  - {fileID: 735790940}
+  - {fileID: 535553143}
+  - {fileID: 993174545}
+  - {fileID: 1800638811}
+  - {fileID: 532077540}
+  itemView: {fileID: 141966923}
+  itemDescriptionText: {fileID: 1032743780}
+  productLifeText: {fileID: 1357194476}
+  inventoryToggle: {fileID: 2015504166}
+  playerTransform: {fileID: 1527992365}
+  dropOffset: {x: 1, y: 0, z: 0}
 --- !u!1 &371472054
 GameObject:
   m_ObjectHideFlags: 0
@@ -10406,6 +10441,9 @@ GameObject:
   - component: {fileID: 1527992365}
   - component: {fileID: 1527992364}
   - component: {fileID: 1527992366}
+  - component: {fileID: 1527992369}
+  - component: {fileID: 1527992368}
+  - component: {fileID: 1527992367}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -10463,6 +10501,92 @@ MonoBehaviour:
   longHairPreviewSprite: {fileID: 5437361367798663763, guid: 385386e7397b8144e8ab942787fa806d, type: 3}
   shortHairPreviewPosition: {x: 42, y: 45}
   longHairPreviewPosition: {x: 15, y: 15}
+--- !u!61 &1527992367
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527992363}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!50 &1527992368
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527992363}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 5
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!114 &1527992369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527992363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 413a55c0a7dfcdf4bb031344a61fc8d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ItemPickupReceiver
+  inventoryManager: {fileID: 349270584}
 --- !u!1 &1595548290
 GameObject:
   m_ObjectHideFlags: 0

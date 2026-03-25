@@ -9,5 +9,16 @@ public class NpcDialogue : ScriptableObject // Set up for reusable dialogue obj
     public int[] dialogueStates; // First number is last index of lines spoken in default
                                  // Second number is last index of lines spoken when quest completed
                                  // Ignored for non-quest NPCs
-    // TODO: Add an item wanted field once get and set are implemented in inventory
+    public string itemWantedName; // Item's name
+    
+    [Header("Item Prize (Quest Givers only)")]
+    // Build item prize
+    // Note: if name is gem, adds one to total instead
+    public string itemName; // Item's name
+    public string description; // Item's description
+    public Sprite icon; // Item's sprite
+    public int maxLife = 1; // Max amount of uses an item has, 1 use by default
+    public bool canUse; // Determines if the item can be used
+    public GameObject worldPrefab; // Helps drop item if necessary
+                                   // note: event items SHOULD NOT HAVE THIS, as they should never be dropped
 }

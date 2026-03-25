@@ -32,6 +32,11 @@ public class InventoryToggle : MonoBehaviour
         }
     }
 
+    public bool IsOpen()
+    {
+        return isOpen;
+    }
+
     public void ToggleInventory()
     {
         if (isAnimating) return;

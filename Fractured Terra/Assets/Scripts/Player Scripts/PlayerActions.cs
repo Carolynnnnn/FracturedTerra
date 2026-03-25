@@ -16,9 +16,9 @@ public class PlayerActions : MonoBehaviour // Handles attack, use item, and menu
         useItemAction = new InputAction("UseItem", binding: "<Keyboard>/e"); // E for use item
         menuAction = new InputAction("Menu", binding: "<Keyboard>/m"); // M for menu/info
 
-        attackAction.performed += ctx => Attack(); // Calls Attack() when O is pressed
-        useItemAction.performed += ctx => UseItem(); // Calls UseItem() when E is pressed
-        menuAction.performed += ctx => OpenMenu(); // Calls OpenMenu() when M is pressed
+        attackAction.performed += ctx => Attack(); // Calls Attack() when O key is pressed
+        useItemAction.performed += ctx => UseItem(); // Calls UseItem() when E key is pressed
+        menuAction.performed += ctx => OpenMenu(); // Calls OpenMenu() when M key is pressed
     }
     
     private void OnEnable() // Enables actions when object becomes active
@@ -56,5 +56,6 @@ public class PlayerActions : MonoBehaviour // Handles attack, use item, and menu
     {
         Debug.Log("Menu/info pressed (M)"); // Placeholder for menu logic
     }
+    
 }
     

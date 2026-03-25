@@ -801,7 +801,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0.0024262667, y: 0.25380114}
-  m_Radius: 0.5300554
+  m_Radius: 0.44134194
 --- !u!114 &858123389
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1318,8 +1318,6 @@ MonoBehaviour:
   dialogueText: {fileID: 616344296}
   nameText: {fileID: 573712804}
   npcState: 1
-  inventoryManager: {fileID: 937770667}
-  gemManager: {fileID: 937770666}
 --- !u!1001 &1994009591
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1754,8 +1752,6 @@ MonoBehaviour:
   dialogueText: {fileID: 616344296}
   nameText: {fileID: 573712804}
   npcState: 0
-  inventoryManager: {fileID: 0}
-  gemManager: {fileID: 0}
 --- !u!1001 &6624161972524728927
 PrefabInstance:
   m_ObjectHideFlags: 0

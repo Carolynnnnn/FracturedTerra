@@ -218,4 +218,22 @@ public class InventoryManager : MonoBehaviour
         if (productLifeText != null)
             productLifeText.text = "Life: " + item.currentLife + "/" + item.maxLife;
     }
+    
+    // Additions for NPC quests
+    public InventoryItem FindItemByName(string itemName) // Finds an item in the inventory based on its name
+    {
+        return items.Find(i => i.itemName == itemName);
+    }
+    public bool RemoveItemByName(string itemName) // Removes an item based on its name
+    {
+        InventoryItem item = FindItemByName(itemName);
+        if (item != null) // Remove item and return true
+        { 
+            items.Remove(item);
+            RefreshSlots();
+            UpdateRightPanel();
+            return true;
+        }
+        return false;
+    }
 }

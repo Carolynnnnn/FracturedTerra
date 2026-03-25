@@ -10,6 +10,8 @@ public class NPC : MonoBehaviour, IInteractable
     public GameObject dialoguePanel;
     public TMP_Text dialogueText, nameText;
     public NpcState npcState; // Determines if NPC has a quest, and its state
+    public InventoryManager inventoryManager; // Keeps track of player's inventory
+    public GemManager gemManager;
     
     private int dialogueIndex;
     private bool isTyping, isDialogueActive;
@@ -27,7 +29,36 @@ public class NPC : MonoBehaviour, IInteractable
             NextLine(); // Goes to next dialogue line dialogue is active
         }
         else
-        { // TODO: Exchange item and go to quest complete state if player has wanted item
+        { 
+            // Check if NPC wants an item
+            if (npcState == NpcState.Default && !string.IsNullOrEmpty(dialogueData.itemWantedName))
+            {
+                bool hadItem = inventoryManager.RemoveItemByName(dialogueData.itemWantedName);
+
+                if (hadItem)
+                {
+                    npcState = NpcState.QuestComplete;
+                    Debug.Log("Quest item given!");
+                    
+                    // Give item prize
+                    if (dialogueData.itemName == "Gem") // If the prize is a gem
+                    {
+                        gemManager.gemCount++;
+                    }
+                    else // If the prize is a regular item
+                    {
+                        InventoryItem newItem = new InventoryItem( // Create new inventory item based on stock
+                            dialogueData.itemName,
+                            dialogueData.description,
+                            dialogueData.icon,
+                            dialogueData.maxLife,
+                            dialogueData.canUse,
+                            dialogueData.worldPrefab
+                        );
+                        inventoryManager.AddItem(newItem); // Adds item to inventory
+                    }
+                }
+            }
             StartDialogue(); // Starts talking to NPC
         }
     }

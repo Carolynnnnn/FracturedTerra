@@ -1,11 +1,15 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SkinControl : MonoBehaviour
 {
+    [Header("REAL GAME BODY")]
     [SerializeField] private SpriteRenderer baseBodyRenderer;
 
+    [Header("PREVIEW BODY")]
+    [SerializeField] private Image previewBodyImage;
+
     private Color[] skinColors;
-    private int currentIndex = 0;
 
     private void Awake()
     {
@@ -14,29 +18,31 @@ public class SkinControl : MonoBehaviour
         ColorUtility.TryParseHtmlString("#FDDBC7", out skinColors[0]); // pale
         ColorUtility.TryParseHtmlString("#CC9966", out skinColors[1]); // tan
         ColorUtility.TryParseHtmlString("#885533", out skinColors[2]); // brown
-        ColorUtility.TryParseHtmlString("#442211", out skinColors[3]); // black
-        ColorUtility.TryParseHtmlString("#819eed", out skinColors[4]); // blue
+        ColorUtility.TryParseHtmlString("#442211", out skinColors[3]); // dark
+        ColorUtility.TryParseHtmlString("#819EED", out skinColors[4]); // blue
     }
 
-    void Start()
+    private void Start()
     {
-        ApplyColor();
+        ApplySkinFromData();
     }
 
-    void Update()
+    public void SetSkinColorByIndex(int index)
     {
-        if (Input.GetKeyDown(KeyCode.K))
-        {
-            currentIndex = (currentIndex + 1) % skinColors.Length;
-            ApplyColor();
-        }
+        if (index < 0 || index >= skinColors.Length) return;
+
+        PlayerAppearanceData.Instance.skinColorIndex = index;
+        ApplySkinFromData();
     }
 
-    void ApplyColor()
+    public void ApplySkinFromData()
     {
+        int index = PlayerAppearanceData.Instance.skinColorIndex;
+
         if (baseBodyRenderer != null)
-        {
-            baseBodyRenderer.color = skinColors[currentIndex];
-        }
+            baseBodyRenderer.color = skinColors[index];
+
+        if (previewBodyImage != null)
+            previewBodyImage.color = skinColors[index];
     }
 }

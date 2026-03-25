@@ -8,9 +8,12 @@ public class InventorySelect : MonoBehaviour
     private int columns = 3;
     private int totalSlots = 12;
 
+    public InventoryManager inventoryManager;
+
     void Start()
     {
         UpdateSelectionHighlight();
+        NotifyManager();
     }
 
     void Update()
@@ -42,6 +45,7 @@ public class InventorySelect : MonoBehaviour
         {
             selectedIndex++;
             UpdateSelectionHighlight();
+            NotifyManager();
         }
     }
 
@@ -51,6 +55,7 @@ public class InventorySelect : MonoBehaviour
         {
             selectedIndex--;
             UpdateSelectionHighlight();
+            NotifyManager();
         }
     }
 
@@ -60,6 +65,7 @@ public class InventorySelect : MonoBehaviour
         {
             selectedIndex -= columns;
             UpdateSelectionHighlight();
+            NotifyManager();
         }
     }
 
@@ -69,6 +75,7 @@ public class InventorySelect : MonoBehaviour
         {
             selectedIndex += columns;
             UpdateSelectionHighlight();
+            NotifyManager();
         }
     }
 
@@ -82,6 +89,14 @@ public class InventorySelect : MonoBehaviour
             {
                 highlight.gameObject.SetActive(i == selectedIndex);
             }
+        }
+    }
+
+    void NotifyManager()
+    {
+        if (inventoryManager != null)
+        {
+            inventoryManager.SelectSlot(selectedIndex);
         }
     }
 }

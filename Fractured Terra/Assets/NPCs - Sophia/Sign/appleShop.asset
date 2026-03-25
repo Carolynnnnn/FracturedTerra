@@ -15,4 +15,13 @@ MonoBehaviour:
   npcName: Sign
   dialogueLines:
   - Apples for sale! 5 coins each.
+  - (Interact with the crate to buy an apple)
   typingSpeed: 0.05
+  dialogueStates: 
+  itemWantedName: 
+  itemName: 
+  description: 
+  icon: {fileID: 0}
+  maxLife: 1
+  canUse: 0
+  worldPrefab: {fileID: 0}

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29eba545bae127f488175478b5cdcb00, type: 3}
+  m_Name: WeirdDialogue
+  m_EditorClassIdentifier: Assembly-CSharp::NpcDialogue
+  npcName: Mysterious Lass
+  dialogueLines:
+  - Hey! I was told to give you a message!
+  - Press O to attack!
+  - Press L to open your inventory!
+  - Press G to open the customise menu!
+  - While in a menu, use the mouse to navigate!
+  - Press P to interact!
+  - And use WASD to move!
+  - I guess you already knew those last 2...
+  - ...
+  - What's a WASD anyways?
+  typingSpeed: 0.05
+  dialogueStates: 
+  itemWantedName: 
+  itemName: 
+  description: 
+  icon: {fileID: 0}
+  maxLife: 1
+  canUse: 0
+  worldPrefab: {fileID: 0}

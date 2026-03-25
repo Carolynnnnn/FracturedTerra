@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 5030297108971396453}
   - component: {fileID: 6199997784287409082}
   - component: {fileID: 8682724588272486237}
-  - component: {fileID: 1011995377223422775}
   m_Layer: 0
   m_Name: appleShop
   m_TagString: NPC
@@ -167,19 +166,3 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &1011995377223422775
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1534142082904467258}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfdbd8070564f7f4f9b6d3ee4dd28c4c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::NPC
-  dialogueData: {fileID: 11400000, guid: abaf5f80d54380f4cbe2748c0a5bd782, type: 2}
-  dialoguePanel: {fileID: 0}
-  dialogueText: {fileID: 0}
-  nameText: {fileID: 0}

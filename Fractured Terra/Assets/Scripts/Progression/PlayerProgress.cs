@@ -47,5 +47,15 @@ public class PlayerProgress : MonoBehaviour
         {
             armor = 0;
         }
+	    
+	}
+	void Update()
+	{
+    if (Input.GetKeyDown(KeyCode.K))
+    {
+        RegisterActivity(ActivityType.ItemCollection, 5, 1);
     }
+	}
+
+	
 }

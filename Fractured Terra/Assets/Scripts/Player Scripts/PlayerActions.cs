@@ -20,5 +20,22 @@ public class PlayerActions : MonoBehaviour // Handles attack, use item, and menu
         useItemAction.performed += ctx => UseItem(); // Calls UseItem() when E is pressed
         menuAction.performed += ctx => OpenMenu(); // Calls OpenMenu() when M is pressed
     }
+    
+    private void OnEnable() // Enables actions when object becomes active
+    {
+        attackAction.Enable(); // Turn on attack input
+        useItemAction.Enable(); // Turn on use-item input
+        menuAction.Enable(); // Turn on menu input
+    }
+
+
+    private void OnDisable() // Disables actions when object becomes inactive
+    {
+        attackAction.Disable(); // Turn off attack input
+        useItemAction.Disable(); // Turn off use-item input
+        menuAction.Disable(); // Turn off menu input
+    }
+
+    
 }
     

@@ -44,3 +44,42 @@ private void Awake() // Runs when the script first loads
     runAction = new InputAction("Run", binding: "<Keyboard>/leftShift"); // Shift key for running
 }
 
+private void OnEnable() // Enables input actions when object becomes active
+{
+    moveAction.Enable(); // Turn on movement input
+    runAction.Enable(); // Turn on run input
+}
+
+
+private void OnDisable() // Disables input actions when object becomes inactive
+{
+    moveAction.Disable(); // Turn off movement input
+    runAction.Disable(); // Turn off run input
+}
+
+
+private void FixedUpdate() 
+{
+    if (rb == null || state == null) 
+    {
+        return; // Stop if something is missing
+    }
+
+
+    if (!state.canMove) // If movement is disabled
+    {
+        rb.linearVelocity = Vector2.zero; // Stop the player
+        state.isMoving = false; // Mark player as not moving
+        state.isRunning = false; // Mark player as not running
+        return; // Exit early
+    }
+
+
+    state.isMoving = moveDir != Vector2.zero; // True if there is movement input
+    state.isRunning = runAction.IsPressed() && state.isMoving; // True if Shift is held while moving
+
+
+    float currentSpeed = state.isRunning ? runSpeed : moveSpeed; // Pick walk or run speed
+    rb.linearVelocity = moveDir.normalized * currentSpeed; // Move the player
+}
+

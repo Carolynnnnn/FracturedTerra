@@ -52,5 +52,13 @@ public class PlayerJump : MonoBehaviour // Handles jumping with Space
         state.isJumping = true; // Mark player as jumping
         isGrounded = false; // Player is now in the air
     }
+    private void OnCollisionEnter2D(Collision2D collision) // Runs when the player collides with something
+    {
+        if (collision.gameObject.CompareTag("Ground")) // Check if the player touched ground
+        {
+            isGrounded = true; // Allow jumping again
+            state.isJumping = false; // Player is no longer jumping
+        }
+    }
 
 }

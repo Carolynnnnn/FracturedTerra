@@ -7,7 +7,8 @@ using System.Collections;
 public class PlayerActions : MonoBehaviour // Handles attack, use item, and menu keys
 {
     [SerializeField] private PlayerState state; // Reference to the PlayerState script
-    [SerializeField] private GameObject attackHitbox; // The hitbox object that turns on during attack
+    [SerializeField] private GameObject attackHitbox; // Hitbox object that turns on during attack
+    [SerializeField] private Animator animator; // Animator that plays the attack animation
     [SerializeField] private float attackDuration = 0.2f; // How long the attack hitbox stays active
 
     private InputAction attackAction; // O key
@@ -27,14 +28,14 @@ public class PlayerActions : MonoBehaviour // Handles attack, use item, and menu
         menuAction.performed += ctx => OpenMenu(); // Calls OpenMenu() when M is pressed
     }
 
-    private void OnEnable() // Enables actions when object becomes active
+    private void OnEnable() // Enables inputs when object becomes active
     {
         attackAction.Enable(); // Turn on attack input
         useItemAction.Enable(); // Turn on use-item input
         menuAction.Enable(); // Turn on menu input
     }
 
-    private void OnDisable() // Disables actions when object becomes inactive
+    private void OnDisable() // Disables inputs when object becomes inactive
     {
         attackAction.Disable(); // Turn off attack input
         useItemAction.Disable(); // Turn off use-item input
@@ -43,47 +44,52 @@ public class PlayerActions : MonoBehaviour // Handles attack, use item, and menu
 
     private void Start() // Runs before the first frame update
     {
-        if (attackHitbox != null) // Make sure the hitbox exists
+        if (attackHitbox != null) // Make sure attack hitbox exists
         {
-            attackHitbox.SetActive(false); // Keep hitbox off until attacking
+            attackHitbox.SetActive(false); // Keep it off until attacking
         }
     }
 
-    private void Attack() // Handles attack key
+    private void Attack() // Handles attack input
     {
         if (state != null && !state.canMove) return; // Optional safety check
         if (isAttacking) return; // Prevent starting another attack while already attacking
 
         Debug.Log("Attack pressed (O)"); // Debug message
-        StartCoroutine(DoAttack()); // Start timed attack
+        StartCoroutine(DoAttack()); // Start timed attack sequence
     }
 
-    private IEnumerator DoAttack() // Turns hitbox on briefly, then off
+    private IEnumerator DoAttack() // Plays animation and turns hitbox on briefly
     {
         isAttacking = true; // Mark attack active
+
+        if (animator != null) // Make sure animator exists
+        {
+            animator.SetTrigger("Attack"); // Play attack animation
+        }
 
         if (attackHitbox != null) // Make sure hitbox exists
         {
             attackHitbox.SetActive(true); // Turn on hitbox
         }
 
-        yield return new WaitForSeconds(attackDuration); // Wait for attack duration
+        yield return new WaitForSeconds(attackDuration); // Wait during attack window
 
         if (attackHitbox != null) // Make sure hitbox still exists
         {
-            attackHitbox.SetActive(false); // Turn hitbox off
+            attackHitbox.SetActive(false); // Turn off hitbox
         }
 
         isAttacking = false; // Attack finished
     }
 
-    private void UseItem() // Handles use item key
+    private void UseItem() // Handles use item input
     {
         if (state != null && !state.canMove) return; // Optional safety check
-        Debug.Log("Use item pressed (E)"); // Placeholder for use-item logic
+        Debug.Log("Use item pressed (E)"); // Placeholder for item logic
     }
 
-    private void OpenMenu() // Handles menu/info key
+    private void OpenMenu() // Handles menu/info input
     {
         Debug.Log("Menu/info pressed (M)"); // Placeholder for menu logic
     }

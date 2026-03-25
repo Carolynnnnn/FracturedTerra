@@ -103,17 +103,50 @@ TextureImporter:
       name: release_v1.2-single_24_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 24
-        height: 24
+        x: 3
+        y: 4
+        width: 18
+        height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 3, y: 0, z: 3, w: 1}
       customData: 
-      outline: []
+      outline:
+      - - {x: 5, y: 2.5}
+        - {x: 0, y: 7.5}
+        - {x: -5, y: 2.5}
+        - {x: -5, y: 1.5}
+        - {x: -3, y: 1.5}
+        - {x: -3, y: -8.5}
+        - {x: 3, y: -8.5}
+        - {x: 3, y: 1.5}
+      - - {x: -5, y: 2.5}
+        - {x: -5, y: 1.5}
+        - {x: 0, y: 1.5}
+        - {x: 3, y: 1.5}
+        - {x: 5, y: 1.5}
+        - {x: 5, y: 2.5}
+        - {x: 3.85641, y: 3.643589}
+        - {x: 0, y: 7.5}
+        - {x: -2, y: 5.5}
+      - - {x: -3, y: -5.5}
+        - {x: -3, y: -8.5}
+        - {x: -3, y: 0.5}
+        - {x: -3, y: 1.5}
+      - - {x: -3, y: -8.5}
+        - {x: 3, y: -8.5}
+        - {x: 0, y: -8.5}
+        - {x: -3, y: -8.5}
+      - - {x: 3, y: -8.5}
+        - {x: 3, y: -8.5}
+        - {x: 0, y: -8.5}
+        - {x: 3, y: -8.5}
+      - - {x: 3, y: -8.5}
+        - {x: 3, y: -8.5}
+        - {x: 3, y: -3.5}
+        - {x: 3, y: 1.5}
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: 1b09a57a28febdbb0800000000000000
       internalID: -4910067624284876623
@@ -125,7 +158,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: f4ffead0bc79e4d01bac6b5534737a18
     internalID: 0
     vertices: []
     indices: 

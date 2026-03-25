@@ -1,5 +1,7 @@
 using UnityEngine;
 
+// NOTE: This class is no longer being used, as the inventory system was overhauled
+// it remains here in fear that its deletion will cause an unforseen error!!
 [CreateAssetMenu(fileName = "NewItem", menuName = "Item")]
 public class Item : ScriptableObject
 {

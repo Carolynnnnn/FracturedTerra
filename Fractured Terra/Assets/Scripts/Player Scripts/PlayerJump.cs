@@ -28,4 +28,29 @@ public class PlayerJump : MonoBehaviour // Handles jumping with Space
         jumpAction.Disable(); // Turn off jump input
     }
 
+    private void Jump() // Handles jump logic
+    {
+        if (rb == null || state == null) // Make sure references exist
+        {
+            return; // Stop if missing
+        }
+
+
+        if (!state.canMove) // Do not allow jump if player cannot move
+        {
+            return; // Stop
+        }
+
+
+        if (!isGrounded) // Do not allow jump while already in air
+        {
+            return; // Stop
+        }
+
+
+        rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce); // Apply upward jump force
+        state.isJumping = true; // Mark player as jumping
+        isGrounded = false; // Player is now in the air
+    }
+
 }

@@ -1,0 +1,3471 @@
+fileFormatVersion: 2
+guid: fa06ac4160a608b458952fb81e082ec1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4475107895616191619
+    second: rpg_armour_32_0
+  - first:
+      213: 8950553823864275307
+    second: rpg_armour_32_1
+  - first:
+      213: 8551091051597934903
+    second: rpg_armour_32_2
+  - first:
+      213: -4485156098491024464
+    second: rpg_armour_32_3
+  - first:
+      213: 7346249302016017304
+    second: rpg_armour_32_4
+  - first:
+      213: 583809044825437393
+    second: rpg_armour_32_5
+  - first:
+      213: -2721041218614003556
+    second: rpg_armour_32_6
+  - first:
+      213: -3678093739396902491
+    second: rpg_armour_32_7
+  - first:
+      213: -7167826721529320760
+    second: rpg_armour_32_8
+  - first:
+      213: 927286458162004997
+    second: rpg_armour_32_9
+  - first:
+      213: -6522531289244064900
+    second: rpg_armour_32_10
+  - first:
+      213: 380717502376587609
+    second: rpg_armour_32_11
+  - first:
+      213: 5508509931845949601
+    second: rpg_armour_32_12
+  - first:
+      213: -1048489401693140256
+    second: rpg_armour_32_13
+  - first:
+      213: 6191640729273695947
+    second: rpg_armour_32_14
+  - first:
+      213: 2861934325773383331
+    second: rpg_armour_32_15
+  - first:
+      213: 1846748090305838836
+    second: rpg_armour_32_16
+  - first:
+      213: -8812618000313003091
+    second: rpg_armour_32_17
+  - first:
+      213: 7978492913612321163
+    second: rpg_armour_32_18
+  - first:
+      213: 2382428000260162826
+    second: rpg_armour_32_19
+  - first:
+      213: 2955323977964321949
+    second: rpg_armour_32_20
+  - first:
+      213: 4808784315507142428
+    second: rpg_armour_32_21
+  - first:
+      213: -9104192253759155419
+    second: rpg_armour_32_22
+  - first:
+      213: -4226372927807682242
+    second: rpg_armour_32_23
+  - first:
+      213: -5414285791293279182
+    second: rpg_armour_32_24
+  - first:
+      213: -1771818130469561337
+    second: rpg_armour_32_25
+  - first:
+      213: 2214255659930429053
+    second: rpg_armour_32_26
+  - first:
+      213: -3596088869276724205
+    second: rpg_armour_32_27
+  - first:
+      213: -6984301884406454704
+    second: rpg_armour_32_28
+  - first:
+      213: -7106433765277142793
+    second: rpg_armour_32_29
+  - first:
+      213: 8744109792741947820
+    second: rpg_armour_32_30
+  - first:
+      213: -702165314184835115
+    second: rpg_armour_32_31
+  - first:
+      213: -3085535339889292876
+    second: rpg_armour_32_32
+  - first:
+      213: 3406205752739769362
+    second: rpg_armour_32_33
+  - first:
+      213: 6608672805589704035
+    second: rpg_armour_32_34
+  - first:
+      213: -527357634220448511
+    second: rpg_armour_32_35
+  - first:
+      213: 1883806765967272222
+    second: rpg_armour_32_36
+  - first:
+      213: -8301080783101458339
+    second: rpg_armour_32_37
+  - first:
+      213: -591653942213352102
+    second: rpg_armour_32_38
+  - first:
+      213: 446299086651983286
+    second: rpg_armour_32_39
+  - first:
+      213: 3831168171011002176
+    second: rpg_armour_32_40
+  - first:
+      213: 4564838175771518513
+    second: rpg_armour_32_41
+  - first:
+      213: 1906029891941875513
+    second: rpg_armour_32_42
+  - first:
+      213: 6797450336736468954
+    second: rpg_armour_32_43
+  - first:
+      213: -4211521748475825562
+    second: rpg_armour_32_44
+  - first:
+      213: -2457881897824377877
+    second: rpg_armour_32_45
+  - first:
+      213: 1825714080023797344
+    second: rpg_armour_32_46
+  - first:
+      213: -7716460049762213858
+    second: rpg_armour_32_47
+  - first:
+      213: 298157259981125853
+    second: rpg_armour_32_48
+  - first:
+      213: 3866941157718201897
+    second: rpg_armour_32_49
+  - first:
+      213: -7752301577183280359
+    second: rpg_armour_32_50
+  - first:
+      213: 3981634361545455606
+    second: rpg_armour_32_51
+  - first:
+      213: 7170027503770089064
+    second: rpg_armour_32_52
+  - first:
+      213: -3554233866510767642
+    second: rpg_armour_32_53
+  - first:
+      213: 220370397614330012
+    second: rpg_armour_32_54
+  - first:
+      213: 3935729480969342295
+    second: rpg_armour_32_55
+  - first:
+      213: 5279166752827216102
+    second: rpg_armour_32_56
+  - first:
+      213: 5210206296136403705
+    second: rpg_armour_32_57
+  - first:
+      213: -7332201383442606255
+    second: rpg_armour_32_58
+  - first:
+      213: 6578872355799098625
+    second: rpg_armour_32_59
+  - first:
+      213: 182101452397125612
+    second: rpg_armour_32_60
+  - first:
+      213: 1367120447222599982
+    second: rpg_armour_32_61
+  - first:
+      213: -6256550270998705420
+    second: rpg_armour_32_62
+  - first:
+      213: -4654318300094396890
+    second: rpg_armour_32_63
+  - first:
+      213: 2058948075767534374
+    second: rpg_armour_32_64
+  - first:
+      213: 3196671763158893761
+    second: rpg_armour_32_65
+  - first:
+      213: 1396723118225028957
+    second: rpg_armour_32_66
+  - first:
+      213: 8840646209685037650
+    second: rpg_armour_32_67
+  - first:
+      213: 6292305781371004143
+    second: rpg_armour_32_68
+  - first:
+      213: 2121886706986547159
+    second: rpg_armour_32_69
+  - first:
+      213: 6684790874974814134
+    second: rpg_armour_32_70
+  - first:
+      213: 7748134660274976205
+    second: rpg_armour_32_71
+  - first:
+      213: 7692099066768462498
+    second: rpg_armour_32_72
+  - first:
+      213: -6581176417189129016
+    second: rpg_armour_32_73
+  - first:
+      213: 8282563153408832452
+    second: rpg_armour_32_74
+  - first:
+      213: -2393280399854570994
+    second: rpg_armour_32_75
+  - first:
+      213: 7894761048101873013
+    second: rpg_armour_32_76
+  - first:
+      213: -644993660880751156
+    second: rpg_armour_32_77
+  - first:
+      213: 6710058649975697888
+    second: rpg_armour_32_78
+  - first:
+      213: 8555096092466579722
+    second: rpg_armour_32_79
+  - first:
+      213: 1405984107084391126
+    second: rpg_armour_32_80
+  - first:
+      213: -8811173197074502851
+    second: rpg_armour_32_81
+  - first:
+      213: -5362830444440924781
+    second: rpg_armour_32_82
+  - first:
+      213: 5875865980220063291
+    second: rpg_armour_32_83
+  - first:
+      213: -2395366306362784570
+    second: rpg_armour_32_84
+  - first:
+      213: -2874011301989160378
+    second: rpg_armour_32_85
+  - first:
+      213: -2141045462733433234
+    second: rpg_armour_32_86
+  - first:
+      213: -4639105782138421559
+    second: rpg_armour_32_87
+  - first:
+      213: 1639108225900036119
+    second: rpg_armour_32_88
+  - first:
+      213: -72239434817588166
+    second: rpg_armour_32_89
+  - first:
+      213: -1549797074294759435
+    second: rpg_armour_32_90
+  - first:
+      213: -8406647046980320726
+    second: rpg_armour_32_91
+  - first:
+      213: -1649677534393790235
+    second: rpg_armour_32_92
+  - first:
+      213: 916791825108606662
+    second: rpg_armour_32_93
+  - first:
+      213: 3810871371882273151
+    second: rpg_armour_32_94
+  - first:
+      213: -4449671392727540957
+    second: rpg_armour_32_95
+  - first:
+      213: -7334744732987925829
+    second: rpg_armour_32_96
+  - first:
+      213: 2044129128421646083
+    second: rpg_armour_32_97
+  - first:
+      213: -6989653973544693451
+    second: rpg_armour_32_98
+  - first:
+      213: 1181507451711946371
+    second: rpg_armour_32_99
+  - first:
+      213: -6154362185222499554
+    second: rpg_armour_32_100
+  - first:
+      213: 1565523623316137111
+    second: rpg_armour_32_101
+  - first:
+      213: 5430892708859919913
+    second: rpg_armour_32_102
+  - first:
+      213: -6521172742547498796
+    second: rpg_armour_32_103
+  - first:
+      213: 5045184324371223158
+    second: rpg_armour_32_104
+  - first:
+      213: -2715403558877804313
+    second: rpg_armour_32_105
+  - first:
+      213: 9026291189107094385
+    second: rpg_armour_32_106
+  - first:
+      213: 2617131933203152193
+    second: rpg_armour_32_107
+  - first:
+      213: -6099203861571847987
+    second: rpg_armour_32_108
+  - first:
+      213: 7251376829668466386
+    second: rpg_armour_32_109
+  - first:
+      213: -3661337884196790525
+    second: rpg_armour_32_110
+  - first:
+      213: -593839044623059387
+    second: rpg_armour_32_111
+  - first:
+      213: 7941955811177864475
+    second: rpg_armour_32_112
+  - first:
+      213: -8225293943120066494
+    second: rpg_armour_32_113
+  - first:
+      213: 4239478239882113506
+    second: rpg_armour_32_114
+  - first:
+      213: 2211037581817344775
+    second: rpg_armour_32_115
+  - first:
+      213: 6674547333179229442
+    second: rpg_armour_32_116
+  - first:
+      213: 1956078003636243582
+    second: rpg_armour_32_117
+  - first:
+      213: -8355640674525913163
+    second: rpg_armour_32_118
+  - first:
+      213: -6160364335271519029
+    second: rpg_armour_32_119
+  - first:
+      213: -7953646640753829073
+    second: rpg_armour_32_120
+  - first:
+      213: -7329572689769906050
+    second: rpg_armour_32_121
+  - first:
+      213: 1539135735991432361
+    second: rpg_armour_32_122
+  - first:
+      213: -8498820264813725084
+    second: rpg_armour_32_123
+  - first:
+      213: 2818486205190141406
+    second: rpg_armour_32_124
+  - first:
+      213: 840022539468662211
+    second: rpg_armour_32_125
+  - first:
+      213: -3387739568408343210
+    second: rpg_armour_32_126
+  - first:
+      213: 245986662460948525
+    second: rpg_armour_32_127
+  - first:
+      213: -8090241397201644650
+    second: rpg_armour_32_128
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rpg_armour_32_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 611
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38cbfb1cbe6ca1e30800000000000000
+      internalID: 4475107895616191619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 611
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b61c17ed741c63c70800000000000000
+      internalID: 8950553823864275307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_2
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 611
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 731348c71049ba670800000000000000
+      internalID: 8551091051597934903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_3
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 611
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bbf343ba4681c1c0800000000000000
+      internalID: -4485156098491024464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_4
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 611
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 893402e61de13f560800000000000000
+      internalID: 7346249302016017304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_5
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 611
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d4fa7dab3b1a1800800000000000000
+      internalID: 583809044825437393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_6
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 611
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c98f059ad6bec3ad0800000000000000
+      internalID: -2721041218614003556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_7
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 611
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a1d8ac3b39c4fcc0800000000000000
+      internalID: -3678093739396902491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 577
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ca21b3d293c68c90800000000000000
+      internalID: -7167826721529320760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_9
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 577
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 504c6c7ee126edc00800000000000000
+      internalID: 927286458162004997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_10
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 577
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c73ac3ca9505b75a0800000000000000
+      internalID: -6522531289244064900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_11
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 577
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9513ee02d84984500800000000000000
+      internalID: 380717502376587609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_12
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 577
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a893610998227c40800000000000000
+      internalID: 5508509931845949601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_13
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 577
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ea815db1740371f0800000000000000
+      internalID: -1048489401693140256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_14
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 577
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcef23540702de550800000000000000
+      internalID: 6191640729273695947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_15
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 577
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a6383a2b12a7b720800000000000000
+      internalID: 2861934325773383331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_16
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 545
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fe7f488a97f0a910800000000000000
+      internalID: 1846748090305838836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_17
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 545
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da35126be9a43b580800000000000000
+      internalID: -8812618000313003091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_18
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 545
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8175d6780d49be60800000000000000
+      internalID: 7978492913612321163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_19
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 545
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a058372c4a5101120800000000000000
+      internalID: 2382428000260162826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_20
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 545
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9cf1ceff7b630920800000000000000
+      internalID: 2955323977964321949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_21
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 545
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1fe54f5bdb3cb240800000000000000
+      internalID: 4808784315507142428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_22
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 545
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52392db916967a180800000000000000
+      internalID: -9104192253759155419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_23
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 545
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3902b5e638e855c0800000000000000
+      internalID: -4226372927807682242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 513
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 234f48942c79cd4b0800000000000000
+      internalID: -5414285791293279182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_25
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 513
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70cd3ce3ccc3967e0800000000000000
+      internalID: -1771818130469561337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_26
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 513
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d762d048acd9abe10800000000000000
+      internalID: 2214255659930429053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_27
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 513
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 314560ee930281ec0800000000000000
+      internalID: -3596088869276724205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_28
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 513
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 056acd7c076c21f90800000000000000
+      internalID: -6984301884406454704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_29
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 513
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f070d85420e06d90800000000000000
+      internalID: -7106433765277142793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_30
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 513
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca9f5693781595970800000000000000
+      internalID: 8744109792741947820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_31
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 513
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5df8962fd586146f0800000000000000
+      internalID: -702165314184835115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_32
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 481
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b90cfbc4f9fd25d0800000000000000
+      internalID: -3085535339889292876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_33
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 481
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21c22f3d516454f20800000000000000
+      internalID: 3406205752739769362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_34
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 481
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36d55f507e8b6bb50800000000000000
+      internalID: 6608672805589704035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_35
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 481
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10523b696037ea8f0800000000000000
+      internalID: -527357634220448511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_36
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 481
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e19e4f6d540a42a10800000000000000
+      internalID: 1883806765967272222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_37
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 481
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d588a6f3203accc80800000000000000
+      internalID: -8301080783101458339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_38
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 481
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a55e960dfd50ac7f0800000000000000
+      internalID: -591653942213352102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_39
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 481
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b5097b97a2913600800000000000000
+      internalID: 446299086651983286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_40
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 449
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04fc4e3372b0b2530800000000000000
+      internalID: 3831168171011002176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_41
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 449
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 136e004a220995f30800000000000000
+      internalID: 4564838175771518513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_42
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 449
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93fb8709614937a10800000000000000
+      internalID: 1906029891941875513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_43
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 449
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adf598b1115655e50800000000000000
+      internalID: 6797450336736468954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_44
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 449
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 662344a884bad85c0800000000000000
+      internalID: -4211521748475825562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_45
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 449
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be3a054bf69d3edd0800000000000000
+      internalID: -2457881897824377877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_46
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 449
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06e5f31684d365910800000000000000
+      internalID: 1825714080023797344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_47
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 449
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e102e62e770a9e490800000000000000
+      internalID: -7716460049762213858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_48
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 417
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd8f060c274432400800000000000000
+      internalID: 298157259981125853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_49
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 417
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9269129be722aa530800000000000000
+      internalID: 3866941157718201897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_50
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 417
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9134a4cf9ca4a6490800000000000000
+      internalID: -7752301577183280359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_51
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 417
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f7f7613b5b914730800000000000000
+      internalID: 3981634361545455606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_52
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 417
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8663ff7b60e018360800000000000000
+      internalID: 7170027503770089064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_53
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 417
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e966f92123dcaec0800000000000000
+      internalID: -3554233866510767642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_54
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 417
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9050d485b9ee0300800000000000000
+      internalID: 220370397614330012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_55
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 417
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75dc53d4c158e9630800000000000000
+      internalID: 3935729480969342295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_56
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 385
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e09154013e534940800000000000000
+      internalID: 5279166752827216102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_57
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 385
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fac6bf750f5e4840800000000000000
+      internalID: 5210206296136403705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_58
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 385
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 157964e70b9ce3a90800000000000000
+      internalID: -7332201383442606255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_59
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 385
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 105ea0e1d89dc4b50800000000000000
+      internalID: 6578872355799098625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_60
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 385
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cef963f5e44f68200800000000000000
+      internalID: 182101452397125612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_61
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 385
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2150edadccf8f210800000000000000
+      internalID: 1367120447222599982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_62
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 385
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fa8fb95da44c29a0800000000000000
+      internalID: -6256550270998705420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_63
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 385
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 626064b6a2a886fb0800000000000000
+      internalID: -4654318300094396890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_64
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 353
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 623191bbd5ad29c10800000000000000
+      internalID: 2058948075767534374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_65
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 353
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c48b9a280cdc5c20800000000000000
+      internalID: 3196671763158893761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_66
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 353
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d57f06f9648226310800000000000000
+      internalID: 1396723118225028957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_67
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 353
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2522e2153e840ba70800000000000000
+      internalID: 8840646209685037650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_68
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 353
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe461c425c2c25750800000000000000
+      internalID: 6292305781371004143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_69
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 353
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d77e8fb7b4727d10800000000000000
+      internalID: 2121886706986547159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_70
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 353
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bf75ac12e525cc50800000000000000
+      internalID: 6684790874974814134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_71
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 353
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc5f4911c67e68b60800000000000000
+      internalID: 7748134660274976205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_72
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 321
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a219d3c853dfba60800000000000000
+      internalID: 7692099066768462498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_73
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 321
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c49349cae6faa4a0800000000000000
+      internalID: -6581176417189129016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_74
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 321
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c33cac1e4391f270800000000000000
+      internalID: 8282563153408832452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_75
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 321
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0273ce082c59ced0800000000000000
+      internalID: -2393280399854570994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_76
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 321
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 575e3b25853df8d60800000000000000
+      internalID: 7894761048101873013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_77
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 321
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc5f2d8cea58c07f0800000000000000
+      internalID: -644993660880751156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_78
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 321
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e1b6dd6acaee1d50800000000000000
+      internalID: 6710058649975697888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_79
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 321
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a098dcab19ec9b670800000000000000
+      internalID: 8555096092466579722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_80
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 289
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d22c9e981f038310800000000000000
+      internalID: 1405984107084391126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_81
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 289
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3b6eed29ac68b580800000000000000
+      internalID: -8811173197074502851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_82
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 289
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39dc270df166395b0800000000000000
+      internalID: -5362830444440924781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_83
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 289
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3eb1d23af44b8150800000000000000
+      internalID: 5875865980220063291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_84
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 289
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c48e4a1903f1ced0800000000000000
+      internalID: -2395366306362784570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_85
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 289
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64a6a70b2f57d18d0800000000000000
+      internalID: -2874011301989160378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_86
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 289
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e66dfc1de7a7942e0800000000000000
+      internalID: -2141045462733433234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_87
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 289
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cebd24ced59e9fb0800000000000000
+      internalID: -4639105782138421559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_88
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 257
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71041314f384fb610800000000000000
+      internalID: 1639108225900036119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_89
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 257
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a343ce4ed9a5ffef0800000000000000
+      internalID: -72239434817588166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_90
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 257
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ff98b8a5c30e7ae0800000000000000
+      internalID: -1549797074294759435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_91
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 257
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a22c6a41d07955b80800000000000000
+      internalID: -8406647046980320726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_92
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 257
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e01488d50b2b19e0800000000000000
+      internalID: -1649677534393790235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_93
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 257
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ce949cbe4919bc00800000000000000
+      internalID: 916791825108606662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_94
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 257
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f799fb5625fe2e430800000000000000
+      internalID: 3810871371882273151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_95
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 257
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32bd14591779f32c0800000000000000
+      internalID: -4449671392727540957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_96
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 225
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bba5618c680c53a90800000000000000
+      internalID: -7334744732987925829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_97
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 225
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30fd99eac943e5c10800000000000000
+      internalID: 2044129128421646083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_98
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 225
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53198fb6eb2cffe90800000000000000
+      internalID: -6989653973544693451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_99
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 225
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38e74c674ce856010800000000000000
+      internalID: 1181507451711946371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_100
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 225
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1357b22330579aa0800000000000000
+      internalID: -6154362185222499554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_101
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 225
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 794ad3fd07bd9b510800000000000000
+      internalID: 1565523623316137111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_102
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 225
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92ebad405286e5b40800000000000000
+      internalID: 5430892708859919913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_103
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 225
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d81f79f0f32085a0800000000000000
+      internalID: -6521172742547498796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_104
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 193
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67214889968140640800000000000000
+      internalID: 5045184324371223158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_105
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 193
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e8c14b99d2f05ad0800000000000000
+      internalID: -2715403558877804313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_106
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 193
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17377fd5304d34d70800000000000000
+      internalID: 9026291189107094385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_107
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 193
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14db7e880abe15420800000000000000
+      internalID: 2617131933203152193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_108
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 193
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc8b15227664b5ba0800000000000000
+      internalID: -6099203861571847987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_109
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 193
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2de13e0aec012a460800000000000000
+      internalID: 7251376829668466386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_110
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 193
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30f15c9c790503dc0800000000000000
+      internalID: -3661337884196790525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_111
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 193
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5463c73098242c7f0800000000000000
+      internalID: -593839044623059387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_112
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 161
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1d1b136bbe773e60800000000000000
+      internalID: 7941955811177864475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_113
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 161
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 248082bfcb2e9dd80800000000000000
+      internalID: -8225293943120066494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_114
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 161
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e1fb295ff6a5da30800000000000000
+      internalID: 4239478239882113506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_115
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 161
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 703f24157fe2fae10800000000000000
+      internalID: 2211037581817344775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_116
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 161
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 205cdaeaf61c0ac50800000000000000
+      internalID: 6674547333179229442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_117
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 161
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7c81bf9492652b10800000000000000
+      internalID: 1956078003636243582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_118
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 161
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bfd31c931dca0c80800000000000000
+      internalID: -8355640674525913163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_119
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 161
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bccd72da64df18aa0800000000000000
+      internalID: -6160364335271519029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_120
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 131
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2b93ec3588fe9190800000000000000
+      internalID: -7953646640753829073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_121
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 131
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e704cdee870284a90800000000000000
+      internalID: -7329572689769906050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_122
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 131
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a4f0e41ccb1c5510800000000000000
+      internalID: 1539135735991432361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_123
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 131
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46af2e17fff1e0a80800000000000000
+      internalID: -8498820264813725084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_124
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 131
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed572b845464d1720800000000000000
+      internalID: 2818486205190141406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_125
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 131
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c5e95c8c0c58ab00800000000000000
+      internalID: 840022539468662211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_126
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 131
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65d4c71cfc45cf0d0800000000000000
+      internalID: -3387739568408343210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_127
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 131
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d200873f09be96300800000000000000
+      internalID: 245986662460948525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_armour_32_128
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 693d2ac2050b9bf80800000000000000
+      internalID: -8090241397201644650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      rpg_armour_32_0: 4475107895616191619
+      rpg_armour_32_1: 8950553823864275307
+      rpg_armour_32_10: -6522531289244064900
+      rpg_armour_32_100: -6154362185222499554
+      rpg_armour_32_101: 1565523623316137111
+      rpg_armour_32_102: 5430892708859919913
+      rpg_armour_32_103: -6521172742547498796
+      rpg_armour_32_104: 5045184324371223158
+      rpg_armour_32_105: -2715403558877804313
+      rpg_armour_32_106: 9026291189107094385
+      rpg_armour_32_107: 2617131933203152193
+      rpg_armour_32_108: -6099203861571847987
+      rpg_armour_32_109: 7251376829668466386
+      rpg_armour_32_11: 380717502376587609
+      rpg_armour_32_110: -3661337884196790525
+      rpg_armour_32_111: -593839044623059387
+      rpg_armour_32_112: 7941955811177864475
+      rpg_armour_32_113: -8225293943120066494
+      rpg_armour_32_114: 4239478239882113506
+      rpg_armour_32_115: 2211037581817344775
+      rpg_armour_32_116: 6674547333179229442
+      rpg_armour_32_117: 1956078003636243582
+      rpg_armour_32_118: -8355640674525913163
+      rpg_armour_32_119: -6160364335271519029
+      rpg_armour_32_12: 5508509931845949601
+      rpg_armour_32_120: -7953646640753829073
+      rpg_armour_32_121: -7329572689769906050
+      rpg_armour_32_122: 1539135735991432361
+      rpg_armour_32_123: -8498820264813725084
+      rpg_armour_32_124: 2818486205190141406
+      rpg_armour_32_125: 840022539468662211
+      rpg_armour_32_126: -3387739568408343210
+      rpg_armour_32_127: 245986662460948525
+      rpg_armour_32_128: -8090241397201644650
+      rpg_armour_32_13: -1048489401693140256
+      rpg_armour_32_14: 6191640729273695947
+      rpg_armour_32_15: 2861934325773383331
+      rpg_armour_32_16: 1846748090305838836
+      rpg_armour_32_17: -8812618000313003091
+      rpg_armour_32_18: 7978492913612321163
+      rpg_armour_32_19: 2382428000260162826
+      rpg_armour_32_2: 8551091051597934903
+      rpg_armour_32_20: 2955323977964321949
+      rpg_armour_32_21: 4808784315507142428
+      rpg_armour_32_22: -9104192253759155419
+      rpg_armour_32_23: -4226372927807682242
+      rpg_armour_32_24: -5414285791293279182
+      rpg_armour_32_25: -1771818130469561337
+      rpg_armour_32_26: 2214255659930429053
+      rpg_armour_32_27: -3596088869276724205
+      rpg_armour_32_28: -6984301884406454704
+      rpg_armour_32_29: -7106433765277142793
+      rpg_armour_32_3: -4485156098491024464
+      rpg_armour_32_30: 8744109792741947820
+      rpg_armour_32_31: -702165314184835115
+      rpg_armour_32_32: -3085535339889292876
+      rpg_armour_32_33: 3406205752739769362
+      rpg_armour_32_34: 6608672805589704035
+      rpg_armour_32_35: -527357634220448511
+      rpg_armour_32_36: 1883806765967272222
+      rpg_armour_32_37: -8301080783101458339
+      rpg_armour_32_38: -591653942213352102
+      rpg_armour_32_39: 446299086651983286
+      rpg_armour_32_4: 7346249302016017304
+      rpg_armour_32_40: 3831168171011002176
+      rpg_armour_32_41: 4564838175771518513
+      rpg_armour_32_42: 1906029891941875513
+      rpg_armour_32_43: 6797450336736468954
+      rpg_armour_32_44: -4211521748475825562
+      rpg_armour_32_45: -2457881897824377877
+      rpg_armour_32_46: 1825714080023797344
+      rpg_armour_32_47: -7716460049762213858
+      rpg_armour_32_48: 298157259981125853
+      rpg_armour_32_49: 3866941157718201897
+      rpg_armour_32_5: 583809044825437393
+      rpg_armour_32_50: -7752301577183280359
+      rpg_armour_32_51: 3981634361545455606
+      rpg_armour_32_52: 7170027503770089064
+      rpg_armour_32_53: -3554233866510767642
+      rpg_armour_32_54: 220370397614330012
+      rpg_armour_32_55: 3935729480969342295
+      rpg_armour_32_56: 5279166752827216102
+      rpg_armour_32_57: 5210206296136403705
+      rpg_armour_32_58: -7332201383442606255
+      rpg_armour_32_59: 6578872355799098625
+      rpg_armour_32_6: -2721041218614003556
+      rpg_armour_32_60: 182101452397125612
+      rpg_armour_32_61: 1367120447222599982
+      rpg_armour_32_62: -6256550270998705420
+      rpg_armour_32_63: -4654318300094396890
+      rpg_armour_32_64: 2058948075767534374
+      rpg_armour_32_65: 3196671763158893761
+      rpg_armour_32_66: 1396723118225028957
+      rpg_armour_32_67: 8840646209685037650
+      rpg_armour_32_68: 6292305781371004143
+      rpg_armour_32_69: 2121886706986547159
+      rpg_armour_32_7: -3678093739396902491
+      rpg_armour_32_70: 6684790874974814134
+      rpg_armour_32_71: 7748134660274976205
+      rpg_armour_32_72: 7692099066768462498
+      rpg_armour_32_73: -6581176417189129016
+      rpg_armour_32_74: 8282563153408832452
+      rpg_armour_32_75: -2393280399854570994
+      rpg_armour_32_76: 7894761048101873013
+      rpg_armour_32_77: -644993660880751156
+      rpg_armour_32_78: 6710058649975697888
+      rpg_armour_32_79: 8555096092466579722
+      rpg_armour_32_8: -7167826721529320760
+      rpg_armour_32_80: 1405984107084391126
+      rpg_armour_32_81: -8811173197074502851
+      rpg_armour_32_82: -5362830444440924781
+      rpg_armour_32_83: 5875865980220063291
+      rpg_armour_32_84: -2395366306362784570
+      rpg_armour_32_85: -2874011301989160378
+      rpg_armour_32_86: -2141045462733433234
+      rpg_armour_32_87: -4639105782138421559
+      rpg_armour_32_88: 1639108225900036119
+      rpg_armour_32_89: -72239434817588166
+      rpg_armour_32_9: 927286458162004997
+      rpg_armour_32_90: -1549797074294759435
+      rpg_armour_32_91: -8406647046980320726
+      rpg_armour_32_92: -1649677534393790235
+      rpg_armour_32_93: 916791825108606662
+      rpg_armour_32_94: 3810871371882273151
+      rpg_armour_32_95: -4449671392727540957
+      rpg_armour_32_96: -7334744732987925829
+      rpg_armour_32_97: 2044129128421646083
+      rpg_armour_32_98: -6989653973544693451
+      rpg_armour_32_99: 1181507451711946371
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

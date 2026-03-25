@@ -10,12 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 29eba545bae127f488175478b5cdcb00, type: 3}
-  m_Name: appleShop
+  m_Name: WeirdDialogue
   m_EditorClassIdentifier: Assembly-CSharp::NpcDialogue
-  npcName: Sign
+  npcName: Mysterious Lass
   dialogueLines:
-  - Apples for sale! 5 coins each.
-  - (Interact with the crate to buy an apple)
+  - Hey! I was told to give you a message!
+  - Press O to attack!
+  - Press L to open your inventory!
+  - Press G to open the customise menu!
+  - While in a menu, use the mouse to navigate!
+  - Press P to interact!
+  - And use WASD to move!
+  - I guess you already knew those last 2...
+  - ...
+  - What's a WASD anyways?
   typingSpeed: 0.05
   dialogueStates: 
   itemWantedName: 

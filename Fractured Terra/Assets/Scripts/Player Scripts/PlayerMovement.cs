@@ -58,9 +58,9 @@ private void OnDisable() // Disables input actions when object becomes inactive
 }
 
 
-private void FixedUpdate() 
+private void FixedUpdate()
 {
-    if (rb == null || state == null) 
+    if (rb == null || state == null)
     {
         return; // Stop if something is missing
     }
@@ -82,4 +82,3 @@ private void FixedUpdate()
     float currentSpeed = state.isRunning ? runSpeed : moveSpeed; // Pick walk or run speed
     rb.linearVelocity = moveDir.normalized * currentSpeed; // Move the player
 }
-

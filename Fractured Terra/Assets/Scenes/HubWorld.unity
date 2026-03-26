@@ -39296,7 +39296,7 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
-<<<<<<< HEAD
+
 =======
 --- !u!1001 &934795735
 PrefabInstance:
@@ -39375,7 +39375,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b16d4a4afa86eef4da8791da5a68c227, type: 3}
->>>>>>> parent of e68eb10 (Resolve HubWorld merge conflict)
 --- !u!1 &979751896
 GameObject:
   m_ObjectHideFlags: 0
@@ -39618,7 +39617,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
-<<<<<<< HEAD
 =======
 --- !u!1 &995766351
 GameObject:
@@ -39701,7 +39699,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 147620340}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> parent of e68eb10 (Resolve HubWorld merge conflict)
+
 --- !u!1 &1038719077
 GameObject:
   m_ObjectHideFlags: 0

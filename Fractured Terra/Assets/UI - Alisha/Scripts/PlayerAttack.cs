@@ -27,14 +27,24 @@ public class PlayerAttack : MonoBehaviour
 
     IEnumerator DoAttack()
     {
-        normalPlayerSprite.enabled = false;
-        attackSpriteObject.SetActive(true);
-        attackHitbox.enabled = true;
+        if (normalPlayerSprite != null)
+            normalPlayerSprite.enabled = false;
+
+        if (attackSpriteObject != null)
+            attackSpriteObject.SetActive(true);
+
+        if (attackHitbox != null)
+            attackHitbox.enabled = true;
 
         yield return new WaitForSeconds(attackDuration);
 
-        attackHitbox.enabled = false;
-        attackSpriteObject.SetActive(false);
-        normalPlayerSprite.enabled = true;
+        if (attackHitbox != null)
+            attackHitbox.enabled = false;
+
+        if (attackSpriteObject != null)
+            attackSpriteObject.SetActive(false);
+
+        if (normalPlayerSprite != null)
+            normalPlayerSprite.enabled = true;
     }
 }

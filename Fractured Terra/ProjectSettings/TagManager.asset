@@ -7,6 +7,8 @@ TagManager:
   - Coin
   - NPC
   - Item
+  - Ground
+  - Attack
   layers:
   - Default
   - TransparentFX

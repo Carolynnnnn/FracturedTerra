@@ -24,3 +24,10 @@ MonoBehaviour:
   - Mmmmm... Apple...
   typingSpeed: 0.05
   dialogueStates: 0400000006000000
+  itemWantedName: Apple
+  itemName: Gem
+  description: 
+  icon: {fileID: 0}
+  maxLife: 1
+  canUse: 0
+  worldPrefab: {fileID: 0}

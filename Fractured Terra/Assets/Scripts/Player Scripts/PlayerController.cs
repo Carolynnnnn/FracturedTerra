@@ -4,6 +4,8 @@ using UnityEngine.InputSystem;
 [SelectionBase]
 public class PlayerController : MonoBehaviour
 {
+    
+    
     // Editor data
     // Movement Attributes 
     [SerializeField] float _moveSpeed = 6;

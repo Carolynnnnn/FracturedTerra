@@ -5,7 +5,7 @@ public class PlayButtonsController : MonoBehaviour
 {
     public void Play()
     {
-        SceneManager.LoadScene("HubWorld");
+        //SceneManager.LoadScene("HubWorld");
     }
 
     public void Quit()

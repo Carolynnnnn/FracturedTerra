@@ -216,7 +216,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &195164331
 RectTransform:
   m_ObjectHideFlags: 0
@@ -232,10 +232,10 @@ RectTransform:
   - {fileID: 362378827}
   m_Father: {fileID: 1111231883}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1110, y: -55.895}
+  m_SizeDelta: {x: 300, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &195164332
 MonoBehaviour:
@@ -1158,7 +1158,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &634515207
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1714,14 +1714,14 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'movement - WASD
 
-    open/close menu - Tab
+    open/close inventory - L
+
+    open/close customisation
+    menu - G
 
     interact with npc - P
 
-    attack
-    - O
-
-    use Item - E'
+    attack - O'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 401ca7861bc284cc6a2ef5bae1cc524a, type: 2}
   m_sharedMaterial: {fileID: -7970220436158735682, guid: 401ca7861bc284cc6a2ef5bae1cc524a, type: 2}

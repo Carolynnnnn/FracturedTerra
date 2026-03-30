@@ -1146,8 +1146,9 @@ GameObject:
   - component: {fileID: 1935040370}
   - component: {fileID: 1935040374}
   - component: {fileID: 1935040373}
+  - component: {fileID: 1935040375}
   m_Layer: 0
-  m_Name: Dimensional_Portal_0
+  m_Name: Portal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1243,7 +1244,7 @@ Transform:
   m_GameObject: {fileID: 1935040369}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.7977405, y: 1.8970865, z: 0}
+  m_LocalPosition: {x: 4.56, y: -1.18, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1313,6 +1314,21 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
+--- !u!114 &1935040375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1935040369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b46a68468f312241b6e74be74502b2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LvlPortal
+  gemManager: {fileID: 937770666}
+  levelNumber: 0
+  levelSceneName: Carylions Hubworld Backup
 --- !u!1001 &1994009591
 PrefabInstance:
   m_ObjectHideFlags: 0

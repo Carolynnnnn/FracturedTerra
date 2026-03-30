@@ -29,7 +29,7 @@ public class InventoryItem
 public class InventoryManager : MonoBehaviour
 {
     [Header("Inventory")]
-    public List<InventoryItem> items = new List<InventoryItem>();
+    public static List<InventoryItem> items = new List<InventoryItem>(); // Made static to account for scene change
     public int maxSlots = 12;
 
     [Header("Slot UI")]

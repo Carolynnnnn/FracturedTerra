@@ -11,7 +11,6 @@ public class NPC : MonoBehaviour, IInteractable
     public TMP_Text dialogueText, nameText;
     public NpcState npcState; // Determines if NPC has a quest, and its state
     public InventoryManager inventoryManager; // Keeps track of player's inventory
-    public GemManager gemManager;
     
     private int dialogueIndex;
     private bool isTyping, isDialogueActive;
@@ -43,7 +42,7 @@ public class NPC : MonoBehaviour, IInteractable
                     // Give item prize
                     if (dialogueData.itemName == "Gem") // If the prize is a gem
                     {
-                        gemManager.gemCount++;
+                        GemManager.gemCount++;
                     }
                     else // If the prize is a regular item
                     {

@@ -49648,7 +49648,6 @@ GameObject:
   - component: {fileID: 1379713549}
   - component: {fileID: 1379713548}
   - component: {fileID: 1379713547}
-  - component: {fileID: 1379713546}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -49656,27 +49655,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1379713546
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1379713545}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8a8c43e60b86624aa5115d4bb570414, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InventoryManager
-  items: []
-  maxSlots: 12
-  slots: []
-  itemView: {fileID: 0}
-  itemDescriptionText: {fileID: 0}
-  productLifeText: {fileID: 0}
-  inventoryToggle: {fileID: 0}
-  playerTransform: {fileID: 0}
-  dropOffset: {x: 1, y: 0, z: 0}
 --- !u!114 &1379713547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57524,7 +57502,7 @@ PrefabInstance:
     - target: {fileID: 8335580267339801204, guid: 6968dbb4089f3304fbe2f359f0f1eaae, type: 3}
       propertyPath: inventoryManager
       value: 
-      objectReference: {fileID: 1379713546}
+      objectReference: {fileID: 349270584}
     - target: {fileID: 8335580267339801204, guid: 6968dbb4089f3304fbe2f359f0f1eaae, type: 3}
       propertyPath: playerController
       value: 
@@ -59097,7 +59075,6 @@ GameObject:
   - component: {fileID: 2125956372}
   - component: {fileID: 2125956371}
   - component: {fileID: 2125956370}
-  - component: {fileID: 2125956369}
   - component: {fileID: 2125956378}
   - component: {fileID: 2125956377}
   - component: {fileID: 2125956376}
@@ -59110,19 +59087,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2125956369
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2125956368}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 413a55c0a7dfcdf4bb031344a61fc8d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ItemPickupReceiver
-  inventoryManager: {fileID: 1379713546}
 --- !u!114 &2125956370
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59561,7 +59525,7 @@ PrefabInstance:
     - target: {fileID: 1211915437539887320, guid: 14e8376051403e548b8d20b95846a5aa, type: 3}
       propertyPath: inventoryManager
       value: 
-      objectReference: {fileID: 1379713546}
+      objectReference: {fileID: 349270584}
     - target: {fileID: 1328214189704057071, guid: 14e8376051403e548b8d20b95846a5aa, type: 3}
       propertyPath: m_Interpolate
       value: 1

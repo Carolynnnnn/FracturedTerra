@@ -12,7 +12,7 @@ public class OutfitControl : MonoBehaviour
     [Header("Outfits (3 only)")]
     public Sprite[] outfits; // ONLY your 3 real outfits
 
-    private int currentIndex = 0;
+    private static int currentIndex = 0; // Static should make player keep outfit between scenes
     // 0 = no outfit
     // 1-3 = outfits
 

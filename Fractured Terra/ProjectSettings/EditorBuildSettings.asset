@@ -6,11 +6,29 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: b766b57e450404b3896cfff6fe9a134d
+  - enabled: 1
     path: Assets/Scenes/Carylions Hubworld Backup.unity
     guid: 82ada314d4606f048ae900ba2fcb1acd
   - enabled: 1
-    path: Assets/Scenes/Main Menu.unity
-    guid: b766b57e450404b3896cfff6fe9a134d
+    path: Assets/Scenes/Levels/Sophia_Level1.unity
+    guid: 7726ae9244e7acd4790cf98f58ae0543
+  - enabled: 1
+    path: Assets/Scenes/Levels/Alisha_Level2.unity
+    guid: 92428eccadeab104c913d534a25a0f90
+  - enabled: 1
+    path: Assets/Scenes/Levels/Japneet_Level3.unity
+    guid: b36d9913c99321a48a2019f56decc26c
+  - enabled: 1
+    path: Assets/Scenes/Levels/Rachel_Level4.unity
+    guid: 859f55bc66077b744b305ee2ac119c74
+  - enabled: 1
+    path: Assets/Scenes/Levels/Simran_Level5.unity
+    guid: 963801cc5797d0b45a265f77cc6de962
+  - enabled: 1
+    path: Assets/Scenes/Levels/Carolyn_Level6.unity
+    guid: 4627527d0ecb79b4fbe62306708c7ac5
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

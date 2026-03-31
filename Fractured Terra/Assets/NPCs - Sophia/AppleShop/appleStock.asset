@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: appleStock
   m_EditorClassIdentifier: Assembly-CSharp::ShopStock
   price: 5
+  maxStock: 1
   itemName: Apple
   description: A nice, juicy snack.
   icon: {fileID: -3229240912194895660, guid: 1350ed6cc59da4cee81974dddad6aec9, type: 3}

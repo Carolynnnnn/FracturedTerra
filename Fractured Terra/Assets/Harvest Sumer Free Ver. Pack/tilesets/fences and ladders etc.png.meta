@@ -67,7 +67,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -81,7 +81,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -105,7 +105,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -146,12 +146,12 @@ TextureImporter:
       name: fences and ladders etc_0
       rect:
         serializedVersion: 2
-        x: 16
-        y: 38
-        width: 16
-        height: 48
+        x: 32
+        y: 87
+        width: 32
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -168,12 +168,12 @@ TextureImporter:
       name: fences and ladders etc_1
       rect:
         serializedVersion: 2
-        x: 31
-        y: 86
-        width: 34
-        height: 18
+        x: 99
+        y: 87
+        width: 11
+        height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -190,12 +190,12 @@ TextureImporter:
       name: fences and ladders etc_2
       rect:
         serializedVersion: 2
-        x: 36
-        y: 38
-        width: 40
-        height: 49
+        x: 115
+        y: 87
+        width: 11
+        height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -212,12 +212,12 @@ TextureImporter:
       name: fences and ladders etc_3
       rect:
         serializedVersion: 2
-        x: 84
-        y: 38
-        width: 8
-        height: 49
+        x: 17
+        y: 39
+        width: 14
+        height: 46
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -234,12 +234,12 @@ TextureImporter:
       name: fences and ladders etc_4
       rect:
         serializedVersion: 2
-        x: 98
-        y: 86
-        width: 13
-        height: 23
+        x: 37
+        y: 39
+        width: 38
+        height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -256,12 +256,12 @@ TextureImporter:
       name: fences and ladders etc_5
       rect:
         serializedVersion: 2
-        x: 114
-        y: 86
-        width: 13
-        height: 23
+        x: 85
+        y: 39
+        width: 6
+        height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -278,12 +278,12 @@ TextureImporter:
       name: fences and ladders etc_6
       rect:
         serializedVersion: 2
-        x: 95
-        y: 38
-        width: 82
-        height: 17
+        x: 116
+        y: 55
+        width: 40
+        height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -300,12 +300,12 @@ TextureImporter:
       name: fences and ladders etc_7
       rect:
         serializedVersion: 2
-        x: 115
-        y: 54
-        width: 42
-        height: 28
+        x: 96
+        y: 39
+        width: 80
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -322,12 +322,12 @@ TextureImporter:
       name: fences and ladders etc_8
       rect:
         serializedVersion: 2
-        x: 36
-        y: 22
-        width: 40
-        height: 17
+        x: 37
+        y: 23
+        width: 38
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -344,12 +344,12 @@ TextureImporter:
       name: fences and ladders etc_9
       rect:
         serializedVersion: 2
-        x: 84
-        y: 22
-        width: 8
-        height: 17
+        x: 85
+        y: 23
+        width: 6
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -366,12 +366,12 @@ TextureImporter:
       name: fences and ladders etc_10
       rect:
         serializedVersion: 2
-        x: 95
-        y: 22
-        width: 82
-        height: 17
+        x: 96
+        y: 23
+        width: 80
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -388,7 +388,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: ac093f4b1fed640e0905a94e908a7e26
     internalID: 0
     vertices: []
     indices: 
@@ -396,7 +396,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       fences and ladders etc_0: -6937691069691847498
       fences and ladders etc_1: 4159903693556220759

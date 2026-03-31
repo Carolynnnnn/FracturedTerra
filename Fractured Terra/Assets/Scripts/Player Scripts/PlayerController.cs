@@ -11,6 +11,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] Rigidbody2D _rb;
     // [SerializeField] private Animator _animator; // Animate movement! (not used yet)
     
+    [SerializeField] PlayerState _state; // RP add
+    
     // Internal data
     private Vector2 _moveDir = Vector2.zero;
     private InputAction _moveAction;
@@ -28,8 +30,22 @@ public class PlayerController : MonoBehaviour
             .With("Right", "<Keyboard>/d");
         
         // Update move direction
-        _moveAction.performed += ctx => _moveDir = ctx.ReadValue<Vector2>();
-        _moveAction.canceled += ctx => _moveDir = Vector2.zero;
+       // Old Line:" _moveAction.performed += ctx => _moveDir = ctx.ReadValue<Vector2>(); "
+       _moveAction.performed += ctx =>
+       {
+           _moveDir = ctx.ReadValue<Vector2>();
+
+           if (_state != null && _moveDir != Vector2.zero)
+           {
+               _state.lastMoveDir = _moveDir;
+           }
+       }; // RP update
+        
+       //Old Line:" _moveAction.canceled += ctx => _moveDir = Vector2.zero; "
+       _moveAction.canceled += ctx =>
+       {
+           _moveDir = Vector2.zero;
+       }; // RP update
     }
     
     // Input actions
@@ -45,10 +61,22 @@ public class PlayerController : MonoBehaviour
     // Tick
     private void FixedUpdate() // Used for physics system
     {
+        if (_state != null)
+        {
+            _state.canMove = CanMove;
+        } // RP add
+        
         if (!CanMove) // When a dialogue is open, don't change position
         {
             _rb.linearVelocity = Vector2.zero; // stop instantly
             // _animator.SetFloat("Speed", 0);
+            
+            if (_state != null)
+            {
+                _state.isMoving = false;
+                _state.isRunning = false;
+            } // RP add
+            
             return;
         }
         
@@ -60,5 +88,11 @@ public class PlayerController : MonoBehaviour
         _animator.SetFloat("MoveY", _moveDir.y);
         _animator.SetFloat("Speed", _moveDir.sqrMagnitude);
         */
+        
+        if (_state != null)
+        {
+            _state.isMoving = _moveDir != Vector2.zero;
+            _state.isRunning = false;
+        } // RP add
     }
 }

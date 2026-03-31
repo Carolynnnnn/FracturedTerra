@@ -641,7 +641,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e9b63263450a9c43bda0ec6189be626, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  cm: {fileID: 937770664}
 --- !u!114 &803896743
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -925,7 +924,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e99f07cf7ae0a1b45973e0fc51fa63ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  coinCount: 0
   coinUI: {fileID: 489439584}
 --- !u!4 &937770665
 Transform:
@@ -954,7 +952,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd0957882c2fedb47845fd65b477d86d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GemManager
-  gemCount: 0
   gemUI: {fileID: 707669171550764408}
 --- !u!114 &937770667
 MonoBehaviour:
@@ -968,7 +965,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8a8c43e60b86624aa5115d4bb570414, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InventoryManager
-  items: []
   maxSlots: 12
   slots: []
   itemView: {fileID: 0}
@@ -1326,7 +1322,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b46a68468f312241b6e74be74502b2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LvlPortal
-  gemManager: {fileID: 937770666}
   levelNumber: 0
   levelSceneName: Carylions Hubworld Backup
 --- !u!1001 &1994009591
@@ -2064,7 +2059,6 @@ MonoBehaviour:
   nameText: {fileID: 573712804}
   npcState: 0
   inventoryManager: {fileID: 0}
-  gemManager: {fileID: 0}
 --- !u!1001 &6624161972524728927
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2142,6 +2136,67 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 14e8376051403e548b8d20b95846a5aa, type: 3}
+--- !u!1001 &7403244160582487963
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 847858707545896673, guid: 495e8748cf8a7574d8ce77c515b7da74, type: 3}
+      propertyPath: m_Name
+      value: GemChest
+      objectReference: {fileID: 0}
+    - target: {fileID: 1194546586331339156, guid: 495e8748cf8a7574d8ce77c515b7da74, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.98
+      objectReference: {fileID: 0}
+    - target: {fileID: 1194546586331339156, guid: 495e8748cf8a7574d8ce77c515b7da74, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 1194546586331339156, guid: 495e8748cf8a7574d8ce77c515b7da74, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1194546586331339156, guid: 495e8748cf8a7574d8ce77c515b7da74, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1194546586331339156, guid: 495e8748cf8a7574d8ce77c515b7da74, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1194546586331339156, guid: 495e8748cf8a7574d8ce77c515b7da74, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1194546586331339156, guid: 495e8748cf8a7574d8ce77c515b7da74, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1194546586331339156, guid: 495e8748cf8a7574d8ce77c515b7da74, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1194546586331339156, guid: 495e8748cf8a7574d8ce77c515b7da74, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1194546586331339156, guid: 495e8748cf8a7574d8ce77c515b7da74, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4803929170815650359, guid: 495e8748cf8a7574d8ce77c515b7da74, type: 3}
+      propertyPath: inventoryManager
+      value: 
+      objectReference: {fileID: 937770667}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 495e8748cf8a7574d8ce77c515b7da74, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -2163,3 +2218,4 @@ SceneRoots:
   - {fileID: 722017692538622971}
   - {fileID: 705492834506125482}
   - {fileID: 1935040372}
+  - {fileID: 7403244160582487963}

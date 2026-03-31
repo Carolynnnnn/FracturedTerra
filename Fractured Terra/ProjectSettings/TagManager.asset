@@ -9,11 +9,12 @@ TagManager:
   - Item
   - Ground
   - Attack
+  - Breakable
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Breakable
   - Water
   - UI
   - 

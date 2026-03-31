@@ -12,7 +12,8 @@ public class Shop : MonoBehaviour, IInteractable
 
     public void Interact()
     {
-        TryBuy(); // Buys an item, if player has enough coins
+        if (ShopMemory.Bought(stock) == stock.maxStock) Debug.Log("There are no " + stock.itemName + "s left in stock.");
+        else TryBuy(); // Buys an item, if player has enough coins
     }
     
     void TryBuy()
@@ -21,6 +22,7 @@ public class Shop : MonoBehaviour, IInteractable
         {
             CoinManager.coinCount -= stock.price; // Takes away player's coins
             GiveItem(); // Give player the item
+            ShopMemory.Buy(stock); // Save in shop memory
         }
     }
     

@@ -1,50 +1,47 @@
-using System.Collections;
 using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour
 {
-    public BoxCollider2D attackHitbox;
-    public GameObject attackSpriteObject;
-    public SpriteRenderer normalPlayerSprite;
-    public float attackDuration = 0.2f;
+    [SerializeField] private GameObject slashEffectPrefab;
+    [SerializeField] private Transform attackPoint;
+    [SerializeField] private float attackRange = 2f;
+    [SerializeField] private LayerMask enemyLayer;
+    [SerializeField] private int damage = 1;
 
-    void Start()
-    {
-        if (attackHitbox != null)
-            attackHitbox.enabled = false;
-
-        if (attackSpriteObject != null)
-            attackSpriteObject.SetActive(false);
-    }
-
-    void Update()
+    private void Update()
     {
         if (Input.GetKeyDown(KeyCode.O))
         {
-            StartCoroutine(DoAttack());
+            Attack();
         }
     }
 
-    IEnumerator DoAttack()
+    private void Attack()
     {
-        if (normalPlayerSprite != null)
-            normalPlayerSprite.enabled = false;
+        if (slashEffectPrefab != null && attackPoint != null)
+        {
+            Instantiate(slashEffectPrefab, attackPoint.position, Quaternion.identity);
+        }
 
-        if (attackSpriteObject != null)
-            attackSpriteObject.SetActive(true);
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayer);
 
-        if (attackHitbox != null)
-            attackHitbox.enabled = true;
+        foreach (Collider2D enemyCollider in hitEnemies)
+        {
+            EnemyHealth enemy = enemyCollider.GetComponent<EnemyHealth>();
 
-        yield return new WaitForSeconds(attackDuration);
+            if (enemy != null)
+            {
+                enemy.TakeDamage(damage);
+                Debug.Log(enemy.gameObject.name + " took damage from O attack");
+            }
+        }
+    }
 
-        if (attackHitbox != null)
-            attackHitbox.enabled = false;
+    private void OnDrawGizmosSelected()
+    {
+        if (attackPoint == null) return;
 
-        if (attackSpriteObject != null)
-            attackSpriteObject.SetActive(false);
-
-        if (normalPlayerSprite != null)
-            normalPlayerSprite.enabled = true;
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(attackPoint.position, attackRange);
     }
 }

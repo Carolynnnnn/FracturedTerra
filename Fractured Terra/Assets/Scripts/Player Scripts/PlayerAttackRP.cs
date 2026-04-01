@@ -6,6 +6,8 @@ public class PlayerAttackRP : MonoBehaviour
     public Transform attackPoint;
     public float attackRange = 0.6f;
     public LayerMask breakableLayer;
+    public LayerMask enemyLayer;
+    public int damage = 1;
 
     void Update()
     {
@@ -23,11 +25,12 @@ public class PlayerAttackRP : MonoBehaviour
             Destroy(slash, 0.3f);
         }
 
-        Collider2D hit = Physics2D.OverlapCircle(attackPoint.position, attackRange, breakableLayer);
+        // Hit breakable objects
+        Collider2D breakableHit = Physics2D.OverlapCircle(attackPoint.position, attackRange, breakableLayer);
 
-        if (hit != null)
+        if (breakableHit != null)
         {
-            BreakableVase vase = hit.GetComponent<BreakableVase>();
+            BreakableVase vase = breakableHit.GetComponent<BreakableVase>();
 
             if (vase != null)
             {
@@ -35,7 +38,21 @@ public class PlayerAttackRP : MonoBehaviour
             }
             else
             {
-                Destroy(hit.gameObject);
+                Destroy(breakableHit.gameObject);
+            }
+        }
+
+        // Hit enemies
+        Collider2D[] enemyHits = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayer);
+
+        foreach (Collider2D enemyHit in enemyHits)
+        {
+            EnemyHealth enemy = enemyHit.GetComponent<EnemyHealth>();
+
+            if (enemy != null)
+            {
+                enemy.TakeDamage(damage);
+                Debug.Log(enemy.gameObject.name + " took damage from player attack.");
             }
         }
     }

@@ -759,6 +759,57 @@ MonoBehaviour:
   m_Spacing: {x: 80, y: 50}
   m_Constraint: 1
   m_ConstraintCount: 3
+--- !u!1 &48859506
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 48859508}
+  - component: {fileID: 48859507}
+  m_Layer: 0
+  m_Name: OutfitMangager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &48859507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 48859506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee2dc007c415bb14181d9bbf26b83ed8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::OutfitControl
+  previewOutfit: {fileID: 1788236187}
+  playerOutfit: {fileID: 777289252}
+  animatorScript: {fileID: 2125956382}
+  outfits:
+  - {fileID: 1030377411376833376, guid: 884e1728f442f9e46aae65d3539852e6, type: 3}
+  - {fileID: 4852138915059292018, guid: a59f6c71039df304181ad8899bda8e7f, type: 3}
+  - {fileID: -7137981148420328417, guid: 3e766a30bf0c9dc41b15517f38ecf7a7, type: 3}
+--- !u!4 &48859508
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 48859506}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 102.07714, y: 273.02698, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &51535413
 GameObject:
   m_ObjectHideFlags: 0
@@ -6161,7 +6212,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2015504170}
+      - m_Target: {fileID: 48859507}
         m_TargetAssemblyTypeName: OutfitControl, Assembly-CSharp
         m_MethodName: NextOutfit
         m_Mode: 1
@@ -47929,7 +47980,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2015504170}
+      - m_Target: {fileID: 48859507}
         m_TargetAssemblyTypeName: OutfitControl, Assembly-CSharp
         m_MethodName: PreviousOutfit
         m_Mode: 1
@@ -59168,6 +59219,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::OutfitControl
   previewOutfit: {fileID: 1788236187}
   playerOutfit: {fileID: 777289252}
+  animatorScript: {fileID: 0}
   outfits:
   - {fileID: 1030377411376833376, guid: 884e1728f442f9e46aae65d3539852e6, type: 3}
   - {fileID: 4852138915059292018, guid: a59f6c71039df304181ad8899bda8e7f, type: 3}
@@ -60157,8 +60209,8 @@ MonoBehaviour:
   - {fileID: -7127589590826755639, guid: 68fce5713c72fa64e8e25505207c77c5, type: 3}
   - {fileID: 3719489842630912444, guid: 68fce5713c72fa64e8e25505207c77c5, type: 3}
   idleDownShort: {fileID: -3326498926567655059, guid: f275ad1d8c5d7a943ab38cf977af05c4, type: 3}
-  idleUpShort: {fileID: 4136386825969600437, guid: 23e14fa07d857874b949096415caa651, type: 3}
-  idleSideShort: {fileID: 9153157759003231915, guid: 4f1bd6772edc5ee47ae987ede730169e, type: 3}
+  idleUpShort: {fileID: 9153157759003231915, guid: 4f1bd6772edc5ee47ae987ede730169e, type: 3}
+  idleSideShort: {fileID: 4136386825969600437, guid: 23e14fa07d857874b949096415caa651, type: 3}
   walkDownShort:
   - {fileID: -3326498926567655059, guid: f275ad1d8c5d7a943ab38cf977af05c4, type: 3}
   - {fileID: 4093529123795720158, guid: 5346eac4fe527c74885018f07cdad095, type: 3}
@@ -60208,23 +60260,23 @@ MonoBehaviour:
   - {fileID: 5978601444562118800, guid: 4007e70832853c249ad6aa09d734be1b, type: 3}
   - {fileID: -3897206709915889260, guid: 6965fea207b523b4dafad55b0d91d9e4, type: 3}
   - {fileID: 2984128667029136502, guid: 545af60814e168b41bb2834c809b0296, type: 3}
-  idleDownOutfit: {fileID: -8184909128120849783, guid: a613827dac6e6cf45b40120d769de13a, type: 3}
-  idleUpOutfit: {fileID: -6827601628516834517, guid: 2528098a73495064d8366311557c6b45, type: 3}
-  idleSideOutfit: {fileID: 4136386825969600437, guid: a356e7319136cb24bb77362d310b93ff, type: 3}
-  walkDownOutfit:
+  idleDownOutfit1: {fileID: -8184909128120849783, guid: a613827dac6e6cf45b40120d769de13a, type: 3}
+  idleUpOutfit1: {fileID: -6827601628516834517, guid: 2528098a73495064d8366311557c6b45, type: 3}
+  idleSideOutfit1: {fileID: 4136386825969600437, guid: a356e7319136cb24bb77362d310b93ff, type: 3}
+  walkDownOutfit1:
   - {fileID: -8184909128120849783, guid: a613827dac6e6cf45b40120d769de13a, type: 3}
   - {fileID: 4093529123795720158, guid: 9b9e23353579fe344b56b57f29d20ed7, type: 3}
   - {fileID: -3218644999118768396, guid: a31cca0d14cf82841800c640ecdf0bc3, type: 3}
   - {fileID: 1177578112082225661, guid: 050d87e0465f0ad46923a870543f3c33, type: 3}
   - {fileID: 1563620848058282944, guid: 409801e743380a642bbeef21e7a9a4b1, type: 3}
-  walkUpOutfit:
+  walkUpOutfit1:
   - {fileID: -3495587517137958296, guid: ea7d74bf1e249424a8e2e4d25c89b624, type: 3}
   - {fileID: 4316950261788058998, guid: 1bac3e5a57de9494f94112b2e86f9175, type: 3}
   - {fileID: -7948416920724082719, guid: 19f71d53cb5595b47998ed00ed3038db, type: 3}
   - {fileID: -2237421326605608700, guid: cac5bffd2d396944f9a821b42f937873, type: 3}
   - {fileID: -6827601628516834517, guid: 2528098a73495064d8366311557c6b45, type: 3}
   - {fileID: 9153157759003231915, guid: c9094340fc67fab4baf35d21d5a00f83, type: 3}
-  walkSideOutfit:
+  walkSideOutfit1:
   - {fileID: -587994349203448363, guid: 5ca7f9183fd6c204c90d3c1552e04919, type: 3}
   - {fileID: 4136386825969600437, guid: a356e7319136cb24bb77362d310b93ff, type: 3}
   - {fileID: 1470945917793084647, guid: 5af825fe51ee48f41a205690a7ec5f8d, type: 3}
@@ -60234,7 +60286,60 @@ MonoBehaviour:
   - {fileID: 5978601444562118800, guid: edd23c0180420b24abbcc70437c0c88e, type: 3}
   - {fileID: -3897206709915889260, guid: 839aa457774cd1249a88e7c8d38bfe61, type: 3}
   - {fileID: 2984128667029136502, guid: 68e1eac0d1e72654186a8e537e8a00d0, type: 3}
-  frameRate: 0.12
+  idleDownOutfit2: {fileID: -3326498926567655059, guid: 32c835f85ad7d3748a5e0fc7845eaf8e, type: 3}
+  idleUpOutfit2: {fileID: -6827601628516834517, guid: a657a8bc669bb574f869e9f81c32f3ee, type: 3}
+  idleSideOutfit2: {fileID: 4136386825969600437, guid: 8ef07e0d2cdbc4f4baedcb9167a13572, type: 3}
+  walkDownOutfit2:
+  - {fileID: -3326498926567655059, guid: 32c835f85ad7d3748a5e0fc7845eaf8e, type: 3}
+  - {fileID: 4093529123795720158, guid: 7446e35191244d044b1d5cd9b1dae8ba, type: 3}
+  - {fileID: -3218644999118768396, guid: 7df2b345910735943b5da8f4008bdbbc, type: 3}
+  - {fileID: 1177578112082225661, guid: 1c3ed596251ced940b61f3e898b3eecc, type: 3}
+  - {fileID: 1563620848058282944, guid: 89743e00b82de2746807424e9bdd6338, type: 3}
+  walkUpOutfit2:
+  - {fileID: -3495587517137958296, guid: adddeec845d09794c8fd9dc973e4300e, type: 3}
+  - {fileID: 4316950261788058998, guid: ffb70e47c6c2200418ae67243f2bfeef, type: 3}
+  - {fileID: -7948416920724082719, guid: 8aeedfbc86dae234ea2b33f2fbfecd3d, type: 3}
+  - {fileID: -2237421326605608700, guid: 74cd6e04933b98b49848bd4a3c3c4b6e, type: 3}
+  - {fileID: -6827601628516834517, guid: a657a8bc669bb574f869e9f81c32f3ee, type: 3}
+  - {fileID: 9153157759003231915, guid: cf8d420047e8a4a4d94ae8a11f8a8770, type: 3}
+  walkSideOutfit2:
+  - {fileID: -587994349203448363, guid: 8031f18631c48404aaf987af82aa6872, type: 3}
+  - {fileID: 4136386825969600437, guid: 8ef07e0d2cdbc4f4baedcb9167a13572, type: 3}
+  - {fileID: 1470945917793084647, guid: 1bc9bab7d0af4b54198cd5320bc9863b, type: 3}
+  - {fileID: -118542632194109722, guid: af06eba5e157d884fba3415a4fe39a58, type: 3}
+  - {fileID: 4817750937459914405, guid: 63893726ee1415b4189d337d87421ee4, type: 3}
+  - {fileID: -8689684643704825844, guid: 466e0b25b498cd54e9d473390d9ed248, type: 3}
+  - {fileID: 5978601444562118800, guid: 9886c8a24eccf534992e8f6e2781b176, type: 3}
+  - {fileID: -3897206709915889260, guid: c127144cd90013e4ea7982abd64c1dab, type: 3}
+  - {fileID: 2984128667029136502, guid: 38d5de002f771ff4d8d7d872091ab61d, type: 3}
+  idleDownOutfit3: {fileID: -3326498926567655059, guid: 64ee428823e33144d8ef305839443c2d, type: 3}
+  idleUpOutfit3: {fileID: -6827601628516834517, guid: a305d4dcb01941141944ddd5a4a3bba1, type: 3}
+  idleSideOutfit3: {fileID: 4136386825969600437, guid: 2700105215d79b145a4f83857ee64cfc, type: 3}
+  walkDownOutfit3:
+  - {fileID: -3326498926567655059, guid: 64ee428823e33144d8ef305839443c2d, type: 3}
+  - {fileID: 4093529123795720158, guid: 484cbe96ef09dcd4392e1cad3f09d24c, type: 3}
+  - {fileID: -3218644999118768396, guid: af5bce91cc699594c81186d9ad37a38b, type: 3}
+  - {fileID: 1177578112082225661, guid: 1dc9fc9e88f191542be5d631362a7c90, type: 3}
+  - {fileID: 1563620848058282944, guid: 9dcd01bbb8714bb429af38b0ecd075c1, type: 3}
+  walkUpOutfit3:
+  - {fileID: -3495587517137958296, guid: 0c6649f2f53df374f85335d5def95032, type: 3}
+  - {fileID: 4316950261788058998, guid: 034ca2f31d9f48a419f2aa1a82fa39b5, type: 3}
+  - {fileID: -7948416920724082719, guid: b1d9d75ad7fe6544d84524994818e6c9, type: 3}
+  - {fileID: -2237421326605608700, guid: e7f4805716687c1498b335e0108f0260, type: 3}
+  - {fileID: -6827601628516834517, guid: a305d4dcb01941141944ddd5a4a3bba1, type: 3}
+  - {fileID: 9153157759003231915, guid: dd41efa10d2ec604db593ad4ea33b84a, type: 3}
+  walkSideOutfit3:
+  - {fileID: -587994349203448363, guid: 85920ace6321e2241893d526e7e3c926, type: 3}
+  - {fileID: 4136386825969600437, guid: 2700105215d79b145a4f83857ee64cfc, type: 3}
+  - {fileID: 1470945917793084647, guid: 73b09361dbb9cf84fba938059f4781d9, type: 3}
+  - {fileID: -118542632194109722, guid: 821f6b8ae493f584eb9c7bd4dcfdc5d6, type: 3}
+  - {fileID: 4817750937459914405, guid: 23c6c207826ca124b96167d49c61cb57, type: 3}
+  - {fileID: -8689684643704825844, guid: 3dc7ce1e1667a0b4c83f442552263ce7, type: 3}
+  - {fileID: 5978601444562118800, guid: f184189766b78a74fba7e1142e22171e, type: 3}
+  - {fileID: -3897206709915889260, guid: 64ddc0b044807a24287f120ee86bf606, type: 3}
+  - {fileID: 2984128667029136502, guid: a8964b467976b6640a278c9d7f4b14ce, type: 3}
+  currentOutfitIndex: 0
+  frameRate: 0.08
 --- !u!1 &2145793066
 GameObject:
   m_ObjectHideFlags: 0
@@ -60994,3 +61099,4 @@ SceneRoots:
   - {fileID: 1239224760}
   - {fileID: 23266718}
   - {fileID: 1091246038}
+  - {fileID: 48859508}

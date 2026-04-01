@@ -10,6 +10,7 @@ TagManager:
   - Ground
   - Attack
   - Breakable
+  - breakitem
   - Enemy
   layers:
   - Default

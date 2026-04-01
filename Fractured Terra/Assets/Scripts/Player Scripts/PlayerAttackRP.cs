@@ -12,6 +12,10 @@ public class PlayerAttackRP : MonoBehaviour
     public AbilityDataRP[] abilities = new AbilityDataRP[12];
     public int currentAbilityIndex = 0;
 
+    [Header("Effect Settings")]
+    public Vector2 effectOffset = Vector2.zero;
+    public float effectLifetime = 0.5f;
+
     private float nextAttackTime = 0f;
 
     void Update()
@@ -24,10 +28,25 @@ public class PlayerAttackRP : MonoBehaviour
 
     void TryUseCurrentAbility()
     {
-        if (abilities == null || abilities.Length == 0) return;
-        if (currentAbilityIndex < 0 || currentAbilityIndex >= abilities.Length) return;
+        if (abilities == null || abilities.Length == 0)
+        {
+            Debug.LogWarning("No abilities set on PlayerAttackRP.");
+            return;
+        }
+
+        if (currentAbilityIndex < 0 || currentAbilityIndex >= abilities.Length)
+        {
+            Debug.LogWarning("Current ability index is out of range.");
+            return;
+        }
 
         AbilityDataRP currentAbility = abilities[currentAbilityIndex];
+
+        if (currentAbility == null)
+        {
+            Debug.LogWarning("Current ability is null.");
+            return;
+        }
 
         if (!currentAbility.unlocked)
         {
@@ -71,12 +90,22 @@ public class PlayerAttackRP : MonoBehaviour
             case AbilityType.ShieldAura:
                 UseShieldAuraAbility(ability);
                 break;
+
+            default:
+                Debug.LogWarning("Unknown ability type on: " + ability.abilityName);
+                break;
         }
     }
 
     void UseMeleeAbility(AbilityDataRP ability)
     {
-        SpawnEffect(ability);
+        if (attackPoint == null)
+        {
+            Debug.LogWarning("AttackPoint is missing.");
+            return;
+        }
+
+        SpawnEffectAtPoint(ability, attackPoint.position);
 
         int finalDamage = GetFinalDamage(ability.damage);
 
@@ -112,7 +141,7 @@ public class PlayerAttackRP : MonoBehaviour
 
     void UseAreaAbility(AbilityDataRP ability)
     {
-        SpawnEffect(ability);
+        SpawnEffectAtPoint(ability, transform.position);
 
         int finalDamage = GetFinalDamage(ability.damage);
 
@@ -148,40 +177,60 @@ public class PlayerAttackRP : MonoBehaviour
 
     void UseProjectileAbility(AbilityDataRP ability)
     {
-        SpawnEffect(ability);
+        if (attackPoint == null)
+        {
+            Debug.LogWarning("AttackPoint is missing.");
+            return;
+        }
+
+        SpawnEffectAtPoint(ability, attackPoint.position);
         Debug.Log("Projectile ability used: " + ability.abilityName);
     }
 
     void UseFreezeAbility(AbilityDataRP ability)
     {
-        SpawnEffect(ability);
+        if (attackPoint == null)
+        {
+            Debug.LogWarning("AttackPoint is missing.");
+            return;
+        }
+
+        SpawnEffectAtPoint(ability, attackPoint.position);
         Debug.Log("Freeze ability used: " + ability.abilityName);
     }
 
     void UseCharmAbility(AbilityDataRP ability)
     {
-        SpawnEffect(ability);
+        if (attackPoint == null)
+        {
+            Debug.LogWarning("AttackPoint is missing.");
+            return;
+        }
+
+        SpawnEffectAtPoint(ability, attackPoint.position);
         Debug.Log("Charm ability used: " + ability.abilityName);
     }
 
     void UseShieldAuraAbility(AbilityDataRP ability)
     {
-        SpawnEffect(ability);
+        SpawnEffectAtPoint(ability, transform.position);
         Debug.Log("Shield aura ability used: " + ability.abilityName);
     }
 
-    void SpawnEffect(AbilityDataRP ability)
+    void SpawnEffectAtPoint(AbilityDataRP ability, Vector3 basePosition)
     {
-        if (ability.effectPrefab != null && attackPoint != null)
-        {
-            GameObject effect = Instantiate(
-                ability.effectPrefab,
-                attackPoint.position,
-                Quaternion.identity
-            );
+        if (ability == null || ability.effectPrefab == null)
+            return;
 
-            Destroy(effect, 0.5f);
-        }
+        Vector3 spawnPosition = basePosition + (Vector3)effectOffset;
+
+        GameObject effect = Instantiate(
+            ability.effectPrefab,
+            spawnPosition,
+            Quaternion.identity
+        );
+
+        Destroy(effect, effectLifetime);
     }
 
     int GetFinalDamage(int baseDamage)
@@ -196,7 +245,14 @@ public class PlayerAttackRP : MonoBehaviour
 
     public void SelectAbility(int index)
     {
-        if (index < 0 || index >= abilities.Length) return;
+        if (abilities == null || index < 0 || index >= abilities.Length)
+            return;
+
+        if (abilities[index] == null)
+        {
+            Debug.LogWarning("Selected ability is null.");
+            return;
+        }
 
         if (!abilities[index].unlocked)
         {
@@ -212,6 +268,7 @@ public class PlayerAttackRP : MonoBehaviour
     {
         if (abilities == null || abilities.Length == 0) return;
         if (currentAbilityIndex < 0 || currentAbilityIndex >= abilities.Length) return;
+        if (abilities[currentAbilityIndex] == null) return;
 
         AbilityDataRP currentAbility = abilities[currentAbilityIndex];
 

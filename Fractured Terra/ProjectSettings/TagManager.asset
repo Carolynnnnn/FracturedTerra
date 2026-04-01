@@ -11,7 +11,7 @@ TagManager:
   - Attack
   - Breakable
   - breakitem
-  - enemy
+  - Enemy
   layers:
   - Default
   - TransparentFX

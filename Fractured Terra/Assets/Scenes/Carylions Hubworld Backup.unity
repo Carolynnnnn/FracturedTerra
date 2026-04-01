@@ -60711,6 +60711,8 @@ MonoBehaviour:
     unlocked: 0
     type: 0
   currentAbilityIndex: 0
+  effectOffset: {x: 0, y: 0}
+  effectLifetime: 0.5
 --- !u!114 &2125956381
 MonoBehaviour:
   m_ObjectHideFlags: 0

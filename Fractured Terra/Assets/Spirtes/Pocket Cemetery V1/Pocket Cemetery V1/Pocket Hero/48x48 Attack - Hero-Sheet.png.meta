@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: 82ea7aa2ff4fb5f4a8e2e7f0b6dd3e66
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7803968463831515889
+    second: 48x48 Attack - Hero-Sheet_0
+  - first:
+      213: 4941305064349553256
+    second: 48x48 Attack - Hero-Sheet_1
+  - first:
+      213: 3598399091707568980
+    second: 48x48 Attack - Hero-Sheet_2
+  - first:
+      213: 6727902758966364578
+    second: 48x48 Attack - Hero-Sheet_3
+  - first:
+      213: 5142691258680139095
+    second: 48x48 Attack - Hero-Sheet_4
+  - first:
+      213: -7895811430875739470
+    second: 48x48 Attack - Hero-Sheet_5
+  - first:
+      213: 3566459656361754494
+    second: 48x48 Attack - Hero-Sheet_6
+  - first:
+      213: 6165387203818877667
+    second: 48x48 Attack - Hero-Sheet_7
+  - first:
+      213: -2830642209995014890
+    second: 48x48 Attack - Hero-Sheet_8
+  - first:
+      213: 4885251353849458841
+    second: 48x48 Attack - Hero-Sheet_9
+  - first:
+      213: -3056553247675220155
+    second: 48x48 Attack - Hero-Sheet_10
+  - first:
+      213: 7406744659516326569
+    second: 48x48 Attack - Hero-Sheet_11
+  - first:
+      213: -260583854690702956
+    second: 48x48 Attack - Hero-Sheet_12
+  - first:
+      213: 3212848449213628897
+    second: 48x48 Attack - Hero-Sheet_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 48x48 Attack - Hero-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 13
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f2470d78f34d4c60800000000000000
+      internalID: 7803968463831515889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48x48 Attack - Hero-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 0
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 862d46f96ca039440800000000000000
+      internalID: 4941305064349553256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48x48 Attack - Hero-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 3
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4536155a8e410f130800000000000000
+      internalID: 3598399091707568980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48x48 Attack - Hero-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 7
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a98f8fc9ef4e5d50800000000000000
+      internalID: 6727902758966364578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48x48 Attack - Hero-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 6
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75dd22fd3728e5740800000000000000
+      internalID: 5142691258680139095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48x48 Attack - Hero-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 13
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bace2166517c6290800000000000000
+      internalID: -7895811430875739470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48x48 Attack - Hero-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 12
+        width: 38
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7f343b592c9e7130800000000000000
+      internalID: 3566459656361754494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48x48 Attack - Hero-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 13
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e2fc5a0ffadf8550800000000000000
+      internalID: 6165387203818877667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48x48 Attack - Hero-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 13
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61d350b48e987b8d0800000000000000
+      internalID: -2830642209995014890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48x48 Attack - Hero-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 13
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99071b02936ebc340800000000000000
+      internalID: 4885251353849458841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48x48 Attack - Hero-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 13
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54f704bf301f495d0800000000000000
+      internalID: -3056553247675220155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48x48 Attack - Hero-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 13
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a20e74760b0ac660800000000000000
+      internalID: 7406744659516326569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48x48 Attack - Hero-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 13
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49965f26d58326cf0800000000000000
+      internalID: -260583854690702956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48x48 Attack - Hero-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 10
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e10b8464a4569c20800000000000000
+      internalID: 3212848449213628897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      48x48 Attack - Hero-Sheet_0: 7803968463831515889
+      48x48 Attack - Hero-Sheet_1: 4941305064349553256
+      48x48 Attack - Hero-Sheet_10: -3056553247675220155
+      48x48 Attack - Hero-Sheet_11: 7406744659516326569
+      48x48 Attack - Hero-Sheet_12: -260583854690702956
+      48x48 Attack - Hero-Sheet_13: 3212848449213628897
+      48x48 Attack - Hero-Sheet_2: 3598399091707568980
+      48x48 Attack - Hero-Sheet_3: 6727902758966364578
+      48x48 Attack - Hero-Sheet_4: 5142691258680139095
+      48x48 Attack - Hero-Sheet_5: -7895811430875739470
+      48x48 Attack - Hero-Sheet_6: 3566459656361754494
+      48x48 Attack - Hero-Sheet_7: 6165387203818877667
+      48x48 Attack - Hero-Sheet_8: -2830642209995014890
+      48x48 Attack - Hero-Sheet_9: 4885251353849458841
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

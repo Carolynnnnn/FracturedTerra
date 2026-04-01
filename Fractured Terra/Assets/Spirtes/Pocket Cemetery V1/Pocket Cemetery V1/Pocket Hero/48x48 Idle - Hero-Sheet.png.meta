@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: 0d391e74abef79840ad2af755cf3f8c5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8193785485805420469
+    second: 48x48 Idle - Hero-Sheet_0
+  - first:
+      213: 1888556808403950568
+    second: 48x48 Idle - Hero-Sheet_1
+  - first:
+      213: 3810011928970896268
+    second: 48x48 Idle - Hero-Sheet_2
+  - first:
+      213: 3255707418625942373
+    second: 48x48 Idle - Hero-Sheet_3
+  - first:
+      213: -6031077601637138820
+    second: 48x48 Idle - Hero-Sheet_4
+  - first:
+      213: 1402232862242550401
+    second: 48x48 Idle - Hero-Sheet_5
+  - first:
+      213: 8916645992335734203
+    second: 48x48 Idle - Hero-Sheet_6
+  - first:
+      213: 6450164234953457110
+    second: 48x48 Idle - Hero-Sheet_7
+  - first:
+      213: -644037395598323125
+    second: 48x48 Idle - Hero-Sheet_8
+  - first:
+      213: 7407887274843605205
+    second: 48x48 Idle - Hero-Sheet_9
+  - first:
+      213: 3995933775023129884
+    second: 48x48 Idle - Hero-Sheet_10
+  - first:
+      213: 941018326979462518
+    second: 48x48 Idle - Hero-Sheet_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 48x48 Idle - Hero-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 13
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bffe2f9c7c26b170800000000000000
+      internalID: 8193785485805420469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48x48 Idle - Hero-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 13
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eb10174960853a10800000000000000
+      internalID: 1888556808403950568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48x48 Idle - Hero-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 13
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c83af40c9a1efd430800000000000000
+      internalID: 3810011928970896268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48x48 Idle - Hero-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 13
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 563adc3d5a89e2d20800000000000000
+      internalID: 3255707418625942373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48x48 Idle - Hero-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 13
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7e7a9510ee4d4ca0800000000000000
+      internalID: -6031077601637138820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48x48 Idle - Hero-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 13
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 182b85edb5bb57310800000000000000
+      internalID: 1402232862242550401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48x48 Idle - Hero-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 13
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb5f411a94a4ebb70800000000000000
+      internalID: 8916645992335734203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48x48 Idle - Hero-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 13
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dd745f7236938950800000000000000
+      internalID: 6450164234953457110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48x48 Idle - Hero-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 13
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b425b45a66bef07f0800000000000000
+      internalID: -644037395598323125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48x48 Idle - Hero-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 13
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d880315a3a1ec660800000000000000
+      internalID: 7407887274843605205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48x48 Idle - Hero-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 13
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c154d36d898647730800000000000000
+      internalID: 3995933775023129884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48x48 Idle - Hero-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 13
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6754eb2ce2b2f0d00800000000000000
+      internalID: 941018326979462518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      48x48 Idle - Hero-Sheet_0: 8193785485805420469
+      48x48 Idle - Hero-Sheet_1: 1888556808403950568
+      48x48 Idle - Hero-Sheet_10: 3995933775023129884
+      48x48 Idle - Hero-Sheet_11: 941018326979462518
+      48x48 Idle - Hero-Sheet_2: 3810011928970896268
+      48x48 Idle - Hero-Sheet_3: 3255707418625942373
+      48x48 Idle - Hero-Sheet_4: -6031077601637138820
+      48x48 Idle - Hero-Sheet_5: 1402232862242550401
+      48x48 Idle - Hero-Sheet_6: 8916645992335734203
+      48x48 Idle - Hero-Sheet_7: 6450164234953457110
+      48x48 Idle - Hero-Sheet_8: -644037395598323125
+      48x48 Idle - Hero-Sheet_9: 7407887274843605205
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

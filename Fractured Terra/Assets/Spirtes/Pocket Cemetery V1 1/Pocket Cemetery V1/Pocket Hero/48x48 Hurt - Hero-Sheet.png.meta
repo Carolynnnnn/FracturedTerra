@@ -1,0 +1,351 @@
+fileFormatVersion: 2
+guid: 8167efffc47bbf643aa45362ca8efc8e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3006188063333238349
+    second: 48x48 Hurt - Hero-Sheet_0
+  - first:
+      213: 128030560543964203
+    second: 48x48 Hurt - Hero-Sheet_1
+  - first:
+      213: -5717528014115048263
+    second: 48x48 Hurt - Hero-Sheet_2
+  - first:
+      213: -6632152667350711556
+    second: 48x48 Hurt - Hero-Sheet_3
+  - first:
+      213: -788400570490830166
+    second: 48x48 Hurt - Hero-Sheet_4
+  - first:
+      213: 7280171303922428195
+    second: 48x48 Hurt - Hero-Sheet_5
+  - first:
+      213: -5432700743435033129
+    second: 48x48 Hurt - Hero-Sheet_6
+  - first:
+      213: 8109612821676754364
+    second: 48x48 Hurt - Hero-Sheet_7
+  - first:
+      213: -5888004372143897279
+    second: 48x48 Hurt - Hero-Sheet_8
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 48x48 Hurt - Hero-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 13
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d464ffabd1028b920800000000000000
+      internalID: 3006188063333238349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48x48 Hurt - Hero-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 13
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2cfd91dd1bd6c100800000000000000
+      internalID: 128030560543964203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48x48 Hurt - Hero-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 13
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b4f35d509247a0b0800000000000000
+      internalID: -5717528014115048263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48x48 Hurt - Hero-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 13
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf2c666a94cd5f3a0800000000000000
+      internalID: -6632152667350711556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48x48 Hurt - Hero-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 13
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa2cd27bbd90f05f0800000000000000
+      internalID: -788400570490830166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48x48 Hurt - Hero-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 13
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 329e94a9a3d580560800000000000000
+      internalID: 7280171303922428195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48x48 Hurt - Hero-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 13
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d5ed80257b2b94b0800000000000000
+      internalID: -5432700743435033129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48x48 Hurt - Hero-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 13
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb50ffd05e12b8070800000000000000
+      internalID: 8109612821676754364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48x48 Hurt - Hero-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 13
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1458a62383b994ea0800000000000000
+      internalID: -5888004372143897279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      48x48 Hurt - Hero-Sheet_0: 3006188063333238349
+      48x48 Hurt - Hero-Sheet_1: 128030560543964203
+      48x48 Hurt - Hero-Sheet_2: -5717528014115048263
+      48x48 Hurt - Hero-Sheet_3: -6632152667350711556
+      48x48 Hurt - Hero-Sheet_4: -788400570490830166
+      48x48 Hurt - Hero-Sheet_5: 7280171303922428195
+      48x48 Hurt - Hero-Sheet_6: -5432700743435033129
+      48x48 Hurt - Hero-Sheet_7: 8109612821676754364
+      48x48 Hurt - Hero-Sheet_8: -5888004372143897279
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,325 @@
+fileFormatVersion: 2
+guid: 0301e9c939cddde44a598a58b9ba8a07
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2916367973381725580
+    second: Cemetery Ground Tiles 2 (Other Pack Compatability)_0
+  - first:
+      213: -8696625800685606970
+    second: Cemetery Ground Tiles 2 (Other Pack Compatability)_1
+  - first:
+      213: 3075646326190513933
+    second: Cemetery Ground Tiles 2 (Other Pack Compatability)_2
+  - first:
+      213: 1671853134604404754
+    second: Cemetery Ground Tiles 2 (Other Pack Compatability)_3
+  - first:
+      213: -700881371923353219
+    second: Cemetery Ground Tiles 2 (Other Pack Compatability)_4
+  - first:
+      213: 976272577837441736
+    second: Cemetery Ground Tiles 2 (Other Pack Compatability)_5
+  - first:
+      213: -4778617882128026702
+    second: Cemetery Ground Tiles 2 (Other Pack Compatability)_6
+  - first:
+      213: 8717275013284127901
+    second: Cemetery Ground Tiles 2 (Other Pack Compatability)_7
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cemetery Ground Tiles 2 (Other Pack Compatability)_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 33
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 472a140a7caf687d0800000000000000
+      internalID: -2916367973381725580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cemetery Ground Tiles 2 (Other Pack Compatability)_1
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 34
+        width: 14
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c723a539e06f4780800000000000000
+      internalID: -8696625800685606970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cemetery Ground Tiles 2 (Other Pack Compatability)_2
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 17
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0f1257c904eeaa20800000000000000
+      internalID: 3075646326190513933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cemetery Ground Tiles 2 (Other Pack Compatability)_3
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 0
+        width: 49
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21808bc619d933710800000000000000
+      internalID: 1671853134604404754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cemetery Ground Tiles 2 (Other Pack Compatability)_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 65
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d71f1dc0b18f546f0800000000000000
+      internalID: -700881371923353219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cemetery Ground Tiles 2 (Other Pack Compatability)_5
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 17
+        width: 44
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c2a4fdacba6c8d00800000000000000
+      internalID: 976272577837441736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cemetery Ground Tiles 2 (Other Pack Compatability)_6
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 17
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b3fd6aba50feadb0800000000000000
+      internalID: -4778617882128026702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cemetery Ground Tiles 2 (Other Pack Compatability)_7
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 0
+        width: 62
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d946030407bf9f870800000000000000
+      internalID: 8717275013284127901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Cemetery Ground Tiles 2 (Other Pack Compatability)_0: -2916367973381725580
+      Cemetery Ground Tiles 2 (Other Pack Compatability)_1: -8696625800685606970
+      Cemetery Ground Tiles 2 (Other Pack Compatability)_2: 3075646326190513933
+      Cemetery Ground Tiles 2 (Other Pack Compatability)_3: 1671853134604404754
+      Cemetery Ground Tiles 2 (Other Pack Compatability)_4: -700881371923353219
+      Cemetery Ground Tiles 2 (Other Pack Compatability)_5: 976272577837441736
+      Cemetery Ground Tiles 2 (Other Pack Compatability)_6: -4778617882128026702
+      Cemetery Ground Tiles 2 (Other Pack Compatability)_7: 8717275013284127901
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

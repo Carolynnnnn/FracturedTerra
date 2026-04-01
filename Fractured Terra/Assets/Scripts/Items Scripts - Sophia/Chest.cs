@@ -6,6 +6,7 @@ public class Chest : MonoBehaviour, IInteractable
     
     // Build item prize
     // Note: if name is gem, adds one to total instead
+    public bool isWeapon = false; //check if Weapon included
     public string itemName; // Item's name
     public string description; // Item's description
     public Sprite icon; // Item's sprite
@@ -13,6 +14,12 @@ public class Chest : MonoBehaviour, IInteractable
     public bool canUse; // Determines if the item can be used
     public GameObject worldPrefab; // Helps drop item if necessary
                                    // note: event items SHOULD NOT HAVE THIS, as they should never be dropped
+    [Header("Weapon Stats (only if isWeapon = true)")]
+    public int attackPower = 5;
+    public float attackSpeed = 1.0f;
+    public Vector2 hitboxSize = new Vector2(1f, 1f);
+    public string acquiredInLevel = "HubWorld";
+    public Sprite attackSprite;
                                    
     // Other vars
     private Animator animator; // For opening animation
@@ -39,6 +46,12 @@ public class Chest : MonoBehaviour, IInteractable
         
         // Give item to player
         if (itemName == "Gem") GemManager.gemCount++; // Gives a gem
+        else if (isWeapon)
+        { //create a new weapon item and assign it to player
+            WeaponItem newWeapon = new WeaponItem(itemName, description, icon, maxLife, attackPower, attackSpeed, hitboxSize, acquiredInLevel, attackSprite);
+            inventoryManager.AddItem(newWeapon);
+            Debug.Log("Got weapon from chest: " + itemName);
+        }
         else
         { // Create a new inventory item and give it to player
             InventoryItem newItem = new InventoryItem(itemName, description, icon, maxLife, canUse, worldPrefab);

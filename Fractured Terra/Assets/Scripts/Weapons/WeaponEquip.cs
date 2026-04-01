@@ -3,13 +3,18 @@ using UnityEngine;
 public class WeaponEquip : MonoBehaviour
 {
     public static WeaponEquip Instance;
+
+    [Header("References")]
     public InventoryManager inventoryManager;
     public InventorySelect inventorySelect;
-    public PlayerAttackRP playerAttack;
-    public AttackHitbox attackHitbox;
+    public PlayerStatsRP playerStats;
     public SpriteRenderer weaponRenderer;
+
+    [Header("Equipped Weapon")]
     public WeaponItem equippedWeapon;
-    public int baseAttackPower = 5;
+
+    [Header("Defaults")]
+    public int baseAttackPower = 0;
     public float baseAttackSpeed = 1.0f;
 
     void Awake()
@@ -35,13 +40,22 @@ public class WeaponEquip : MonoBehaviour
 
     void TryEquipWeapon()
     {
+        if (inventorySelect == null)
+        {
+            Debug.LogWarning("WeaponEquip: InventorySelect is missing.");
+            return;
+        }
+
         int index = inventorySelect.selectedIndex;
+
         if (index < 0 || index >= InventoryManager.items.Count)
         {
             Debug.Log("No item selected!");
             return;
         }
+
         InventoryItem item = InventoryManager.items[index];
+
         if (item is WeaponItem weapon)
         {
             equippedWeapon = weapon;
@@ -56,27 +70,41 @@ public class WeaponEquip : MonoBehaviour
 
     void ApplyWeaponStats(WeaponItem weapon)
     {
-        if (playerAttack != null)
-            playerAttack.attackRange = weapon.hitboxSize.x;
-
-        if (attackHitbox != null)
+        if (playerStats != null)
         {
-            var dmgField = typeof(AttackHitbox).GetField("damage",
-                System.Reflection.BindingFlags.NonPublic |
-                System.Reflection.BindingFlags.Instance);
-            if (dmgField != null)
-                dmgField.SetValue(attackHitbox, weapon.attackPower);
+            playerStats.SetWeaponDamageBonus(weapon.attackPower);
         }
 
         if (weaponRenderer != null && weapon.attackSprite != null)
+        {
             weaponRenderer.sprite = weapon.attackSprite;
+        }
     }
+
     public int GetAttackPower()
     {
         return equippedWeapon != null ? equippedWeapon.attackPower : baseAttackPower;
     }
+
     public float GetAttackSpeed()
     {
         return equippedWeapon != null ? equippedWeapon.attackSpeed : baseAttackSpeed;
+    }
+
+    public void UnequipWeapon()
+    {
+        equippedWeapon = null;
+
+        if (playerStats != null)
+        {
+            playerStats.SetWeaponDamageBonus(baseAttackPower);
+        }
+
+        if (weaponRenderer != null)
+        {
+            weaponRenderer.sprite = null;
+        }
+
+        Debug.Log("Weapon unequipped.");
     }
 }

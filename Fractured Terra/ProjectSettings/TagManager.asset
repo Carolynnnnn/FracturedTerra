@@ -10,6 +10,8 @@ TagManager:
   - Ground
   - Attack
   - Breakable
+  - breakitem
+  - enemy
   layers:
   - Default
   - TransparentFX
@@ -17,7 +19,7 @@ TagManager:
   - Breakable
   - Water
   - UI
-  - 
+  - Enemy
   - 
   - 
   - 

@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: 3786a0a84c9e7eb4aac52a05e16d377d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3621732220879655723
+    second: 48x48 Run - Hero-Sheet_0
+  - first:
+      213: 4176569749619756571
+    second: 48x48 Run - Hero-Sheet_1
+  - first:
+      213: -4927107549517440313
+    second: 48x48 Run - Hero-Sheet_2
+  - first:
+      213: -6961740875854354010
+    second: 48x48 Run - Hero-Sheet_3
+  - first:
+      213: 5164482038111050729
+    second: 48x48 Run - Hero-Sheet_4
+  - first:
+      213: -6834524920806960247
+    second: 48x48 Run - Hero-Sheet_5
+  - first:
+      213: -8972299393640232133
+    second: 48x48 Run - Hero-Sheet_6
+  - first:
+      213: -3482283677818543086
+    second: 48x48 Run - Hero-Sheet_7
+  - first:
+      213: -8853298986533656887
+    second: 48x48 Run - Hero-Sheet_8
+  - first:
+      213: 8393863218414922649
+    second: 48x48 Run - Hero-Sheet_9
+  - first:
+      213: 1786225870903449363
+    second: 48x48 Run - Hero-Sheet_10
+  - first:
+      213: -7639849077020681912
+    second: 48x48 Run - Hero-Sheet_11
+  - first:
+      213: 6194205814689703558
+    second: 48x48 Run - Hero-Sheet_12
+  - first:
+      213: -44573663589427852
+    second: 48x48 Run - Hero-Sheet_13
+  - first:
+      213: -8993495468319316552
+    second: 48x48 Run - Hero-Sheet_14
+  - first:
+      213: -3296726642264083318
+    second: 48x48 Run - Hero-Sheet_15
+  - first:
+      213: -7062616887048550350
+    second: 48x48 Run - Hero-Sheet_16
+  - first:
+      213: -2508514578159886573
+    second: 48x48 Run - Hero-Sheet_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 48x48 Run - Hero-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 13
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b235e11244af24230800000000000000
+      internalID: 3621732220879655723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48x48 Run - Hero-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 15
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1e4ab11f0826f930800000000000000
+      internalID: 4176569749619756571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48x48 Run - Hero-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 14
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ca1ed4e9c56f9bb0800000000000000
+      internalID: -4927107549517440313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48x48 Run - Hero-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 14
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a9626cee8de26f90800000000000000
+      internalID: -6961740875854354010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48x48 Run - Hero-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 15
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eb9e721d0deba740800000000000000
+      internalID: 5164482038111050729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48x48 Run - Hero-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 14
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9831fbe9bc3e621a0800000000000000
+      internalID: -6834524920806960247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48x48 Run - Hero-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 13
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3b0f9f1d3dfb7380800000000000000
+      internalID: -8972299393640232133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48x48 Run - Hero-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 15
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2142c78e1717cafc0800000000000000
+      internalID: -3482283677818543086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48x48 Run - Hero-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 14
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c6e5518a73c22580800000000000000
+      internalID: -8853298986533656887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48x48 Run - Hero-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 13
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99ba6d2ef1efc7470800000000000000
+      internalID: 8393863218414922649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48x48 Run - Hero-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 15
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31710db37f2f9c810800000000000000
+      internalID: 1786225870903449363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48x48 Run - Hero-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 14
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 849169afdbdc9f590800000000000000
+      internalID: -7639849077020681912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48x48 Run - Hero-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 13
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6862d32ce5d36f550800000000000000
+      internalID: 6194205814689703558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48x48 Run - Hero-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 15
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4751a673d74a16ff0800000000000000
+      internalID: -44573663589427852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48x48 Run - Hero-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 14
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b5edb9658fa03380800000000000000
+      internalID: -8993495468319316552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48x48 Run - Hero-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 13
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a84784ee59caf32d0800000000000000
+      internalID: -3296726642264083318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48x48 Run - Hero-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 15
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 238cbce4c5b8cfd90800000000000000
+      internalID: -7062616887048550350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 48x48 Run - Hero-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 14
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31f14e62847ff2dd0800000000000000
+      internalID: -2508514578159886573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      48x48 Run - Hero-Sheet_0: 3621732220879655723
+      48x48 Run - Hero-Sheet_1: 4176569749619756571
+      48x48 Run - Hero-Sheet_10: 1786225870903449363
+      48x48 Run - Hero-Sheet_11: -7639849077020681912
+      48x48 Run - Hero-Sheet_12: 6194205814689703558
+      48x48 Run - Hero-Sheet_13: -44573663589427852
+      48x48 Run - Hero-Sheet_14: -8993495468319316552
+      48x48 Run - Hero-Sheet_15: -3296726642264083318
+      48x48 Run - Hero-Sheet_16: -7062616887048550350
+      48x48 Run - Hero-Sheet_17: -2508514578159886573
+      48x48 Run - Hero-Sheet_2: -4927107549517440313
+      48x48 Run - Hero-Sheet_3: -6961740875854354010
+      48x48 Run - Hero-Sheet_4: 5164482038111050729
+      48x48 Run - Hero-Sheet_5: -6834524920806960247
+      48x48 Run - Hero-Sheet_6: -8972299393640232133
+      48x48 Run - Hero-Sheet_7: -3482283677818543086
+      48x48 Run - Hero-Sheet_8: -8853298986533656887
+      48x48 Run - Hero-Sheet_9: 8393863218414922649
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

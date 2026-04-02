@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class PlayerAttackRP : MonoBehaviour
@@ -7,6 +8,7 @@ public class PlayerAttackRP : MonoBehaviour
     public LayerMask enemyLayer;
     public LayerMask breakableLayer;
     public PlayerStatsRP playerStats;
+    public PlayerDefenseRP playerDefense;
 
     [Header("Abilities")]
     public AbilityDataRP[] abilities = new AbilityDataRP[12];
@@ -183,8 +185,38 @@ public class PlayerAttackRP : MonoBehaviour
             return;
         }
 
-        SpawnEffectAtPoint(ability, attackPoint.position);
-        Debug.Log("Projectile ability used: " + ability.abilityName);
+        if (ability.effectPrefab == null)
+        {
+            Debug.LogWarning("Projectile prefab missing for " + ability.abilityName);
+            return;
+        }
+
+        GameObject projectileObj = Instantiate(
+            ability.effectPrefab,
+            attackPoint.position + (Vector3)effectOffset,
+            Quaternion.identity
+        );
+
+        AbilityProjectileRP projectile = projectileObj.GetComponent<AbilityProjectileRP>();
+        if (projectile != null)
+        {
+            projectile.damage = GetFinalDamage(ability.damage);
+            projectile.enemyLayer = enemyLayer;
+            projectile.breakableLayer = breakableLayer;
+
+            Vector2 shootDirection = Vector2.right;
+
+            if (transform.localScale.x < 0)
+            {
+                shootDirection = Vector2.left;
+            }
+
+            projectile.SetDirection(shootDirection);
+        }
+        else
+        {
+            Debug.LogWarning("Projectile prefab is missing AbilityProjectileRP on " + ability.abilityName);
+        }
     }
 
     void UseFreezeAbility(AbilityDataRP ability)
@@ -196,7 +228,43 @@ public class PlayerAttackRP : MonoBehaviour
         }
 
         SpawnEffectAtPoint(ability, attackPoint.position);
-        Debug.Log("Freeze ability used: " + ability.abilityName);
+
+        int finalDamage = GetFinalDamage(ability.damage);
+
+        Collider2D[] enemyHits = Physics2D.OverlapCircleAll(
+            attackPoint.position,
+            ability.range,
+            enemyLayer
+        );
+
+        foreach (Collider2D hit in enemyHits)
+        {
+            EnemyHealthRP enemyHealth = hit.GetComponent<EnemyHealthRP>();
+            if (enemyHealth != null)
+            {
+                enemyHealth.TakeDamage(finalDamage);
+            }
+
+            EnemyStatusRP status = hit.GetComponent<EnemyStatusRP>();
+            if (status != null)
+            {
+                status.Freeze(4f);
+            }
+        }
+
+        Collider2D[] breakHits = Physics2D.OverlapCircleAll(
+            attackPoint.position,
+            ability.range,
+            breakableLayer
+        );
+
+        foreach (Collider2D hit in breakHits)
+        {
+            if (hit.CompareTag("breakitem"))
+            {
+                Destroy(hit.gameObject);
+            }
+        }
     }
 
     void UseCharmAbility(AbilityDataRP ability)
@@ -208,13 +276,117 @@ public class PlayerAttackRP : MonoBehaviour
         }
 
         SpawnEffectAtPoint(ability, attackPoint.position);
-        Debug.Log("Charm ability used: " + ability.abilityName);
+
+        Collider2D[] enemyHits = Physics2D.OverlapCircleAll(
+            attackPoint.position,
+            ability.range,
+            enemyLayer
+        );
+
+        foreach (Collider2D hit in enemyHits)
+        {
+            EnemyStatusRP status = hit.GetComponent<EnemyStatusRP>();
+            if (status != null)
+            {
+                status.CharmRemove();
+            }
+            else
+            {
+                Destroy(hit.gameObject);
+            }
+        }
+
+        Collider2D[] breakHits = Physics2D.OverlapCircleAll(
+            attackPoint.position,
+            ability.range,
+            breakableLayer
+        );
+
+        foreach (Collider2D hit in breakHits)
+        {
+            if (hit.CompareTag("breakitem"))
+            {
+                Destroy(hit.gameObject);
+            }
+        }
     }
 
     void UseShieldAuraAbility(AbilityDataRP ability)
     {
-        SpawnEffectAtPoint(ability, transform.position);
-        Debug.Log("Shield aura ability used: " + ability.abilityName);
+        StartCoroutine(WaterSwirlCoroutine(ability));
+    }
+
+    IEnumerator WaterSwirlCoroutine(AbilityDataRP ability)
+    {
+        float duration = 3f;
+        float tickRate = 0.5f;
+        float timer = 0f;
+
+        GameObject swirlEffect = null;
+
+        if (ability != null && ability.effectPrefab != null)
+        {
+            Vector3 spawnPosition = transform.position + (Vector3)effectOffset;
+            swirlEffect = Instantiate(ability.effectPrefab, spawnPosition, Quaternion.identity);
+            swirlEffect.transform.SetParent(transform);
+        }
+
+        if (playerDefense != null)
+        {
+            playerDefense.SetProtected(true);
+        }
+
+        while (timer < duration)
+        {
+            if (swirlEffect != null)
+            {
+                swirlEffect.transform.position = transform.position + (Vector3)effectOffset;
+            }
+
+            int finalDamage = GetFinalDamage(ability.damage);
+
+            Collider2D[] enemyHits = Physics2D.OverlapCircleAll(
+                transform.position,
+                ability.range,
+                enemyLayer
+            );
+
+            foreach (Collider2D hit in enemyHits)
+            {
+                EnemyHealthRP enemy = hit.GetComponent<EnemyHealthRP>();
+                if (enemy != null)
+                {
+                    enemy.TakeDamage(finalDamage);
+                }
+            }
+
+            Collider2D[] breakHits = Physics2D.OverlapCircleAll(
+                transform.position,
+                ability.range,
+                breakableLayer
+            );
+
+            foreach (Collider2D hit in breakHits)
+            {
+                if (hit.CompareTag("breakitem"))
+                {
+                    Destroy(hit.gameObject);
+                }
+            }
+
+            timer += tickRate;
+            yield return new WaitForSeconds(tickRate);
+        }
+
+        if (playerDefense != null)
+        {
+            playerDefense.SetProtected(false);
+        }
+
+        if (swirlEffect != null)
+        {
+            Destroy(swirlEffect);
+        }
     }
 
     void SpawnEffectAtPoint(AbilityDataRP ability, Vector3 basePosition)
@@ -274,7 +446,7 @@ public class PlayerAttackRP : MonoBehaviour
 
         Gizmos.color = Color.red;
 
-        if (currentAbility.type == AbilityType.Area)
+        if (currentAbility.type == AbilityType.Area || currentAbility.type == AbilityType.ShieldAura)
         {
             Gizmos.DrawWireSphere(transform.position, currentAbility.range);
         }

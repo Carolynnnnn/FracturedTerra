@@ -60637,77 +60637,77 @@ MonoBehaviour:
     range: 2
     damage: 2
     cooldown: 1
-    effectPrefab: {fileID: 0}
+    effectPrefab: {fileID: 7886528929102517473, guid: f1e418b4b422a9e46820bb15415f772c, type: 3}
     unlocked: 0
     type: 1
   - abilityName: Fury Fire
     range: 2
     damage: 4
     cooldown: 1
-    effectPrefab: {fileID: 0}
+    effectPrefab: {fileID: 2377001158082377150, guid: 6d66b50ac6b371142b897f24a45e29f0, type: 3}
     unlocked: 0
     type: 1
   - abilityName: Chain Whip
     range: 2
     damage: 4
     cooldown: 3
-    effectPrefab: {fileID: 0}
+    effectPrefab: {fileID: 8042090504997196517, guid: 2cf87c4fe258aec4ba4a8fc709ef9c83, type: 3}
     unlocked: 0
     type: 2
   - abilityName: Toxic Poison
     range: 2
     damage: 4
     cooldown: 2
-    effectPrefab: {fileID: 0}
+    effectPrefab: {fileID: 6483437836679990304, guid: 9d4f04f36c9bfb348ac07de7a5b6bd48, type: 3}
     unlocked: 0
     type: 2
   - abilityName: Heavens Strike
     range: 3
     damage: 7
     cooldown: 4
-    effectPrefab: {fileID: 0}
+    effectPrefab: {fileID: 5276917425076486282, guid: 219f2126cc6ab244db60a425b6e869a0, type: 3}
     unlocked: 0
     type: 1
   - abilityName: Deathly Spirit
     range: 3
     damage: 5
     cooldown: 2
-    effectPrefab: {fileID: 0}
+    effectPrefab: {fileID: 3017299129500658504, guid: 6a42b1e28583a2440ba95af929bdd248, type: 3}
     unlocked: 0
     type: 1
   - abilityName: Freezing Ice
     range: 2
     damage: 1
     cooldown: 8
-    effectPrefab: {fileID: 0}
+    effectPrefab: {fileID: 467984002734312117, guid: 4688dc13540816042a5f9aba795ff9f2, type: 3}
     unlocked: 0
     type: 3
   - abilityName: Love Potion
     range: 3
     damage: 0
     cooldown: 10
-    effectPrefab: {fileID: 0}
+    effectPrefab: {fileID: 652989135443779221, guid: 77c3c6e226210a144b4aea63858c4ee7, type: 3}
     unlocked: 0
     type: 4
   - abilityName: Electric Arrows
     range: 5
     damage: 2
     cooldown: 2
-    effectPrefab: {fileID: 0}
+    effectPrefab: {fileID: 7532884379996349149, guid: e0ff0888cb8cb58418073e75d539b1b1, type: 3}
     unlocked: 0
     type: 1
   - abilityName: Forest Wind
     range: 2
     damage: 3
     cooldown: 1
-    effectPrefab: {fileID: 0}
+    effectPrefab: {fileID: 4186079377168221188, guid: d1cb9d486b93bf647bcf9009a01518d3, type: 3}
     unlocked: 0
     type: 1
   - abilityName: Water Swirl
     range: 1
     damage: 2
     cooldown: 15
-    effectPrefab: {fileID: 0}
+    effectPrefab: {fileID: 3288519143864401491, guid: 05caac41b2ca0764cbd6bdad64b68520, type: 3}
     unlocked: 0
     type: 5
   currentAbilityIndex: 0

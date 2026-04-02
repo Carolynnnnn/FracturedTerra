@@ -60633,83 +60633,83 @@ MonoBehaviour:
     effectPrefab: {fileID: 5399292868107287360, guid: ddf091a7398672047adac0493aff1ef9, type: 3}
     unlocked: 1
     type: 0
-  - abilityName: 
-    range: 1
-    damage: 1
-    cooldown: 0
+  - abilityName: Magic
+    range: 2
+    damage: 2
+    cooldown: 1
     effectPrefab: {fileID: 0}
     unlocked: 0
-    type: 0
-  - abilityName: 
-    range: 1
-    damage: 1
-    cooldown: 0
+    type: 1
+  - abilityName: Fury Fire
+    range: 2
+    damage: 4
+    cooldown: 1
     effectPrefab: {fileID: 0}
     unlocked: 0
-    type: 0
-  - abilityName: 
-    range: 1
-    damage: 1
-    cooldown: 0
+    type: 1
+  - abilityName: Chain Whip
+    range: 2
+    damage: 4
+    cooldown: 3
     effectPrefab: {fileID: 0}
     unlocked: 0
-    type: 0
-  - abilityName: 
-    range: 1
-    damage: 1
-    cooldown: 0
+    type: 2
+  - abilityName: Toxic Poison
+    range: 2
+    damage: 4
+    cooldown: 2
     effectPrefab: {fileID: 0}
     unlocked: 0
-    type: 0
-  - abilityName: 
-    range: 1
-    damage: 1
-    cooldown: 0
+    type: 2
+  - abilityName: Heavens Strike
+    range: 3
+    damage: 7
+    cooldown: 4
     effectPrefab: {fileID: 0}
     unlocked: 0
-    type: 0
-  - abilityName: 
-    range: 1
-    damage: 1
-    cooldown: 0
+    type: 1
+  - abilityName: Deathly Spirit
+    range: 3
+    damage: 5
+    cooldown: 2
     effectPrefab: {fileID: 0}
     unlocked: 0
-    type: 0
-  - abilityName: 
-    range: 1
+    type: 1
+  - abilityName: Freezing Ice
+    range: 2
     damage: 1
-    cooldown: 0
+    cooldown: 8
     effectPrefab: {fileID: 0}
     unlocked: 0
-    type: 0
-  - abilityName: 
-    range: 1
-    damage: 1
-    cooldown: 0
+    type: 3
+  - abilityName: Love Potion
+    range: 3
+    damage: 0
+    cooldown: 10
     effectPrefab: {fileID: 0}
     unlocked: 0
-    type: 0
-  - abilityName: 
-    range: 1
-    damage: 1
-    cooldown: 0
+    type: 4
+  - abilityName: Electric Arrows
+    range: 5
+    damage: 2
+    cooldown: 2
     effectPrefab: {fileID: 0}
     unlocked: 0
-    type: 0
-  - abilityName: 
-    range: 1
-    damage: 1
-    cooldown: 0
+    type: 1
+  - abilityName: Forest Wind
+    range: 2
+    damage: 3
+    cooldown: 1
     effectPrefab: {fileID: 0}
     unlocked: 0
-    type: 0
-  - abilityName: 
+    type: 1
+  - abilityName: Water Swirl
     range: 1
-    damage: 1
-    cooldown: 0
+    damage: 2
+    cooldown: 15
     effectPrefab: {fileID: 0}
     unlocked: 0
-    type: 0
+    type: 5
   currentAbilityIndex: 0
   effectOffset: {x: 0, y: 0}
   effectLifetime: 0.5

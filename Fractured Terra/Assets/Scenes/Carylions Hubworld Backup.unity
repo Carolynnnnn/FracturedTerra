@@ -59795,6 +59795,7 @@ GameObject:
   - component: {fileID: 2125956375}
   - component: {fileID: 2125956379}
   - component: {fileID: 2125956380}
+  - component: {fileID: 2125956381}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -59993,6 +59994,38 @@ MonoBehaviour:
   breakableLayer:
     serializedVersion: 2
     m_Bits: 8
+--- !u!114 &2125956381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2125956368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1e4a820199884807b69668ad0fc6a3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponEquip
+  inventoryManager: {fileID: 349270584}
+  inventorySelect: {fileID: 349270583}
+  playerAttack: {fileID: 2125956380}
+  attackHitbox: {fileID: 0}
+  weaponRenderer: {fileID: 0}
+  equippedWeapon:
+    itemName: 
+    description: 
+    icon: {fileID: 0}
+    maxLife: 0
+    currentLife: 0
+    canUse: 0
+    worldPrefab: {fileID: 0}
+    attackPower: 0
+    attackSpeed: 0
+    hitboxSize: {x: 0, y: 0}
+    acquiredInLevel: 
+    attackSprite: {fileID: 0}
+  baseAttackPower: 5
+  baseAttackSpeed: 1
 --- !u!1 &2145793066
 GameObject:
   m_ObjectHideFlags: 0

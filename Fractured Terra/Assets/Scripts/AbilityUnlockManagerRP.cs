@@ -30,6 +30,13 @@ public class AbilityUnlockManagerRP : MonoBehaviour
         if (!playerAttack.abilities[index].unlocked)
         {
             playerAttack.abilities[index].unlocked = true;
+            
+            AbilitySaveSystemRP save = FindObjectOfType<AbilitySaveSystemRP>();
+            if (save != null)
+            {
+                save.SaveData();
+            }
+            
             Debug.Log("Unlocked ability: " + playerAttack.abilities[index].abilityName);
         }
 

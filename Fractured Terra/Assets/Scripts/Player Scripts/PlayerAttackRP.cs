@@ -9,6 +9,7 @@ public class PlayerAttackRP : MonoBehaviour
     public LayerMask breakableLayer;
     public PlayerStatsRP playerStats;
     public PlayerDefenseRP playerDefense;
+    public SpriteRenderer playerSprite;
 
     [Header("Abilities")]
     public AbilityDataRP[] abilities = new AbilityDataRP[12];
@@ -19,6 +20,7 @@ public class PlayerAttackRP : MonoBehaviour
     public float effectLifetime = 0.5f;
 
     private float nextAttackTime = 0f;
+    private bool isWaterSwirlActive = false;
 
     void Update()
     {
@@ -67,6 +69,8 @@ public class PlayerAttackRP : MonoBehaviour
 
     void UseAbility(AbilityDataRP ability)
     {
+        if (ability == null) return;
+
         switch (ability.type)
         {
             case AbilityType.Melee:
@@ -191,11 +195,22 @@ public class PlayerAttackRP : MonoBehaviour
             return;
         }
 
+        Vector2 shootDirection = Vector2.right;
+
+        if (playerSprite != null && playerSprite.flipX)
+        {
+            shootDirection = Vector2.left;
+        }
+
         GameObject projectileObj = Instantiate(
             ability.effectPrefab,
             attackPoint.position + (Vector3)effectOffset,
             Quaternion.identity
         );
+
+        Vector3 scale = projectileObj.transform.localScale;
+        scale.x = shootDirection == Vector2.left ? -Mathf.Abs(scale.x) : Mathf.Abs(scale.x);
+        projectileObj.transform.localScale = scale;
 
         AbilityProjectileRP projectile = projectileObj.GetComponent<AbilityProjectileRP>();
         if (projectile != null)
@@ -203,19 +218,12 @@ public class PlayerAttackRP : MonoBehaviour
             projectile.damage = GetFinalDamage(ability.damage);
             projectile.enemyLayer = enemyLayer;
             projectile.breakableLayer = breakableLayer;
-
-            Vector2 shootDirection = Vector2.right;
-
-            if (transform.localScale.x < 0)
-            {
-                shootDirection = Vector2.left;
-            }
-
             projectile.SetDirection(shootDirection);
         }
         else
         {
             Debug.LogWarning("Projectile prefab is missing AbilityProjectileRP on " + ability.abilityName);
+            Destroy(projectileObj);
         }
     }
 
@@ -313,11 +321,14 @@ public class PlayerAttackRP : MonoBehaviour
 
     void UseShieldAuraAbility(AbilityDataRP ability)
     {
+        if (isWaterSwirlActive) return;
         StartCoroutine(WaterSwirlCoroutine(ability));
     }
 
     IEnumerator WaterSwirlCoroutine(AbilityDataRP ability)
     {
+        isWaterSwirlActive = true;
+
         float duration = 3f;
         float tickRate = 0.5f;
         float timer = 0f;
@@ -387,12 +398,13 @@ public class PlayerAttackRP : MonoBehaviour
         {
             Destroy(swirlEffect);
         }
+
+        isWaterSwirlActive = false;
     }
 
     void SpawnEffectAtPoint(AbilityDataRP ability, Vector3 basePosition)
     {
-        if (ability == null || ability.effectPrefab == null)
-            return;
+        if (ability == null || ability.effectPrefab == null) return;
 
         Vector3 spawnPosition = basePosition + (Vector3)effectOffset;
 
@@ -417,8 +429,8 @@ public class PlayerAttackRP : MonoBehaviour
 
     public void SelectAbility(int index)
     {
-        if (abilities == null || index < 0 || index >= abilities.Length)
-            return;
+        if (abilities == null || abilities.Length == 0) return;
+        if (index < 0 || index >= abilities.Length) return;
 
         if (abilities[index] == null)
         {

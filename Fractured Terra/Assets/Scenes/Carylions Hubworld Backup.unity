@@ -61386,6 +61386,7 @@ MonoBehaviour:
     m_Bits: 8
   playerStats: {fileID: 2125956383}
   playerDefense: {fileID: 0}
+  playerSprite: {fileID: 1356095792}
   abilities:
   - abilityName: Slash
     range: 1
@@ -61406,7 +61407,7 @@ MonoBehaviour:
     damage: 4
     cooldown: 1
     effectPrefab: {fileID: 2377001158082377150, guid: 6d66b50ac6b371142b897f24a45e29f0, type: 3}
-    unlocked: 0
+    unlocked: 1
     type: 1
   - abilityName: Chain Whip
     range: 2
@@ -61469,7 +61470,7 @@ MonoBehaviour:
     damage: 2
     cooldown: 15
     effectPrefab: {fileID: 4789936997399216193, guid: 9612a0e0c20594747b93bfcb2c29a946, type: 3}
-    unlocked: 1
+    unlocked: 0
     type: 5
   currentAbilityIndex: 0
   effectOffset: {x: 0, y: 0}
@@ -62017,63 +62018,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b907cd9ca81a0c41a7fcdd7a6f7b966, type: 3}
---- !u!1001 &1825661262316733962
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 283031670077121900, guid: 9612a0e0c20594747b93bfcb2c29a946, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 458.01178
-      objectReference: {fileID: 0}
-    - target: {fileID: 283031670077121900, guid: 9612a0e0c20594747b93bfcb2c29a946, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 167.15039
-      objectReference: {fileID: 0}
-    - target: {fileID: 283031670077121900, guid: 9612a0e0c20594747b93bfcb2c29a946, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 283031670077121900, guid: 9612a0e0c20594747b93bfcb2c29a946, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 283031670077121900, guid: 9612a0e0c20594747b93bfcb2c29a946, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 283031670077121900, guid: 9612a0e0c20594747b93bfcb2c29a946, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 283031670077121900, guid: 9612a0e0c20594747b93bfcb2c29a946, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 283031670077121900, guid: 9612a0e0c20594747b93bfcb2c29a946, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 283031670077121900, guid: 9612a0e0c20594747b93bfcb2c29a946, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 283031670077121900, guid: 9612a0e0c20594747b93bfcb2c29a946, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4789936997399216193, guid: 9612a0e0c20594747b93bfcb2c29a946, type: 3}
-      propertyPath: m_Name
-      value: WaterCE
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 9612a0e0c20594747b93bfcb2c29a946, type: 3}
 --- !u!1001 &3979331705828813837
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -62504,4 +62448,3 @@ SceneRoots:
   - {fileID: 977195841}
   - {fileID: 1002786081}
   - {fileID: 604428494}
-  - {fileID: 1825661262316733962}

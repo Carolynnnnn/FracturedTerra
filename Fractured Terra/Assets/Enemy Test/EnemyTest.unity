@@ -119,6 +119,63 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &220638133
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 451548444410038299, guid: 9cd52df79ad834b19be1df3b06c5fd42, type: 3}
+      propertyPath: m_Name
+      value: Orc Enemy (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1793499872877189389, guid: 9cd52df79ad834b19be1df3b06c5fd42, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 1793499872877189389, guid: 9cd52df79ad834b19be1df3b06c5fd42, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 1793499872877189389, guid: 9cd52df79ad834b19be1df3b06c5fd42, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1793499872877189389, guid: 9cd52df79ad834b19be1df3b06c5fd42, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1793499872877189389, guid: 9cd52df79ad834b19be1df3b06c5fd42, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1793499872877189389, guid: 9cd52df79ad834b19be1df3b06c5fd42, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1793499872877189389, guid: 9cd52df79ad834b19be1df3b06c5fd42, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1793499872877189389, guid: 9cd52df79ad834b19be1df3b06c5fd42, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1793499872877189389, guid: 9cd52df79ad834b19be1df3b06c5fd42, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1793499872877189389, guid: 9cd52df79ad834b19be1df3b06c5fd42, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9cd52df79ad834b19be1df3b06c5fd42, type: 3}
 --- !u!1 &378259188
 GameObject:
   m_ObjectHideFlags: 0
@@ -280,16 +337,104 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1ec093f93afd974183a3f985f2d0d23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerAttackRP
-  slashEffectPrefab: {fileID: 7874246472993218683, guid: b9293bb5e6bf5934292bdd4bf8e7a0a1, type: 3}
   attackPoint: {fileID: 378259189}
-  attackRange: 0.5
-  breakableLayer:
-    serializedVersion: 2
-    m_Bits: 8
   enemyLayer:
     serializedVersion: 2
     m_Bits: 64
-  damage: 1
+  breakableLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  playerStats: {fileID: 0}
+  playerDefense: {fileID: 0}
+  playerSprite: {fileID: 0}
+  abilities:
+  - abilityName: 
+    range: 1
+    damage: 1
+    cooldown: 0
+    effectPrefab: {fileID: 0}
+    unlocked: 0
+    type: 0
+  - abilityName: 
+    range: 1
+    damage: 1
+    cooldown: 0
+    effectPrefab: {fileID: 0}
+    unlocked: 0
+    type: 0
+  - abilityName: 
+    range: 1
+    damage: 1
+    cooldown: 0
+    effectPrefab: {fileID: 0}
+    unlocked: 0
+    type: 0
+  - abilityName: 
+    range: 1
+    damage: 1
+    cooldown: 0
+    effectPrefab: {fileID: 0}
+    unlocked: 0
+    type: 0
+  - abilityName: 
+    range: 1
+    damage: 1
+    cooldown: 0
+    effectPrefab: {fileID: 0}
+    unlocked: 0
+    type: 0
+  - abilityName: 
+    range: 1
+    damage: 1
+    cooldown: 0
+    effectPrefab: {fileID: 0}
+    unlocked: 0
+    type: 0
+  - abilityName: 
+    range: 1
+    damage: 1
+    cooldown: 0
+    effectPrefab: {fileID: 0}
+    unlocked: 0
+    type: 0
+  - abilityName: 
+    range: 1
+    damage: 1
+    cooldown: 0
+    effectPrefab: {fileID: 0}
+    unlocked: 0
+    type: 0
+  - abilityName: 
+    range: 1
+    damage: 1
+    cooldown: 0
+    effectPrefab: {fileID: 0}
+    unlocked: 0
+    type: 0
+  - abilityName: 
+    range: 1
+    damage: 1
+    cooldown: 0
+    effectPrefab: {fileID: 0}
+    unlocked: 0
+    type: 0
+  - abilityName: 
+    range: 1
+    damage: 1
+    cooldown: 0
+    effectPrefab: {fileID: 0}
+    unlocked: 0
+    type: 0
+  - abilityName: 
+    range: 1
+    damage: 1
+    cooldown: 0
+    effectPrefab: {fileID: 0}
+    unlocked: 0
+    type: 0
+  currentAbilityIndex: 0
+  effectOffset: {x: 0, y: 0}
+  effectLifetime: 0.5
 --- !u!114 &452923484
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -408,6 +553,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
   _moveSpeed: 10
   _rb: {fileID: 452923492}
+  _state: {fileID: 0}
   CanMove: 1
 --- !u!50 &452923492
 Rigidbody2D:
@@ -1137,6 +1283,63 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1629071156
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 451548444410038299, guid: 9cd52df79ad834b19be1df3b06c5fd42, type: 3}
+      propertyPath: m_Name
+      value: Orc Enemy (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1793499872877189389, guid: 9cd52df79ad834b19be1df3b06c5fd42, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1793499872877189389, guid: 9cd52df79ad834b19be1df3b06c5fd42, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 1793499872877189389, guid: 9cd52df79ad834b19be1df3b06c5fd42, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1793499872877189389, guid: 9cd52df79ad834b19be1df3b06c5fd42, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1793499872877189389, guid: 9cd52df79ad834b19be1df3b06c5fd42, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1793499872877189389, guid: 9cd52df79ad834b19be1df3b06c5fd42, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1793499872877189389, guid: 9cd52df79ad834b19be1df3b06c5fd42, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1793499872877189389, guid: 9cd52df79ad834b19be1df3b06c5fd42, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1793499872877189389, guid: 9cd52df79ad834b19be1df3b06c5fd42, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1793499872877189389, guid: 9cd52df79ad834b19be1df3b06c5fd42, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9cd52df79ad834b19be1df3b06c5fd42, type: 3}
 --- !u!1 &1728572913
 GameObject:
   m_ObjectHideFlags: 0
@@ -1461,3 +1664,5 @@ SceneRoots:
   - {fileID: 2128175928}
   - {fileID: 452923493}
   - {fileID: 2655404283206763869}
+  - {fileID: 1629071156}
+  - {fileID: 220638133}

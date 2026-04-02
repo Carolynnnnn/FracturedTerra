@@ -5,6 +5,9 @@ using UnityEngine.InputSystem;
 public class PlayerActions : MonoBehaviour // Handles attack, use item, and menu keys
 {
     [SerializeField] private PlayerState state; // Reference to the PlayerState script
+    [SerializeField] private GameObject attackHitbox; // Hitbox object that turns on during attack
+    [SerializeField] private Animator animator; // Animator that plays the attack animation
+    [SerializeField] private float attackDuration = 0.2f; // How long the attack hitbox stays active
 
     private InputAction attackAction; // O key
     private InputAction useItemAction; // E key
@@ -36,19 +39,51 @@ public class PlayerActions : MonoBehaviour // Handles attack, use item, and menu
         menuAction.Disable(); // Turn off menu input
     }
 
-    
-
-    private void Attack() // Handles attack key
+    private void Start() // Runs before the first frame update
     {
-        if (state != null && !state.canMove) return; // Optional safety check
-        Debug.Log("Attack pressed (O)"); // Placeholder for attack logic
+        if (attackHitbox != null) // Make sure attack hitbox exists
+        {
+            attackHitbox.SetActive(false); // Keep it off until attacking
+        }
     }
 
-
-    private void UseItem() // Handles use item key
+    private void Attack() // Handles attack input
     {
         if (state != null && !state.canMove) return; // Optional safety check
-        Debug.Log("Use item pressed (E)"); // Placeholder for use-item logic
+        if (isAttacking) return; // Prevent starting another attack while already attacking
+
+        Debug.Log("Attack pressed (O)"); // Debug message
+        StartCoroutine(DoAttack()); // Start timed attack sequence
+    }
+
+    private IEnumerator DoAttack() // Plays animation and turns hitbox on briefly
+    {
+        isAttacking = true; // Mark attack active
+
+        if (animator != null) // Make sure animator exists
+        {
+            animator.SetTrigger("Attack"); // Play attack animation
+        }
+
+        if (attackHitbox != null) // Make sure hitbox exists
+        {
+            attackHitbox.SetActive(true); // Turn on hitbox
+        }
+
+        yield return new WaitForSeconds(attackDuration); // Wait during attack window
+
+        if (attackHitbox != null) // Make sure hitbox still exists
+        {
+            attackHitbox.SetActive(false); // Turn off hitbox
+        }
+
+        isAttacking = false; // Attack finished
+    }
+
+    private void UseItem() // Handles use item input
+    {
+        if (state != null && !state.canMove) return; // Optional safety check
+        Debug.Log("Use item pressed (E)"); // Placeholder for item logic
     }
 
 

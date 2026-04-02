@@ -3,12 +3,13 @@ using UnityEngine;
 public class AbilityProjectileRP : MonoBehaviour
 {
     public float speed = 8f;
-    public float lifetime = 2f;
+    public float lifetime = 0.6f;
     public int damage = 1;
     public LayerMask enemyLayer;
     public LayerMask breakableLayer;
 
     private Vector2 direction = Vector2.right;
+    private bool hasHitSomething = false;
 
     public void SetDirection(Vector2 newDirection)
     {
@@ -22,11 +23,15 @@ public class AbilityProjectileRP : MonoBehaviour
 
     void Update()
     {
+        if (hasHitSomething) return;
+
         transform.position += (Vector3)(direction * speed * Time.deltaTime);
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
+        if (hasHitSomething) return;
+
         if (((1 << other.gameObject.layer) & enemyLayer) != 0)
         {
             EnemyHealthRP enemy = other.GetComponent<EnemyHealthRP>();
@@ -35,6 +40,7 @@ public class AbilityProjectileRP : MonoBehaviour
                 enemy.TakeDamage(damage);
             }
 
+            hasHitSomething = true;
             Destroy(gameObject);
             return;
         }
@@ -46,6 +52,7 @@ public class AbilityProjectileRP : MonoBehaviour
                 Destroy(other.gameObject);
             }
 
+            hasHitSomething = true;
             Destroy(gameObject);
         }
     }

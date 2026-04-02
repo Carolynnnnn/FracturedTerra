@@ -1,0 +1,28 @@
+fileFormatVersion: 2
+guid: f57fee456df9b4346b7f6782fde4eea4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - state: {instanceID: 0}
+  - body: {instanceID: 0}
+  - outfit: {instanceID: 0}
+  - shortHair: {instanceID: 0}
+  - longHair: {instanceID: 0}
+  - idleDownBody: {instanceID: 0}
+  - idleUpBody: {instanceID: 0}
+  - idleSideBody: {instanceID: 0}
+  - idleDownShort: {instanceID: 0}
+  - idleUpShort: {instanceID: 0}
+  - idleSideShort: {instanceID: 0}
+  - idleDownLong: {instanceID: 0}
+  - idleUpLong: {instanceID: 0}
+  - idleSideLong: {instanceID: 0}
+  - idleDownOutfit: {instanceID: 0}
+  - idleUpOutfit: {instanceID: 0}
+  - idleSideOutfit: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

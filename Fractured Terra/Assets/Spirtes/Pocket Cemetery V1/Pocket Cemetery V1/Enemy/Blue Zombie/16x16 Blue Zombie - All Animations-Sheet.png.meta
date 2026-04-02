@@ -1,0 +1,1573 @@
+fileFormatVersion: 2
+guid: fbdbbed247b466c4191ed83b4c58eb88
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5551578060951963001
+    second: 16x16 Blue Zombie - All Animations-Sheet_0
+  - first:
+      213: 4552718899781328650
+    second: 16x16 Blue Zombie - All Animations-Sheet_1
+  - first:
+      213: -4094918779422253475
+    second: 16x16 Blue Zombie - All Animations-Sheet_2
+  - first:
+      213: 5315597884198490823
+    second: 16x16 Blue Zombie - All Animations-Sheet_3
+  - first:
+      213: 2899860594896057856
+    second: 16x16 Blue Zombie - All Animations-Sheet_4
+  - first:
+      213: -125353350839542444
+    second: 16x16 Blue Zombie - All Animations-Sheet_5
+  - first:
+      213: 5827389580608687892
+    second: 16x16 Blue Zombie - All Animations-Sheet_6
+  - first:
+      213: 7503494423391065272
+    second: 16x16 Blue Zombie - All Animations-Sheet_7
+  - first:
+      213: 2514142023755223964
+    second: 16x16 Blue Zombie - All Animations-Sheet_8
+  - first:
+      213: 8966251756394918589
+    second: 16x16 Blue Zombie - All Animations-Sheet_9
+  - first:
+      213: 1300306006946122648
+    second: 16x16 Blue Zombie - All Animations-Sheet_10
+  - first:
+      213: 5173680110670296517
+    second: 16x16 Blue Zombie - All Animations-Sheet_11
+  - first:
+      213: 6113629233628102126
+    second: 16x16 Blue Zombie - All Animations-Sheet_12
+  - first:
+      213: -2185634704224434966
+    second: 16x16 Blue Zombie - All Animations-Sheet_13
+  - first:
+      213: -745494398921115773
+    second: 16x16 Blue Zombie - All Animations-Sheet_14
+  - first:
+      213: -7644260455015561178
+    second: 16x16 Blue Zombie - All Animations-Sheet_15
+  - first:
+      213: -8488245208158393913
+    second: 16x16 Blue Zombie - All Animations-Sheet_16
+  - first:
+      213: -2134777966098361669
+    second: 16x16 Blue Zombie - All Animations-Sheet_17
+  - first:
+      213: 3186177166882499337
+    second: 16x16 Blue Zombie - All Animations-Sheet_18
+  - first:
+      213: 3427649976760189942
+    second: 16x16 Blue Zombie - All Animations-Sheet_19
+  - first:
+      213: -3670356304063511998
+    second: 16x16 Blue Zombie - All Animations-Sheet_20
+  - first:
+      213: -259649166188913128
+    second: 16x16 Blue Zombie - All Animations-Sheet_21
+  - first:
+      213: 1259053795290280227
+    second: 16x16 Blue Zombie - All Animations-Sheet_22
+  - first:
+      213: -4991413802988151434
+    second: 16x16 Blue Zombie - All Animations-Sheet_23
+  - first:
+      213: -4630638965658277560
+    second: 16x16 Blue Zombie - All Animations-Sheet_24
+  - first:
+      213: 453891564777183950
+    second: 16x16 Blue Zombie - All Animations-Sheet_25
+  - first:
+      213: -675470249258339829
+    second: 16x16 Blue Zombie - All Animations-Sheet_26
+  - first:
+      213: -3270843451413591648
+    second: 16x16 Blue Zombie - All Animations-Sheet_27
+  - first:
+      213: 1877810099720974915
+    second: 16x16 Blue Zombie - All Animations-Sheet_28
+  - first:
+      213: 6672277072343117132
+    second: 16x16 Blue Zombie - All Animations-Sheet_29
+  - first:
+      213: 8855961852807931183
+    second: 16x16 Blue Zombie - All Animations-Sheet_30
+  - first:
+      213: 1768293906504044695
+    second: 16x16 Blue Zombie - All Animations-Sheet_31
+  - first:
+      213: -2747787865638721170
+    second: 16x16 Blue Zombie - All Animations-Sheet_32
+  - first:
+      213: 5376568933583244273
+    second: 16x16 Blue Zombie - All Animations-Sheet_33
+  - first:
+      213: -6588557811662597389
+    second: 16x16 Blue Zombie - All Animations-Sheet_34
+  - first:
+      213: -6355507924110350331
+    second: 16x16 Blue Zombie - All Animations-Sheet_35
+  - first:
+      213: -5913343466543328084
+    second: 16x16 Blue Zombie - All Animations-Sheet_36
+  - first:
+      213: -7029917050209061361
+    second: 16x16 Blue Zombie - All Animations-Sheet_37
+  - first:
+      213: -4953415631945598438
+    second: 16x16 Blue Zombie - All Animations-Sheet_38
+  - first:
+      213: 5364750945539346466
+    second: 16x16 Blue Zombie - All Animations-Sheet_39
+  - first:
+      213: 820560178160110944
+    second: 16x16 Blue Zombie - All Animations-Sheet_40
+  - first:
+      213: -8541836881331913945
+    second: 16x16 Blue Zombie - All Animations-Sheet_41
+  - first:
+      213: 5487062558042674732
+    second: 16x16 Blue Zombie - All Animations-Sheet_42
+  - first:
+      213: 1806772861627160704
+    second: 16x16 Blue Zombie - All Animations-Sheet_43
+  - first:
+      213: 1537802134848607249
+    second: 16x16 Blue Zombie - All Animations-Sheet_44
+  - first:
+      213: 5373829188075165035
+    second: 16x16 Blue Zombie - All Animations-Sheet_45
+  - first:
+      213: -1385973086974106469
+    second: 16x16 Blue Zombie - All Animations-Sheet_46
+  - first:
+      213: -3021172757301411558
+    second: 16x16 Blue Zombie - All Animations-Sheet_47
+  - first:
+      213: 6987681444967807170
+    second: 16x16 Blue Zombie - All Animations-Sheet_48
+  - first:
+      213: 8112205748088422073
+    second: 16x16 Blue Zombie - All Animations-Sheet_49
+  - first:
+      213: 7918836765488032951
+    second: 16x16 Blue Zombie - All Animations-Sheet_50
+  - first:
+      213: -6740959196806705773
+    second: 16x16 Blue Zombie - All Animations-Sheet_51
+  - first:
+      213: 3260612826682448396
+    second: 16x16 Blue Zombie - All Animations-Sheet_52
+  - first:
+      213: 5712878755307957607
+    second: 16x16 Blue Zombie - All Animations-Sheet_53
+  - first:
+      213: -7053976695538021603
+    second: 16x16 Blue Zombie - All Animations-Sheet_54
+  - first:
+      213: 3351068270272723169
+    second: 16x16 Blue Zombie - All Animations-Sheet_55
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 16x16 Blue Zombie - All Animations-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 12
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78a3b16ca25d4f2b0800000000000000
+      internalID: -5551578060951963001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Blue Zombie - All Animations-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 12
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0f5cafc7b18e2f30800000000000000
+      internalID: 4552718899781328650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Blue Zombie - All Animations-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 12
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5ed570e01deb27c0800000000000000
+      internalID: -4094918779422253475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Blue Zombie - All Animations-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 12
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c21878cc1cc4c940800000000000000
+      internalID: 5315597884198490823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Blue Zombie - All Animations-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 12
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 006bee0d8df5e3820800000000000000
+      internalID: 2899860594896057856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Blue Zombie - All Animations-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 12
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45dddc3aac7a24ef0800000000000000
+      internalID: -125353350839542444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Blue Zombie - All Animations-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 12
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41f4effd2fb0fd050800000000000000
+      internalID: 5827389580608687892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Blue Zombie - All Animations-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 12
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b459504c64c12860800000000000000
+      internalID: 7503494423391065272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Blue Zombie - All Animations-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 12
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c93dfc0a9d604e220800000000000000
+      internalID: 2514142023755223964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Blue Zombie - All Animations-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 12
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db234aa97768e6c70800000000000000
+      internalID: 8966251756394918589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Blue Zombie - All Animations-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 12
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89b845b8c6d9b0210800000000000000
+      internalID: 1300306006946122648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Blue Zombie - All Animations-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 12
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c5b10a36aa9cc740800000000000000
+      internalID: 5173680110670296517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Blue Zombie - All Animations-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 12
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eedb8d68569f7d450800000000000000
+      internalID: 6113629233628102126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Blue Zombie - All Animations-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 12
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae4cfe501d01ba1e0800000000000000
+      internalID: -2185634704224434966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Blue Zombie - All Animations-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 12
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38773424bc877a5f0800000000000000
+      internalID: -745494398921115773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Blue Zombie - All Animations-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 12
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6284b300e912ae590800000000000000
+      internalID: -7644260455015561178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Blue Zombie - All Animations-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 12
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c9ae41b4f1b33a80800000000000000
+      internalID: -8488245208158393913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Blue Zombie - All Animations-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 12
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb2506810cebf52e0800000000000000
+      internalID: -2134777966098361669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Blue Zombie - All Animations-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 12
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90bed7f8043973c20800000000000000
+      internalID: 3186177166882499337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Blue Zombie - All Animations-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 12
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f3ca2f4e75719f20800000000000000
+      internalID: 3427649976760189942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Blue Zombie - All Animations-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 12
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 242cd294366401dc0800000000000000
+      internalID: -3670356304063511998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Blue Zombie - All Animations-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 12
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81e5513857a856cf0800000000000000
+      internalID: -259649166188913128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Blue Zombie - All Animations-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 12
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 321726d81ce097110800000000000000
+      internalID: 1259053795290280227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Blue Zombie - All Animations-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 12
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67dd8e1879feabab0800000000000000
+      internalID: -4991413802988151434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Blue Zombie - All Animations-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 12
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8492bd8156aacbfb0800000000000000
+      internalID: -4630638965658277560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Blue Zombie - All Animations-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 12
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eca171d29fb8c4600800000000000000
+      internalID: 453891564777183950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Blue Zombie - All Animations-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 12
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b02bc98136f30a6f0800000000000000
+      internalID: -675470249258339829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Blue Zombie - All Animations-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 12
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a9849ae531ab92d0800000000000000
+      internalID: -3270843451413591648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Blue Zombie - All Animations-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 12
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 342728d26525f0a10800000000000000
+      internalID: 1877810099720974915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Blue Zombie - All Animations-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 12
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4daef365a0b89c50800000000000000
+      internalID: 6672277072343117132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Blue Zombie - All Animations-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 1457
+        y: 12
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f25e60d5262b6ea70800000000000000
+      internalID: 8855961852807931183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Blue Zombie - All Animations-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 12
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79059ab60fd3a8810800000000000000
+      internalID: 1768293906504044695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Blue Zombie - All Animations-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 12
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e69a97e9e75edd9d0800000000000000
+      internalID: -2747787865638721170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Blue Zombie - All Animations-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 12
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fb41a475f86d9a40800000000000000
+      internalID: 5376568933583244273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Blue Zombie - All Animations-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 12
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f2d9b5f39db094a0800000000000000
+      internalID: -6588557811662597389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Blue Zombie - All Animations-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 12
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 508e8384733bcc7a0800000000000000
+      internalID: -6355507924110350331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Blue Zombie - All Animations-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 1745
+        y: 12
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca4dec982759feda0800000000000000
+      internalID: -5913343466543328084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Blue Zombie - All Animations-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 12
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f06b3dd50b7b07e90800000000000000
+      internalID: -7029917050209061361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Blue Zombie - All Animations-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 1842
+        y: 12
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1af3012abee14bb0800000000000000
+      internalID: -4953415631945598438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Blue Zombie - All Animations-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 12
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2205051bf8c637a40800000000000000
+      internalID: 5364750945539346466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Blue Zombie - All Animations-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 12
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06d80107227336b00800000000000000
+      internalID: 820560178160110944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Blue Zombie - All Animations-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 1985
+        y: 12
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72b71eeec9c457980800000000000000
+      internalID: -8541836881331913945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Blue Zombie - All Animations-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 2033
+        y: 12
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c26da782356f52c40800000000000000
+      internalID: 5487062558042674732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Blue Zombie - All Animations-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 2081
+        y: 12
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0885a1f4852f21910800000000000000
+      internalID: 1806772861627160704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Blue Zombie - All Animations-Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 2129
+        y: 12
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1141d7ed4ee575510800000000000000
+      internalID: 1537802134848607249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Blue Zombie - All Animations-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 2177
+        y: 12
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6598debc2da39a40800000000000000
+      internalID: 5373829188075165035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Blue Zombie - All Animations-Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 2224
+        y: 12
+        width: 63
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9428a212d804cce0800000000000000
+      internalID: -1385973086974106469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Blue Zombie - All Animations-Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 12
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1146f35263a216d0800000000000000
+      internalID: -3021172757301411558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Blue Zombie - All Animations-Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 2370
+        y: 12
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c8f4ea704b39f060800000000000000
+      internalID: 6987681444967807170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Blue Zombie - All Animations-Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 2417
+        y: 12
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9be31b7c528549070800000000000000
+      internalID: 8112205748088422073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Blue Zombie - All Animations-Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 2465
+        y: 12
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bca739151c55ed60800000000000000
+      internalID: 7918836765488032951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Blue Zombie - All Animations-Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 2512
+        y: 12
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39d0fec535d4372a0800000000000000
+      internalID: -6740959196806705773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Blue Zombie - All Animations-Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 2561
+        y: 12
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0a5d742716004d20800000000000000
+      internalID: 3260612826682448396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Blue Zombie - All Animations-Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 2608
+        y: 12
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76da107b5f8384f40800000000000000
+      internalID: 5712878755307957607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Blue Zombie - All Animations-Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 2655
+        y: 10
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1b8298a19d3b1e90800000000000000
+      internalID: -7053976695538021603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Blue Zombie - All Animations-Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 2703
+        y: 12
+        width: 67
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e830bb46d2618e20800000000000000
+      internalID: 3351068270272723169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      16x16 Blue Zombie - All Animations-Sheet_0: -5551578060951963001
+      16x16 Blue Zombie - All Animations-Sheet_1: 4552718899781328650
+      16x16 Blue Zombie - All Animations-Sheet_10: 1300306006946122648
+      16x16 Blue Zombie - All Animations-Sheet_11: 5173680110670296517
+      16x16 Blue Zombie - All Animations-Sheet_12: 6113629233628102126
+      16x16 Blue Zombie - All Animations-Sheet_13: -2185634704224434966
+      16x16 Blue Zombie - All Animations-Sheet_14: -745494398921115773
+      16x16 Blue Zombie - All Animations-Sheet_15: -7644260455015561178
+      16x16 Blue Zombie - All Animations-Sheet_16: -8488245208158393913
+      16x16 Blue Zombie - All Animations-Sheet_17: -2134777966098361669
+      16x16 Blue Zombie - All Animations-Sheet_18: 3186177166882499337
+      16x16 Blue Zombie - All Animations-Sheet_19: 3427649976760189942
+      16x16 Blue Zombie - All Animations-Sheet_2: -4094918779422253475
+      16x16 Blue Zombie - All Animations-Sheet_20: -3670356304063511998
+      16x16 Blue Zombie - All Animations-Sheet_21: -259649166188913128
+      16x16 Blue Zombie - All Animations-Sheet_22: 1259053795290280227
+      16x16 Blue Zombie - All Animations-Sheet_23: -4991413802988151434
+      16x16 Blue Zombie - All Animations-Sheet_24: -4630638965658277560
+      16x16 Blue Zombie - All Animations-Sheet_25: 453891564777183950
+      16x16 Blue Zombie - All Animations-Sheet_26: -675470249258339829
+      16x16 Blue Zombie - All Animations-Sheet_27: -3270843451413591648
+      16x16 Blue Zombie - All Animations-Sheet_28: 1877810099720974915
+      16x16 Blue Zombie - All Animations-Sheet_29: 6672277072343117132
+      16x16 Blue Zombie - All Animations-Sheet_3: 5315597884198490823
+      16x16 Blue Zombie - All Animations-Sheet_30: 8855961852807931183
+      16x16 Blue Zombie - All Animations-Sheet_31: 1768293906504044695
+      16x16 Blue Zombie - All Animations-Sheet_32: -2747787865638721170
+      16x16 Blue Zombie - All Animations-Sheet_33: 5376568933583244273
+      16x16 Blue Zombie - All Animations-Sheet_34: -6588557811662597389
+      16x16 Blue Zombie - All Animations-Sheet_35: -6355507924110350331
+      16x16 Blue Zombie - All Animations-Sheet_36: -5913343466543328084
+      16x16 Blue Zombie - All Animations-Sheet_37: -7029917050209061361
+      16x16 Blue Zombie - All Animations-Sheet_38: -4953415631945598438
+      16x16 Blue Zombie - All Animations-Sheet_39: 5364750945539346466
+      16x16 Blue Zombie - All Animations-Sheet_4: 2899860594896057856
+      16x16 Blue Zombie - All Animations-Sheet_40: 820560178160110944
+      16x16 Blue Zombie - All Animations-Sheet_41: -8541836881331913945
+      16x16 Blue Zombie - All Animations-Sheet_42: 5487062558042674732
+      16x16 Blue Zombie - All Animations-Sheet_43: 1806772861627160704
+      16x16 Blue Zombie - All Animations-Sheet_44: 1537802134848607249
+      16x16 Blue Zombie - All Animations-Sheet_45: 5373829188075165035
+      16x16 Blue Zombie - All Animations-Sheet_46: -1385973086974106469
+      16x16 Blue Zombie - All Animations-Sheet_47: -3021172757301411558
+      16x16 Blue Zombie - All Animations-Sheet_48: 6987681444967807170
+      16x16 Blue Zombie - All Animations-Sheet_49: 8112205748088422073
+      16x16 Blue Zombie - All Animations-Sheet_5: -125353350839542444
+      16x16 Blue Zombie - All Animations-Sheet_50: 7918836765488032951
+      16x16 Blue Zombie - All Animations-Sheet_51: -6740959196806705773
+      16x16 Blue Zombie - All Animations-Sheet_52: 3260612826682448396
+      16x16 Blue Zombie - All Animations-Sheet_53: 5712878755307957607
+      16x16 Blue Zombie - All Animations-Sheet_54: -7053976695538021603
+      16x16 Blue Zombie - All Animations-Sheet_55: 3351068270272723169
+      16x16 Blue Zombie - All Animations-Sheet_6: 5827389580608687892
+      16x16 Blue Zombie - All Animations-Sheet_7: 7503494423391065272
+      16x16 Blue Zombie - All Animations-Sheet_8: 2514142023755223964
+      16x16 Blue Zombie - All Animations-Sheet_9: 8966251756394918589
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

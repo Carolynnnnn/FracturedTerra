@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 1c101bc0da9664bed83460b6a3a4432c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - icon: {instanceID: 0}
+  - worldPrefab: {instanceID: 0}
+  - attackSprite: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

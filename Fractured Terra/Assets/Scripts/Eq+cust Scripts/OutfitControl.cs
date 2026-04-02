@@ -9,10 +9,13 @@ public class OutfitControl : MonoBehaviour
     [Header("Real Player")]
     public SpriteRenderer playerOutfit;
 
-    [Header("Outfits (3 only)")]
-    public Sprite[] outfits; // ONLY your 3 real outfits
+    [Header("Animator")]
+    public PlayerVisualAnimator animatorScript;
 
-    private int currentIndex = 0;
+    [Header("Outfits (3 only)")]
+    public Sprite[] outfits; // preview / default still image only
+
+    private static int currentIndex = 0;
     // 0 = no outfit
     // 1-3 = outfits
 
@@ -43,7 +46,16 @@ public class OutfitControl : MonoBehaviour
 
     void ApplyOutfit()
     {
-        // NO OUTFIT
+        if (animatorScript != null)
+        {
+            animatorScript.currentOutfitIndex = currentIndex;
+            Debug.Log("OutfitControl set currentOutfitIndex to: " + currentIndex);
+        }
+        else
+        {
+            Debug.Log("animatorScript is NULL");
+        }
+
         if (currentIndex == 0)
         {
             if (previewOutfit != null)
@@ -55,7 +67,6 @@ public class OutfitControl : MonoBehaviour
             return;
         }
 
-        // OUTFITS (1–3)
         Sprite selected = outfits[currentIndex - 1];
 
         if (previewOutfit != null)

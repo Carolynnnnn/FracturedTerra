@@ -3,7 +3,6 @@ using UnityEngine;
 public class Shop : MonoBehaviour, IInteractable
 {
     public ShopStock stock; // What the shop sells
-    public CoinManager cm; // Keeps track of how many coins the player has
     public InventoryManager inventoryManager; // Keeps track of player's inventory
     
     public bool CanInteract()
@@ -13,15 +12,17 @@ public class Shop : MonoBehaviour, IInteractable
 
     public void Interact()
     {
-        TryBuy(); // Buys an item, if player has enough coins
+        if (ShopMemory.Bought(stock) == stock.maxStock) Debug.Log("There are no " + stock.itemName + "s left in stock.");
+        else TryBuy(); // Buys an item, if player has enough coins
     }
     
     void TryBuy()
     {
-        if (cm.coinCount >= stock.price)
+        if (CoinManager.coinCount >= stock.price)
         {
-            cm.coinCount -= stock.price; // Takes away player's coins
+            CoinManager.coinCount -= stock.price; // Takes away player's coins
             GiveItem(); // Give player the item
+            ShopMemory.Buy(stock); // Save in shop memory
         }
     }
     

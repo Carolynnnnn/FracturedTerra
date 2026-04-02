@@ -4,6 +4,8 @@ using UnityEngine;
 public class ShopStock : ScriptableObject // Set up for reusable single-item shop objs
 {
     public int price; // Holds item price, in coins
+    public int maxStock = -1; // Determines how many items are stocked and available for purchase
+                              // negative value means stock is infinite
     
     // Build item being sold
     public string itemName; // Item's name

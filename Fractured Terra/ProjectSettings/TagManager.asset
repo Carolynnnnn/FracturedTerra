@@ -7,14 +7,19 @@ TagManager:
   - Coin
   - NPC
   - Item
+  - Ground
+  - Attack
+  - Breakable
+  - breakitem
+  - Enemy
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Breakable
   - Water
   - UI
-  - 
+  - Enemy
   - 
   - 
   - 

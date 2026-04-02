@@ -1,5 +1,5 @@
 using UnityEngine;
-
+using System.Collections;
 using UnityEngine.InputSystem;
 
 public class PlayerActions : MonoBehaviour // Handles attack, use item, and menu keys
@@ -12,6 +12,7 @@ public class PlayerActions : MonoBehaviour // Handles attack, use item, and menu
     private InputAction attackAction; // O key
     private InputAction useItemAction; // E key
     private InputAction menuAction; // M key
+    private bool isAttacking = false;
 
     private void Awake() // Runs when the script first loads
     {
@@ -79,6 +80,8 @@ public class PlayerActions : MonoBehaviour // Handles attack, use item, and menu
 
         isAttacking = false; // Attack finished
     }
+    
+
 
     private void UseItem() // Handles use item input
     {

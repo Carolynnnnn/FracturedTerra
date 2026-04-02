@@ -61184,6 +61184,7 @@ GameObject:
   - component: {fileID: 2125956382}
   - component: {fileID: 2125956381}
   - component: {fileID: 2125956383}
+  - component: {fileID: 2125956384}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -61385,7 +61386,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   playerStats: {fileID: 2125956383}
-  playerDefense: {fileID: 0}
+  playerDefense: {fileID: 2125956384}
   playerSprite: {fileID: 1356095792}
   abilities:
   - abilityName: Slash
@@ -61393,7 +61394,7 @@ MonoBehaviour:
     damage: 2
     cooldown: 0
     effectPrefab: {fileID: 5399292868107287360, guid: ddf091a7398672047adac0493aff1ef9, type: 3}
-    unlocked: 0
+    unlocked: 1
     type: 0
   - abilityName: Magic
     range: 2
@@ -61407,7 +61408,7 @@ MonoBehaviour:
     damage: 4
     cooldown: 1
     effectPrefab: {fileID: 2377001158082377150, guid: 6d66b50ac6b371142b897f24a45e29f0, type: 3}
-    unlocked: 1
+    unlocked: 0
     type: 1
   - abilityName: Chain Whip
     range: 2
@@ -61680,6 +61681,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerStatsRP
   weaponDamageBonus: 0
+--- !u!114 &2125956384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2125956368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e72ad97bcabdda74cbdde001df093283, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerDefenseRP
+  isProtected: 0
 --- !u!1 &2145793066
 GameObject:
   m_ObjectHideFlags: 0

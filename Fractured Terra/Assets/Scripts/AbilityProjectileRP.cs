@@ -11,6 +11,9 @@ public class AbilityProjectileRP : MonoBehaviour
     private Vector2 direction = Vector2.right;
     private bool hasHitSomething = false;
 
+    private Collider2D projectileCollider;
+    private Rigidbody2D projectileRb;
+
     public void SetDirection(Vector2 newDirection)
     {
         direction = newDirection.normalized;
@@ -18,6 +21,9 @@ public class AbilityProjectileRP : MonoBehaviour
 
     void Start()
     {
+        projectileCollider = GetComponent<Collider2D>();
+        projectileRb = GetComponent<Rigidbody2D>();
+
         Destroy(gameObject, lifetime);
     }
 
@@ -40,8 +46,7 @@ public class AbilityProjectileRP : MonoBehaviour
                 enemy.TakeDamage(damage);
             }
 
-            hasHitSomething = true;
-            Destroy(gameObject);
+            StopProjectileAndFinishAnimation();
             return;
         }
 
@@ -52,8 +57,26 @@ public class AbilityProjectileRP : MonoBehaviour
                 Destroy(other.gameObject);
             }
 
-            hasHitSomething = true;
-            Destroy(gameObject);
+            StopProjectileAndFinishAnimation();
         }
+    }
+
+    void StopProjectileAndFinishAnimation()
+    {
+        hasHitSomething = true;
+
+        if (projectileCollider != null)
+        {
+            projectileCollider.enabled = false;
+        }
+
+        if (projectileRb != null)
+        {
+            projectileRb.linearVelocity = Vector2.zero;
+            projectileRb.angularVelocity = 0f;
+            projectileRb.simulated = false;
+        }
+
+        Destroy(gameObject, 0.6f);
     }
 }

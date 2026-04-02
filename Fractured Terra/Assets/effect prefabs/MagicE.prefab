@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 1437327760670424888}
   - component: {fileID: 7135432910582932303}
   - component: {fileID: 1118348439173895030}
-  - component: {fileID: -4028212161173514659}
+  - component: {fileID: 3852201033663036212}
+  - component: {fileID: 1154357532530556453}
   m_Layer: 0
   m_Name: MagicE
   m_TagString: Untagged
@@ -133,11 +134,38 @@ MonoBehaviour:
   damage: 1
   enemyLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
   breakableLayer:
     serializedVersion: 2
+    m_Bits: 8
+--- !u!50 &3852201033663036212
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7886528929102517473}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
     m_Bits: 0
---- !u!61 &-4028212161173514659
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!61 &1154357532530556453
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

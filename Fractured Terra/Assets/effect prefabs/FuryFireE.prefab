@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3271326521525910232}
   - component: {fileID: -819604051626973025}
   - component: {fileID: 8291896865354993865}
+  - component: {fileID: 528460263385766940}
   m_Layer: 0
   m_Name: FuryFireE
   m_TagString: Untagged
@@ -183,3 +184,30 @@ MonoBehaviour:
   breakableLayer:
     serializedVersion: 2
     m_Bits: 0
+--- !u!50 &528460263385766940
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2377001158082377150}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0

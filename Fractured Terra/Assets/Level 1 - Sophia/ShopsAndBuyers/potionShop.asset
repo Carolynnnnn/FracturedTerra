@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de1eba8ac5d945a4cad2f05e37798253, type: 3}
+  m_Name: potionShop
+  m_EditorClassIdentifier: Assembly-CSharp::ShopStock
+  price: 5
+  maxStock: -1
+  itemName: Health Potion
+  description: 'A fruity scent is permeating from the bottle. '
+  icon: {fileID: 1185527514606905908, guid: 7ef9cb6e8b1a740558f5f7d98f14a4c6, type: 3}
+  maxLife: 1
+  canUse: 1
+  worldPrefab: {fileID: 0}

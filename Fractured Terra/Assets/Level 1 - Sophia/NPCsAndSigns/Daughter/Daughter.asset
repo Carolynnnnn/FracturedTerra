@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29eba545bae127f488175478b5cdcb00, type: 3}
+  m_Name: Daughter
+  m_EditorClassIdentifier: Assembly-CSharp::NpcDialogue
+  npcName: Young Girl
+  dialogueLines:
+  - Hiya! Did you know my daddy's the mayor?
+  - Not a lot of people don't know it... but he's a big fat liar!
+  - He said he'd get me a pet fishy soon- but I've been waiting soooooooooo long!
+  - Will you go catch me one? Pretty please?
+  - I want one of those silly orange ones!
+  - Wow! It's even cuter than I immagined!
+  - Thank you so much!!! Here you go!
+  - Hopefully my daddy doesn't mind me giving that to you.
+  - Hmmmm... What should I name you little fishy?
+  typingSpeed: 0.05
+  dialogueStates: 0400000007000000
+  itemWantedName: Clownfish
+  itemName: Key
+  description: A small golden key. Glimmers in the tropical sunlight.
+  icon: {fileID: 1095141833252711340, guid: 4a3ba3b73300a8241926bf282592baab, type: 3}
+  maxLife: 1
+  canUse: 0
+  worldPrefab: {fileID: 0}

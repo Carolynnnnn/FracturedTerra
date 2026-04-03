@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29eba545bae127f488175478b5cdcb00, type: 3}
+  m_Name: Mayor
+  m_EditorClassIdentifier: Assembly-CSharp::NpcDialogue
+  npcName: Mayor
+  dialogueLines:
+  - Welcome to our humble town!
+  - You want to get your hands on a purple gem? We've got one of those!
+  - But it's an incredibly powerful artifact, you'll need to work for the town's
+    trust if you want access to it.
+  - I'll tell you what- I'll give you one of the keys to access it IF you retrieve
+    a necklace I lost.
+  - It was a precious family heirloom- and a PIRATE stole it.
+  - He should be somewhere on the east islands now.
+  - My necklace! You've found it!
+  - Thank goodness, I was planning to give this to my daughter for her birthday.
+  - Speaking of which, she should have the other key you're looking for if you don't
+    have it already.
+  - Thanks again! Here's the key.
+  - Have you spoken with my daughter yet?
+  typingSpeed: 0.05
+  dialogueStates: 0500000009000000
+  itemWantedName: Necklace
+  itemName: Key
+  description: A small golden key. Glimmers in the tropical sunlight.
+  icon: {fileID: 1095141833252711340, guid: 4a3ba3b73300a8241926bf282592baab, type: 3}
+  maxLife: 1
+  canUse: 0
+  worldPrefab: {fileID: 0}

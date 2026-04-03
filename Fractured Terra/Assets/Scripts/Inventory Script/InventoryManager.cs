@@ -59,6 +59,15 @@ public class InventoryManager : MonoBehaviour
     void Update()
     {
         HandleDropHold();
+        
+        // Allow player to use items by pressing i
+        if (inventoryToggle != null && inventoryToggle.IsOpen())
+        {
+            if (Input.GetKeyDown(KeyCode.I))
+            {
+                UseSelectedItem();
+            }
+        }
     }
 
     public void SelectSlot(int index)
@@ -94,6 +103,24 @@ public class InventoryManager : MonoBehaviour
         {
             Debug.Log(item.itemName + " cannot be used.");
             return;
+        }
+        
+        // Item effects: If making new item, add case here (must use EXACT item name)
+        switch (item.itemName)
+        {
+            case "Health Potion":
+                Debug.Log("Used Health Potion");
+                PlayerHealth playerHealth = Object.FindFirstObjectByType<PlayerHealth>(); // Get player's health
+
+                if (playerHealth != null)
+                {
+                    playerHealth.Heal(50f); // Heals 50 HP to the player
+                }
+                else
+                {
+                    Debug.LogWarning("PlayerHealth not found!"); // Safety net
+                }
+                break;
         }
 
         item.currentLife--;

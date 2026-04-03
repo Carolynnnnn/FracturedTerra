@@ -75,10 +75,22 @@ public class PlayerHealth : MonoBehaviour
     {
         Debug.Log("Player died");
 
-        // Fast temporary option:
-        gameObject.SetActive(false);
+        // Reset health
+        currentHealth = maxHealth;
+        UpdateHealthBar();
+        
+        // Find player spawner
+        PlayerSpawner playerSpawner = Object.FindFirstObjectByType<PlayerSpawner>();
+        
+        // Respawn player at beginning of level
+        if (playerSpawner != null)
+        {
+            transform.position = playerSpawner.transform.position;
+        }
+        else
+        {
+            Debug.LogWarning("PlayerSpawner not assigned!"); // Safety net
+        }
 
-        // Later you can replace this with:
-        // restart level, respawn, play animation, etc.
     }
 }

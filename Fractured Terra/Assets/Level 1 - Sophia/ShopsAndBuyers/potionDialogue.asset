@@ -15,6 +15,8 @@ MonoBehaviour:
   npcName: Sign
   dialogueLines:
   - 'Healing potions: 5 coins each'
+  - 'Player tips: Scroll over an item in your inventory using the arrow keys, and
+    press i to use it!'
   typingSpeed: 0.05
   dialogueStates: 
   itemWantedName: 

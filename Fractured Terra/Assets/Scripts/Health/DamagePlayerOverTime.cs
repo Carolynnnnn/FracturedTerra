@@ -11,7 +11,10 @@ public class DamagePlayerOverTime : MonoBehaviour
     {
         PlayerHealth playerHealth = other.GetComponent<PlayerHealth>();
 
-        if (playerHealth != null && Time.time >= lastDamageTime + damageCooldown)
+        PlayerState state = other.GetComponent<PlayerState>();
+        bool jumping = state != null && state.isJumping;
+
+        if (playerHealth != null && !jumping && Time.time >= lastDamageTime + damageCooldown)
         {
             playerHealth.TakeDamage(damage);
             lastDamageTime = Time.time;

@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: ad3ca1780450e12418b20e2c633669c2
+guid: 70c16b618483adf4191c0b61c7f78d7f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1473371998666023177
-    second: TophatGhostNPC_0
+      213: -4924096428496797179
+    second: LongHairedGhostNPC_0
   - first:
-      213: 6734420562656823234
-    second: TophatGhostNPC_1
+      213: 766646895810541555
+    second: LongHairedGhostNPC_1
   - first:
-      213: -6632350139411735612
-    second: TophatGhostNPC_2
+      213: 4608963856272099829
+    second: LongHairedGhostNPC_2
   - first:
-      213: -8967590121759875884
-    second: TophatGhostNPC_3
+      213: -7176808283999070554
+    second: LongHairedGhostNPC_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,7 +109,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TophatGhostNPC_0
+      name: LongHairedGhostNPC_0
       rect:
         serializedVersion: 2
         x: 0
@@ -124,14 +124,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7fe118539f78d8be0800000000000000
-      internalID: -1473371998666023177
+      spriteID: 502cda323681aabb0800000000000000
+      internalID: -4924096428496797179
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TophatGhostNPC_1
+      name: LongHairedGhostNPC_1
       rect:
         serializedVersion: 2
         x: 20
@@ -146,14 +146,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2c70f3d32d7757d50800000000000000
-      internalID: 6734420562656823234
+      spriteID: 3f771f43a4da3aa00800000000000000
+      internalID: 766646895810541555
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TophatGhostNPC_2
+      name: LongHairedGhostNPC_2
       rect:
         serializedVersion: 2
         x: 40
@@ -168,14 +168,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4cbd95a10b825f3a0800000000000000
-      internalID: -6632350139411735612
+      spriteID: 5f986bb353456ff30800000000000000
+      internalID: 4608963856272099829
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TophatGhostNPC_3
+      name: LongHairedGhostNPC_3
       rect:
         serializedVersion: 2
         x: 60
@@ -190,8 +190,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4dc533deb48bc8380800000000000000
-      internalID: -8967590121759875884
+      spriteID: 6a6972bd3ead66c90800000000000000
+      internalID: -7176808283999070554
       vertices: []
       indices: 
       edges: []
@@ -200,7 +200,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: e0a128d4c86aa504d867a8cad1a28c6f
+    spriteID: 90ac76fe793bd684e84632ae93aeeddf
     internalID: 0
     vertices: []
     indices: 
@@ -212,10 +212,10 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":1.0},"gridSpriteSize":{"x":20.0,"y":20.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      TophatGhostNPC_0: -1473371998666023177
-      TophatGhostNPC_1: 6734420562656823234
-      TophatGhostNPC_2: -6632350139411735612
-      TophatGhostNPC_3: -8967590121759875884
+      LongHairedGhostNPC_0: -4924096428496797179
+      LongHairedGhostNPC_1: 766646895810541555
+      LongHairedGhostNPC_2: 4608963856272099829
+      LongHairedGhostNPC_3: -7176808283999070554
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

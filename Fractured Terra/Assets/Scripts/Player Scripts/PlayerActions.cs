@@ -12,18 +12,12 @@ public class PlayerActions : MonoBehaviour
     [SerializeField] private Animator animator;
     [SerializeField] private float attackDuration = 0.2f;
 
-
-    private InputAction attackAction;
-    private InputAction useItemAction;
-    private InputAction menuAction;
-
+    
     private InputAction attackAction; // O key
     private InputAction useItemAction; // E key
     private InputAction menuAction; // M key
     private bool isAttacking = false;
 
-
-    private bool isAttacking = false;
 
     private void Awake()
     {

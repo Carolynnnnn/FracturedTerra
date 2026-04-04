@@ -132,7 +132,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 662a001d19b3e7e44b1f5d1eb16ef151, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::slimeAI
-  moveSpeed: 9
+  moveSpeed: 3
   detectionRange: 9
 --- !u!114 &1919834529976845923
 MonoBehaviour:

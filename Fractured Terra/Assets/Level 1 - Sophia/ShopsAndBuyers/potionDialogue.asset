@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29eba545bae127f488175478b5cdcb00, type: 3}
+  m_Name: potionDialogue
+  m_EditorClassIdentifier: Assembly-CSharp::NpcDialogue
+  npcName: Sign
+  dialogueLines:
+  - 'Healing potions: 5 coins each'
+  - 'Player tips: Scroll over an item in your inventory using the arrow keys, and
+    press i to use it!'
+  typingSpeed: 0.05
+  dialogueStates: 
+  itemWantedName: 
+  itemName: 
+  description: 
+  icon: {fileID: 0}
+  maxLife: 1
+  canUse: 0
+  worldPrefab: {fileID: 0}

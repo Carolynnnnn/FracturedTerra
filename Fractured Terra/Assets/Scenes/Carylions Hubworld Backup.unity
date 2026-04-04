@@ -51560,6 +51560,91 @@ MonoBehaviour:
   description: TBA
   icon: {fileID: -3167540134109962797, guid: 4cea85890e9294f46a4e142eb0b4163e, type: 3}
   isEquipment: 0
+--- !u!1001 &1424419524
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 285021835691416426, guid: 5186108abd895d74d8762f87d9782e06, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 36.43
+      objectReference: {fileID: 0}
+    - target: {fileID: 285021835691416426, guid: 5186108abd895d74d8762f87d9782e06, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 10.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 285021835691416426, guid: 5186108abd895d74d8762f87d9782e06, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 285021835691416426, guid: 5186108abd895d74d8762f87d9782e06, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 285021835691416426, guid: 5186108abd895d74d8762f87d9782e06, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 285021835691416426, guid: 5186108abd895d74d8762f87d9782e06, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 285021835691416426, guid: 5186108abd895d74d8762f87d9782e06, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 285021835691416426, guid: 5186108abd895d74d8762f87d9782e06, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 285021835691416426, guid: 5186108abd895d74d8762f87d9782e06, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 285021835691416426, guid: 5186108abd895d74d8762f87d9782e06, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022730083270552479, guid: 5186108abd895d74d8762f87d9782e06, type: 3}
+      propertyPath: m_SortingOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062477034809172492, guid: 5186108abd895d74d8762f87d9782e06, type: 3}
+      propertyPath: m_Name
+      value: DefaultChest
+      objectReference: {fileID: 0}
+    - target: {fileID: 2330190664013676636, guid: 5186108abd895d74d8762f87d9782e06, type: 3}
+      propertyPath: icon
+      value: 
+      objectReference: {fileID: 8569003786385872269, guid: 1cc5ed625ce76f640857d5b65e839464, type: 3}
+    - target: {fileID: 2330190664013676636, guid: 5186108abd895d74d8762f87d9782e06, type: 3}
+      propertyPath: isWeapon
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2330190664013676636, guid: 5186108abd895d74d8762f87d9782e06, type: 3}
+      propertyPath: itemName
+      value: Wood Sword
+      objectReference: {fileID: 0}
+    - target: {fileID: 2330190664013676636, guid: 5186108abd895d74d8762f87d9782e06, type: 3}
+      propertyPath: description
+      value: A basic wooden sword
+      objectReference: {fileID: 0}
+    - target: {fileID: 2330190664013676636, guid: 5186108abd895d74d8762f87d9782e06, type: 3}
+      propertyPath: attackSprite
+      value: 
+      objectReference: {fileID: 8569003786385872269, guid: 1cc5ed625ce76f640857d5b65e839464, type: 3}
+    - target: {fileID: 2330190664013676636, guid: 5186108abd895d74d8762f87d9782e06, type: 3}
+      propertyPath: inventoryManager
+      value: 
+      objectReference: {fileID: 349270584}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5186108abd895d74d8762f87d9782e06, type: 3}
 --- !u!1001 &1424605726
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -61185,6 +61270,7 @@ GameObject:
   - component: {fileID: 2125956381}
   - component: {fileID: 2125956383}
   - component: {fileID: 2125956384}
+  - component: {fileID: 2125956385}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -61694,6 +61780,37 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerDefenseRP
   isProtected: 0
+--- !u!114 &2125956385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2125956368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1e4a820199884807b69668ad0fc6a3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponEquip
+  inventoryManager: {fileID: 349270584}
+  inventorySelect: {fileID: 349270583}
+  playerStats: {fileID: 2125956383}
+  weaponRenderer: {fileID: 0}
+  equippedWeapon:
+    itemName: 
+    description: 
+    icon: {fileID: 0}
+    maxLife: 0
+    currentLife: 0
+    canUse: 0
+    worldPrefab: {fileID: 0}
+    attackPower: 0
+    attackSpeed: 0
+    hitboxSize: {x: 0, y: 0}
+    acquiredInLevel: 
+    attackSprite: {fileID: 0}
+  baseAttackPower: 0
+  baseAttackSpeed: 1
 --- !u!1 &2145793066
 GameObject:
   m_ObjectHideFlags: 0
@@ -62462,3 +62579,4 @@ SceneRoots:
   - {fileID: 977195841}
   - {fileID: 1002786081}
   - {fileID: 604428494}
+  - {fileID: 1424419524}

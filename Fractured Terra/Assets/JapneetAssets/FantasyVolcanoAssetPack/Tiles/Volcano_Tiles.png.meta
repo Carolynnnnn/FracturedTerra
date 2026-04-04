@@ -353,10 +353,10 @@ TextureImporter:
       name: Volcano_Tiles_10
       rect:
         serializedVersion: 2
-        x: 120
+        x: 121
         y: 9
-        width: 32
-        height: 26
+        width: 30
+        height: 27
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -597,7 +597,7 @@ TextureImporter:
         serializedVersion: 2
         x: 112
         y: 0
-        width: 47
+        width: 48
         height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -745,6 +745,28 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Volcano_Tiles_28
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba01f2dd8e334441ca05c7d1532efeef
+      internalID: -651492994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -782,6 +804,7 @@ TextureImporter:
       Volcano_Tiles_25: -1264955506
       Volcano_Tiles_26: -194135599
       Volcano_Tiles_27: -1542796309
+      Volcano_Tiles_28: -651492994
       Volcano_Tiles_3: 8846029264182718985
       Volcano_Tiles_4: 7664118955326183486
       Volcano_Tiles_5: 4196511471145986960

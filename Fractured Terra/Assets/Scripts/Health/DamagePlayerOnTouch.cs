@@ -8,7 +8,7 @@ public class DamagePlayerOnTouch : MonoBehaviour
     {
         PlayerHealth playerHealth = collision.gameObject.GetComponent<PlayerHealth>();
 
-        if (playerHealth != null)
+        if (playerHealth != null && !IsJumping(collision.gameObject))
         {
             playerHealth.TakeDamage(damage);
         }
@@ -18,9 +18,15 @@ public class DamagePlayerOnTouch : MonoBehaviour
     {
         PlayerHealth playerHealth = other.GetComponent<PlayerHealth>();
 
-        if (playerHealth != null)
+        if (playerHealth != null && !IsJumping(other.gameObject))
         {
             playerHealth.TakeDamage(damage);
         }
+    }
+
+    private bool IsJumping(GameObject player)
+    {
+        PlayerState state = player.GetComponent<PlayerState>();
+        return state != null && state.isJumping;
     }
 }

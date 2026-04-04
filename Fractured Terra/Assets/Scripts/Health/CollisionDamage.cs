@@ -32,6 +32,13 @@ public class CollisionDamage : MonoBehaviour
                 return;
         }
 
+        // No damage while jumping
+        if (playerHealth != null)
+        {
+            PlayerState state = GetComponent<PlayerState>();
+            if (state != null && state.isJumping) return;
+        }
+
         // Enforce cooldown
         if (Time.time - lastHitTime < damageCooldown)
             return;

@@ -3509,11 +3509,11 @@ GameObject:
   - component: {fileID: 82044550}
   - component: {fileID: 82044549}
   - component: {fileID: 82044548}
-  - component: {fileID: 82044551}
   - component: {fileID: 82044552}
-  m_Layer: 0
+  - component: {fileID: 82044553}
+  m_Layer: 6
   m_Name: FinalBoss
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3586,8 +3586,8 @@ Transform:
   m_GameObject: {fileID: 82044545}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.93, y: 3.87, z: 0}
-  m_LocalScale: {x: 5, y: 5, z: 5}
+  m_LocalPosition: {x: -1.92, y: 2.78, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -3613,6 +3613,10 @@ MonoBehaviour:
   player: {fileID: 2125956374}
   armProjPrefab: {fileID: 6278005164160014623, guid: 91081ba5e3ee6438e872dcfab0a36585, type: 3}
   laserPrefab: {fileID: 7294900229312583020, guid: 4c68984b9370d4269b9c83393493b180, type: 3}
+  leftArmOffset: {x: -3, y: 3}
+  rightArmOffset: {x: 3, y: 3}
+  leftLaserOffset: {x: -3, y: 3}
+  rightLaserOffset: {x: 3, y: 3}
 --- !u!70 &82044549
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -3677,19 +3681,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &82044551
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 82044545}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13f90033db8b90241815d3032b1a2620, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::EnemyHealthRP
-  maxHealth: 500
 --- !u!95 &82044552
 Animator:
   serializedVersion: 7
@@ -3712,6 +3703,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &82044553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 82044545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b02b3c147c054d26b0ef98d29037848, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
+  health: 1
 --- !u!1 &89486432
 GameObject:
   m_ObjectHideFlags: 0
@@ -12976,11 +12980,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7001342934299352876, guid: 91081ba5e3ee6438e872dcfab0a36585, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.95
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7001342934299352876, guid: 91081ba5e3ee6438e872dcfab0a36585, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.64
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7001342934299352876, guid: 91081ba5e3ee6438e872dcfab0a36585, type: 3}
       propertyPath: m_LocalPosition.z
@@ -31496,6 +31500,71 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1788236185}
   m_CullTransparentMesh: 1
+--- !u!1001 &1792674694
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6512829211468616045, guid: 4c68984b9370d4269b9c83393493b180, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6512829211468616045, guid: 4c68984b9370d4269b9c83393493b180, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6512829211468616045, guid: 4c68984b9370d4269b9c83393493b180, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6512829211468616045, guid: 4c68984b9370d4269b9c83393493b180, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6512829211468616045, guid: 4c68984b9370d4269b9c83393493b180, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6512829211468616045, guid: 4c68984b9370d4269b9c83393493b180, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6512829211468616045, guid: 4c68984b9370d4269b9c83393493b180, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6512829211468616045, guid: 4c68984b9370d4269b9c83393493b180, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6512829211468616045, guid: 4c68984b9370d4269b9c83393493b180, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6512829211468616045, guid: 4c68984b9370d4269b9c83393493b180, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6512829211468616045, guid: 4c68984b9370d4269b9c83393493b180, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6512829211468616045, guid: 4c68984b9370d4269b9c83393493b180, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7294900229312583020, guid: 4c68984b9370d4269b9c83393493b180, type: 3}
+      propertyPath: m_Name
+      value: LaserPrefab
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4c68984b9370d4269b9c83393493b180, type: 3}
 --- !u!1 &1794155241
 GameObject:
   m_ObjectHideFlags: 0
@@ -35678,3 +35747,4 @@ SceneRoots:
   - {fileID: 1145558261}
   - {fileID: 82044547}
   - {fileID: 753354407}
+  - {fileID: 1792674694}

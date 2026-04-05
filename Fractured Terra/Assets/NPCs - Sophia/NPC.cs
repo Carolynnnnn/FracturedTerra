@@ -5,17 +5,50 @@ using TMPro;
 public class NPC : MonoBehaviour, IInteractable
 {
     [SerializeField] private PlayerController playerController; // Helps pause movement
-    
+
     public NpcDialogue dialogueData;
     public GameObject dialoguePanel;
     public TMP_Text dialogueText, nameText;
     public NpcState npcState; // Determines if NPC has a quest, and its state
     public InventoryManager inventoryManager; // Keeps track of player's inventory
-    
+
+    [Header("Checkpoint")]
+    [Tooltip("If checked, talking to this NPC sets a respawn checkpoint at its position.")]
+    public bool isCheckpoint = false;
+
+    [Header("Timer")]
+    [Tooltip("If checked, talking to this NPC starts the time limit challenge.")]
+    public bool startsTimer = false;
+
     private int dialogueIndex;
     private bool isTyping, isDialogueActive;
+    private bool playerInRange;
 
-    public bool CanInteract() // NPC can be interacted with when no dialogue is active
+    void Start()
+    {
+        if (dialoguePanel != null)
+            dialoguePanel.SetActive(false);
+    }
+
+    void Update()
+    {
+        if (playerInRange && Input.GetKeyDown(KeyCode.P))
+            Interact();
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.GetComponent<PlayerHealth>() != null)
+            playerInRange = true;
+    }
+
+    void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.GetComponent<PlayerHealth>() != null)
+            playerInRange = false;
+    }
+
+    public bool CanInteract()
     {
         return !isDialogueActive;
     }
@@ -58,7 +91,16 @@ public class NPC : MonoBehaviour, IInteractable
                     }
                 }
             }
-            StartDialogue(); // Starts talking to NPC
+            if (isCheckpoint)
+        {
+            PlayerHealth ph = FindFirstObjectByType<PlayerHealth>();
+            if (ph != null) ph.SetCheckpoint(transform.position);
+        }
+
+        if (startsTimer && TimeLimitManager.Instance != null)
+            TimeLimitManager.Instance.StartTimer();
+
+        StartDialogue(); // Starts talking to NPC
         }
     }
     void StartDialogue() // Controls UI display

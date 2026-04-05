@@ -1609,11 +1609,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2002, guid: e1f2a3b4c5d678901e2f3a4b5c678901, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2002, guid: e1f2a3b4c5d678901e2f3a4b5c678901, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2002, guid: e1f2a3b4c5d678901e2f3a4b5c678901, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1662,7 +1662,7 @@ PrefabInstance:
     - target: {fileID: 2006, guid: e1f2a3b4c5d678901e2f3a4b5c678901, type: 3}
       propertyPath: dialogueData
       value: 
-      objectReference: {fileID: 11400000, guid: b1c2d3e4f5a678901b2c3d4e5f678901, type: 2}
+      objectReference: {fileID: 11400000, guid: c3d4e5f6a7b890123c4d5e6f7a890123, type: 2}
     - target: {fileID: 2006, guid: e1f2a3b4c5d678901e2f3a4b5c678901, type: 3}
       propertyPath: dialogueText
       value: 

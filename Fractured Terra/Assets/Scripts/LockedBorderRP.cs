@@ -4,26 +4,43 @@ public class LockedBorderRP : MonoBehaviour
 {
     public InventoryManager inventoryManager;
     public string requiredItemName = "GoldKey";
-    public Collider2D[] blockingColliders;
+    public Collider2D blockingCollider;
     public GoldKeyChestRP linkedChest;
 
     private bool unlocked = false;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (!other.CompareTag("Player")) return;
-        if (unlocked) return;
-        if (inventoryManager == null) return;
+        Debug.Log("TRIGGER HIT: " + other.name);
+
+        if (!other.CompareTag("Player"))
+        {
+            Debug.Log("Not player");
+            return;
+        }
+
+        if (unlocked)
+        {
+            Debug.Log("Already unlocked");
+            return;
+        }
+
+        if (inventoryManager == null)
+        {
+            Debug.Log("InventoryManager missing");
+            return;
+        }
 
         InventoryItem keyItem = inventoryManager.FindItemByName(requiredItemName);
 
         if (keyItem != null)
         {
+            Debug.Log("KEY FOUND");
             UnlockBorder();
         }
         else
         {
-            Debug.Log("Locked. Need " + requiredItemName);
+            Debug.Log("NO KEY FOUND");
         }
     }
 
@@ -31,24 +48,23 @@ public class LockedBorderRP : MonoBehaviour
     {
         unlocked = true;
 
+        Debug.Log("UNLOCKING BORDER");
+
         inventoryManager.RemoveItemByName(requiredItemName);
 
-        if (blockingColliders != null)
+        if (blockingCollider != null)
         {
-            foreach (Collider2D col in blockingColliders)
-            {
-                if (col != null)
-                {
-                    col.enabled = false;
-                }
-            }
+            Debug.Log("Disabling collider: " + blockingCollider.name);
+            blockingCollider.enabled = false;
+        }
+        else
+        {
+            Debug.Log("blockingCollider is NULL");
         }
 
         if (linkedChest != null)
         {
             linkedChest.RefillChest();
         }
-
-        Debug.Log("Unlocked with " + requiredItemName);
     }
 }

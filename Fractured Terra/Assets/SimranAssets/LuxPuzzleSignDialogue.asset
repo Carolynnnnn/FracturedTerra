@@ -17,6 +17,7 @@ MonoBehaviour:
   - The mirrors once guided light through the castle.
   - Activate each mirror to restore the light path.
   - When all mirrors align, the way forward will open.
+  - Press P near each mirror to activate it.
   typingSpeed: 0.05
   dialogueStates:
   itemWantedName:

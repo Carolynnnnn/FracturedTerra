@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Bash(xargs grep:*)"
+      "Bash(xargs grep:*)",
+      "Bash(grep -A 10 \"^--- !u!1 &53001098$\" \"/c/GitHub Project/FracturedTerra/Fractured Terra/Assets/Scenes/Levels/Simran_Level5.unity\")",
+      "Bash(grep -A 8 '^--- !u!1 &__TRACKED_VAR__$' '/c/GitHub Project/FracturedTerra/Fractured Terra/Assets/Scenes/Levels/Simran_Level5.unity')"
     ]
   }
 }

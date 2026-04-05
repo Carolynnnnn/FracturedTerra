@@ -40,10 +40,18 @@ public class AbilityProjectileRP : MonoBehaviour
 
         if (((1 << other.gameObject.layer) & enemyLayer) != 0)
         {
-            EnemyHealthRP enemy = other.GetComponent<EnemyHealthRP>();
-            if (enemy != null)
+            FinalBossHealthRP boss = other.GetComponent<FinalBossHealthRP>();
+            if (boss != null)
             {
-                enemy.TakeDamage(damage);
+                boss.TakeDamage(damage);
+            }
+            else
+            {
+                EnemyHealthRP enemy = other.GetComponent<EnemyHealthRP>();
+                if (enemy != null)
+                {
+                    enemy.TakeDamage(damage);
+                }
             }
 
             StopProjectileAndFinishAnimation();

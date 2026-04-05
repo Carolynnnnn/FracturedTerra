@@ -16,9 +16,10 @@ MonoBehaviour:
   dialogueLines:
   - Hello Player, welcome to Opscuro!
   - 'A few thing to note about this level, '
-  - 1. There is quite a bit of combat, interac with the pink Crystals, these will
-    be your save points
-  - '2.  William is you guide, he wears a top hat '
+  - 1. William will be your guide
+  - 2. Notes will help you solve riddles
+  - 3. watch out for zombies they will harm you
+  - 'ghosts and skeltons are friendly '
   - Goodluck Player
   typingSpeed: 0.05
   dialogueStates: 

@@ -17,9 +17,8 @@ MonoBehaviour:
   - Hi player, be cautious going forward
   - your about to enter what once a peaceful resting place, that has since been corrupted
     by Umbra Terra and turned into a battlefeild
-  - 'Enemies will spawn once you enter, fight them off to be able to continue though
-    this level  '
-  - save you respawn point here befor entering
+  - Enemies will spawn once you enter, fight them off to be able to continue though
+    this level, there are 7 total
   typingSpeed: 0.05
   dialogueStates: 
   itemWantedName: 

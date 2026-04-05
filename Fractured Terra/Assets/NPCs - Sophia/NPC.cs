@@ -22,7 +22,7 @@ public class NPC : MonoBehaviour, IInteractable
 
     private int dialogueIndex;
     private bool isTyping, isDialogueActive;
-    private bool playerInRange;
+    private bool playerInRange; 
 
     void Start()
     {

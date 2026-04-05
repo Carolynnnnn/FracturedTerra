@@ -139,10 +139,18 @@ public class PlayerAttackRP : MonoBehaviour
 
         foreach (Collider2D hit in enemyHits)
         {
-            EnemyHealthRP enemy = hit.GetComponent<EnemyHealthRP>();
-            if (enemy != null)
+            FinalBossHealthRP boss = hit.GetComponent<FinalBossHealthRP>();
+            if (boss != null)
             {
-                enemy.TakeDamage(finalDamage);
+                boss.TakeDamage(finalDamage);
+            }
+            else
+            {
+                EnemyHealthRP enemy = hit.GetComponent<EnemyHealthRP>();
+                if (enemy != null)
+                {
+                    enemy.TakeDamage(finalDamage);
+                }
             }
         }
 
@@ -175,10 +183,18 @@ public class PlayerAttackRP : MonoBehaviour
 
         foreach (Collider2D hit in enemyHits)
         {
-            EnemyHealthRP enemy = hit.GetComponent<EnemyHealthRP>();
-            if (enemy != null)
+            FinalBossHealthRP boss = hit.GetComponent<FinalBossHealthRP>();
+            if (boss != null)
             {
-                enemy.TakeDamage(finalDamage);
+                boss.TakeDamage(finalDamage);
+            }
+            else
+            {
+                EnemyHealthRP enemy = hit.GetComponent<EnemyHealthRP>();
+                if (enemy != null)
+                {
+                    enemy.TakeDamage(finalDamage);
+                }
             }
         }
 
@@ -264,6 +280,14 @@ public class PlayerAttackRP : MonoBehaviour
 
         foreach (Collider2D hit in enemyHits)
         {
+            // Final boss is intentionally unaffected by freeze abilities
+
+            FinalBossHealthRP boss = hit.GetComponent<FinalBossHealthRP>();
+            if (boss != null)
+            {
+                continue;
+            }
+
             EnemyHealthRP enemyHealth = hit.GetComponent<EnemyHealthRP>();
             if (enemyHealth != null)
             {
@@ -310,6 +334,13 @@ public class PlayerAttackRP : MonoBehaviour
 
         foreach (Collider2D hit in enemyHits)
         {
+            // Final boss is intentionally unaffected by charm abilities
+            FinalBossHealthRP boss = hit.GetComponent<FinalBossHealthRP>();
+            if (boss != null)
+            {
+                continue;
+            }
+
             EnemyStatusRP status = hit.GetComponent<EnemyStatusRP>();
             if (status != null)
             {
@@ -382,10 +413,18 @@ public class PlayerAttackRP : MonoBehaviour
 
             foreach (Collider2D hit in enemyHits)
             {
-                EnemyHealthRP enemy = hit.GetComponent<EnemyHealthRP>();
-                if (enemy != null)
+                FinalBossHealthRP boss = hit.GetComponent<FinalBossHealthRP>();
+                if (boss != null)
                 {
-                    enemy.TakeDamage(finalDamage);
+                    boss.TakeDamage(finalDamage);
+                }
+                else
+                {
+                    EnemyHealthRP enemy = hit.GetComponent<EnemyHealthRP>();
+                    if (enemy != null)
+                    {
+                        enemy.TakeDamage(finalDamage);
+                    }
                 }
             }
 

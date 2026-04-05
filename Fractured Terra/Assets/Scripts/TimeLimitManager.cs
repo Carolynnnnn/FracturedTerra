@@ -26,6 +26,8 @@ public class TimeLimitManager : MonoBehaviour
     private bool isActive = false;
     private bool isComplete = false;
 
+    public int KeysCollected => keysCollected;
+
     void Awake()
     {
         Instance = this;

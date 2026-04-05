@@ -119,6 +119,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &15019731 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7601771717013776678, guid: 295d3db4b4c4bf84f80cd5805db87926, type: 3}
+  m_PrefabInstance: {fileID: 1699018171}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &15410787
 GameObject:
   m_ObjectHideFlags: 0
@@ -3687,7 +3692,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 82044545}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 6286992587047916036, guid: 1b19c271f94584bf2b909f84eb641e51, type: 3}
   m_CullingMode: 0
@@ -28068,6 +28073,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1409518444}
   m_CullTransparentMesh: 1
+--- !u!1 &1414985466 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 847858707545896673, guid: 495e8748cf8a7574d8ce77c515b7da74, type: 3}
+  m_PrefabInstance: {fileID: 1667128362}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1423624431
 GameObject:
   m_ObjectHideFlags: 0
@@ -29120,8 +29130,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd1d07eab098a486a8c06595579a780f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BossSceneManager
-  gemChest: {fileID: 847858707545896673, guid: 495e8748cf8a7574d8ce77c515b7da74, type: 3}
-  exitPortal: {fileID: 7601771717013776678, guid: 295d3db4b4c4bf84f80cd5805db87926, type: 3}
+  gemChest: {fileID: 1414985466}
+  exitPortal: {fileID: 15019731}
   chestRevealPosition: {x: 1.3, y: 5.11, z: 0}
   portalRevealPosition: {x: 3.67, y: 5.36, z: 0}
 --- !u!4 &1517045925
@@ -29656,7 +29666,7 @@ MonoBehaviour:
   target: {fileID: 2125956374}
   smoothSpeed: 0.125
   offset: {x: 0, y: 0, z: -10}
-  minX: -100
+  minX: -9
   maxX: 100
   minY: -100
   maxY: 100

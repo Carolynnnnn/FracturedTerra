@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 847858707545896673}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.98, y: -0.91, z: 0}
+  m_LocalPosition: {x: 1.3, y: 5.11, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -130,12 +130,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Chest
   inventoryManager: {fileID: 0}
+  isWeapon: 0
   itemName: Gem
   description: 
   icon: {fileID: 0}
   maxLife: 1
   canUse: 0
   worldPrefab: {fileID: 0}
+  attackPower: 5
+  attackSpeed: 1
+  hitboxSize: {x: 1, y: 1}
+  acquiredInLevel: HubWorld
+  attackSprite: {fileID: 0}
 --- !u!61 &6670264652019523007
 BoxCollider2D:
   m_ObjectHideFlags: 0

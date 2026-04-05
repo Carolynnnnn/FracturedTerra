@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class GemPickup : MonoBehaviour
+public class Level2GemPickup : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D other)
     {

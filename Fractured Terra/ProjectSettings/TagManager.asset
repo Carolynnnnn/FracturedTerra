@@ -12,6 +12,7 @@ TagManager:
   - Breakable
   - breakitem
   - Enemy
+  - Gem
   layers:
   - Default
   - TransparentFX

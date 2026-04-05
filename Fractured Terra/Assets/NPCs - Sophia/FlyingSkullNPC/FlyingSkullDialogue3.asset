@@ -14,11 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NpcDialogue
   npcName: Skull Spirit
   dialogueLines:
-  - So... you made it through.
-  - You have reached the first checkpoint. If you die, you will respawn here.
-  - Few ever reach this place. Fewer still leave it.
-  - The fracture lies just beyond. Are you certain you are ready?
-  - Then go. Prove that the living still have worth in these broken lands.
+  - Congratulations! You are almost done.
+  - Press P near the key to collect it.
+  - You can use the key to open the chest after crossing the bridge.
+  - Be careful, there might be more enemies!
   typingSpeed: 0.05
   dialogueStates: 
   itemWantedName: 

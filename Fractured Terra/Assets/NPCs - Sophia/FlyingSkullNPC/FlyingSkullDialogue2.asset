@@ -17,8 +17,11 @@ MonoBehaviour:
   - So... you made it through.
   - You have reached the first checkpoint. If you die, you will respawn here.
   - Few ever reach this place. Fewer still leave it.
-  - The fracture lies just beyond. Are you certain you are ready?
-  - Then go. Prove that the living still have worth in these broken lands.
+  - Behind the castle, you will find a chest that contains a key. You need at least
+    5 coins to open the chest.
+  - Once you have retrieved the key, you must find 2 more hidden across the island.
+  - You need to find all 3 keys to open the final chest and leave the island. Goodluck!
+  - You have 2 minutes. Your time starts now.
   typingSpeed: 0.05
   dialogueStates: 
   itemWantedName: 

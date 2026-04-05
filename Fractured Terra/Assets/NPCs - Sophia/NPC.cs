@@ -22,30 +22,27 @@ public class NPC : MonoBehaviour, IInteractable
 
     private int dialogueIndex;
     private bool isTyping, isDialogueActive;
-    private bool playerInRange;
+    private Transform player;
+
+    [Header("Interaction")]
+    public float interactRadius = 2f;
 
     void Start()
     {
         if (dialoguePanel != null)
             dialoguePanel.SetActive(false);
+
+        PlayerHealth ph = FindFirstObjectByType<PlayerHealth>();
+        if (ph != null) player = ph.transform;
     }
 
     void Update()
     {
-        if (playerInRange && Input.GetKeyDown(KeyCode.P))
+        if (player == null) return;
+
+        float dist = Vector2.Distance(transform.position, player.position);
+        if (dist <= interactRadius && Input.GetKeyDown(KeyCode.P))
             Interact();
-    }
-
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.GetComponent<PlayerHealth>() != null)
-            playerInRange = true;
-    }
-
-    void OnTriggerExit2D(Collider2D other)
-    {
-        if (other.GetComponent<PlayerHealth>() != null)
-            playerInRange = false;
     }
 
     public bool CanInteract()
@@ -106,7 +103,7 @@ public class NPC : MonoBehaviour, IInteractable
     void StartDialogue() // Controls UI display
     {
             isDialogueActive = true;
-            playerController.CanMove = false; // Pause player movement
+            if (playerController != null) playerController.CanMove = false;
             
             nameText.SetText(dialogueData.npcName);
             dialoguePanel.SetActive(true);
@@ -166,7 +163,7 @@ public class NPC : MonoBehaviour, IInteractable
         isDialogueActive = false;
         dialogueText.SetText(""); // Reset text
         dialoguePanel.SetActive(false); // Close dialogue panel
-        playerController.CanMove = true; // Unpause the game
+        if (playerController != null) playerController.CanMove = true;
         if (npcState == NpcState.QuestComplete) npcState = NpcState.PostQuest; // Only show quest complete dialogue once
     }
 

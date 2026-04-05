@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29eba545bae127f488175478b5cdcb00, type: 3}
+  m_Name: NPC7
+  m_EditorClassIdentifier: Assembly-CSharp::NpcDialogue
+  npcName: Susan
+  dialogueLines:
+  - Hi there, i'm Susan
+  - Are you from Medius ? also know as the Hub World
+  - You are!! Do you know my husband ? his name is
+  - 'I miss him, but I''m glad your fixing the fractures '
+  - I dont want to see him anytime soon
+  - well its was nice to meet you, make sure to grab you key befor you level, it
+    unlocks a hidden fortune
+  - I tried to bring my riches to the afterlife, turns out there no use for it here
+  - well bye!
+  typingSpeed: 0.05
+  dialogueStates: 
+  itemWantedName: 
+  itemName: 
+  description: 
+  icon: {fileID: 0}
+  maxLife: 1
+  canUse: 0
+  worldPrefab: {fileID: 0}

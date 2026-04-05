@@ -1,0 +1,7 @@
+How to use .gpl files in Aseprite:
+----------------------
+You can use the .gpl files in Aseprite by putting them into the palettes folder found at "C:\Program Files (x86)\Aseprite\data\palettes". To do so you may need to edit the properties of the palettes folder by unchecking "Read Only" to allow the .gpl files to be pasted inside.
+
+Where are the RGB values?
+-------------------------
+The RGB values for each of the colour palettes can be found by opening their respective .gpl file in Notepad or from their .png files in the provided folder.

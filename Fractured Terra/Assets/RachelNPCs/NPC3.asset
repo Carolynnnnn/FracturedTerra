@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29eba545bae127f488175478b5cdcb00, type: 3}
+  m_Name: NPC3
+  m_EditorClassIdentifier: Assembly-CSharp::NpcDialogue
+  npcName: William
+  dialogueLines:
+  - Hi Player, do you like the your grave ?
+  - I'm only joking... kinda
+  - So you want to know more about Opscuro huh ? Well it's not actually a evil place,
+    though most people are scared to vist. We like it that way though so it doesn't
+    bother us
+  - Opscuro is a limbo of sorts, Spirits come here to rest while waiting to move
+    on to the after life, this land is special and where able to interact with the
+    terrain
+  - Everyone here is peaceful and freindly, where just here waiting, well at least
+    intill the fractures started happening
+  - We have been affected the most from the fractures unfortuanly, well beside poor
+    Septem. They where overtaken by corruption from Umbra Terra and fell. Atleast
+    it gave Aether Terra the wake up call it needed, hense why your here
+  - the fracture has cause some of the resedients to turn into ghouls that may attack
+    you, they dont mean to i promise. Its simply that the spirts here all have used
+    magic while alive our souls are intertwined with magic making the corruption
+    seeping though relms affect everything here.
+  - Goodluck saving our Island player, and dont mind the grave, its not your time
+    yet.
+  typingSpeed: 0.05
+  dialogueStates: 
+  itemWantedName: 
+  itemName: 
+  description: 
+  icon: {fileID: 0}
+  maxLife: 1
+  canUse: 0
+  worldPrefab: {fileID: 0}

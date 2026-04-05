@@ -13,12 +13,9 @@ public class LaserProjectile : MonoBehaviour
 
     void Start()
     {
+		GetComponent<Collider2D>().enabled = false;
+    	Invoke("EnableCollider", 0.3f);	
         Destroy(gameObject, lifetime);
-    }
-
-    void Update()
-    {
-        transform.Translate(moveDirection * speed * Time.deltaTime, Space.World);
     }
 
     private void OnTriggerEnter2D(Collider2D other)

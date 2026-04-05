@@ -14,9 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NpcDialogue
   npcName: Skull Spirit
   dialogueLines:
-  - Congratulations! You are almost done.
   - Press P near the key to collect it.
-  - You can use the key to open the chest after crossing the bridge.
+  - You can use the keys to open the chest after crossing the bridge.
   - Be careful, there might be more enemies!
   typingSpeed: 0.05
   dialogueStates: 

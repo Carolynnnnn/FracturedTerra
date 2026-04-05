@@ -9,6 +9,7 @@ public class EnemyAttackRP : MonoBehaviour
 
     private Transform player;
     private PlayerHealth playerHealth;
+    private PlayerController playerController;
 
     private bool isAttacking = false;
 
@@ -20,12 +21,19 @@ public class EnemyAttackRP : MonoBehaviour
         {
             player = playerObj.transform;
             playerHealth = playerObj.GetComponent<PlayerHealth>();
+            playerController = playerObj.GetComponent<PlayerController>();
         }
     }
 
     void Update()
     {
         if (player == null || playerHealth == null) return;
+
+        if (playerController != null && !playerController.CanMove)
+        {
+            isAttacking = false;
+            return;
+        }
 
         float distance = Vector2.Distance(transform.position, player.position);
 
@@ -49,6 +57,12 @@ public class EnemyAttackRP : MonoBehaviour
                 yield break;
             }
 
+            if (playerController != null && !playerController.CanMove)
+            {
+                isAttacking = false;
+                yield break;
+            }
+
             float distance = Vector2.Distance(transform.position, player.position);
 
             if (distance > attackRange)
@@ -63,6 +77,12 @@ public class EnemyAttackRP : MonoBehaviour
 
         if (player != null)
         {
+            if (playerController != null && !playerController.CanMove)
+            {
+                isAttacking = false;
+                yield break;
+            }
+
             float distance = Vector2.Distance(transform.position, player.position);
 
             if (distance <= attackRange)

@@ -14,16 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NpcDialogue
   npcName: JungleNPC
   dialogueLines:
+  - Well, well... a traveler. You won't be needing those gems where you're going.
   - Be careful going deeper into the jungle.
   - The paths twist around, and it is easy to lose your way.
   - If you want to make it through, keep an eye out for gems hidden along the maze.
   - And watch for wolves. One of them has been roaming nearby.
   - If you spot something that looks a bit like me from far away, do not take chances.
   typingSpeed: 0.05
-  dialogueStates:
-  itemWantedName:
-  itemName:
-  description:
+  dialogueStates: 
+  itemWantedName: 
+  itemName: 
+  description: 
   icon: {fileID: 0}
   maxLife: 1
   canUse: 0

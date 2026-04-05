@@ -85,7 +85,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 10
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -5341597898538695221, guid: 6aecef6e27c954ed4934b3331ed84b7f, type: 3}
+  m_Sprite: {fileID: 8242567290148564425, guid: 6aecef6e27c954ed4934b3331ed84b7f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -134,7 +134,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04f01faacf11740378ba562d7844cded, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LaserProjectile
-  damage: 20
+  damage: 10
   lifetime: 3
   speed: 8
 --- !u!95 &921551110263060228
@@ -145,7 +145,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7294900229312583020}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 7165688493137246254, guid: ef5176e98696f484c801395613133618, type: 3}
   m_CullingMode: 0
@@ -193,15 +193,15 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 1.5, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.12, y: 0.1}
+    pivot: {x: 0, y: 0.5}
+    oldSize: {x: 2.71, y: 0.46}
     newSize: {x: 0.12, y: 0.1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.12, y: 0.1}
+  m_Size: {x: 3, y: 0.1}
   m_EdgeRadius: 0

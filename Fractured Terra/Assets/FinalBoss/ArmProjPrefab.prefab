@@ -202,5 +202,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6ee70cd53d384a66aaa2c8b91eea82b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArmProjectile
-  damage: 10
+  damage: 1
   lifetime: 3

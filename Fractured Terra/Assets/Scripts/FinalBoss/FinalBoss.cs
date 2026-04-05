@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class FinalBoss : MonoBehaviour
 {
@@ -24,8 +25,6 @@ public class FinalBoss : MonoBehaviour
 	[Header("Spawn")]
 	public Vector2 leftArmOffset = new Vector2(-3f, 0f);
 	public Vector2 rightArmOffset = new Vector2(3f, 0f);
-	public Vector2 leftLaserOffset = new Vector2(-4f, 5f);
-	public Vector2 rightLaserOffset = new Vector2(4f, 5f);
 
     private float attackTimer;
     private Rigidbody2D rb;
@@ -52,7 +51,6 @@ public class FinalBoss : MonoBehaviour
         attackTimer += Time.deltaTime;
         if (attackTimer >= attackCooldown)
         {
-	        Debug.Log("Attacking! Phase: " + currentPhase);
             Attack();
             attackTimer = 0f;
         }
@@ -116,9 +114,13 @@ public class FinalBoss : MonoBehaviour
             ShootProjectileAngle(armProjPrefab, dir, -20f);
             ShootProjectileAngle(armProjPrefab, dir, 40f);
             ShootProjectileAngle(armProjPrefab, dir, -40f);
-			ShootLaser();
+			
+			Vector2 armOff = facingDirection > 0 ? rightArmOffset : leftArmOffset;
+			Vector3 laserOrigin = transform.position + (Vector3)armOff;
+			Debug.Log("First laser origin: " + laserOrigin);
+			ShootLaserAt(laserOrigin);
 			//delay the laser shooting time
-			Invoke("ShootLaser", 0.5f);
+			StartCoroutine(DelayedLaser(laserOrigin, 0.5f));
         }
     }
 
@@ -127,11 +129,12 @@ public class FinalBoss : MonoBehaviour
 		if (prefab == null) return;
     	Vector2 armOffset = facingDirection > 0 ? rightArmOffset : leftArmOffset;
     	Vector3 origin = transform.position + (Vector3)armOffset;
+	    Debug.Log("ShootProjectile origin: " + origin);
     	GameObject proj = Instantiate(prefab, origin, Quaternion.identity);
     	Vector2 dir = (target - origin).normalized;
     	Rigidbody2D projRb = proj.GetComponent<Rigidbody2D>();
     	if (projRb != null)
-        	projRb.linearVelocity = dir * 5f;
+        	projRb.linearVelocity = dir * 3f;
     	Destroy(proj, 3f);
     	}
 
@@ -148,26 +151,35 @@ public class FinalBoss : MonoBehaviour
         GameObject proj = Instantiate(prefab, origin, Quaternion.identity);
         Rigidbody2D projRb = proj.GetComponent<Rigidbody2D>();
     	if (projRb != null)
-        	projRb.linearVelocity = rotated * 5f;
+        	projRb.linearVelocity = rotated * 3f;
     	Destroy(proj, 3f);
     }
 
 	void ShootLaser()
 	{
-		if (laserPrefab == null || player == null) return;
-		Debug.Log("Boss transform.position: " + transform.position);
-		Debug.Log("Player position: " + player.position);
-		Vector2 laserOffset = facingDirection > 0 ? rightLaserOffset : leftLaserOffset;
-		Vector3 origin = transform.position + (Vector3)laserOffset;
+    	Vector2 armOffset = facingDirection > 0 ? rightArmOffset : leftArmOffset;
+    	Vector3 origin = transform.position + (Vector3)armOffset;
+	    Debug.Log("ShootLaser origin: " + origin);
+    	ShootLaserAt(origin);
+	}
+
+	void ShootLaserAt(Vector3 origin)
+	{
+    	if (laserPrefab == null || player == null) return;
     	GameObject laser = Instantiate(laserPrefab, origin, Quaternion.identity);
     	Vector2 dir = (player.position - origin).normalized;
-    	LaserProjectile lp = laser.GetComponent<LaserProjectile>();
-    	if (lp != null) lp.SetDirection(dir);
-		//rotate to player location
     	float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
     	laser.transform.rotation = Quaternion.Euler(0, 0, angle);
     	Destroy(laser, 3f);
 	}
+    
+	IEnumerator DelayedLaser(Vector3 origin, float delay)
+	{
+    	yield return new WaitForSeconds(delay);
+	    Debug.Log("DelayedLaser origin: " + origin);
+    	ShootLaserAt(origin);
+	}
+
     public void TakeDamage(int damage)
     {
 	    Debug.Log("FinalBoss.TakeDamage called! damage: " + damage);
@@ -179,7 +191,10 @@ public class FinalBoss : MonoBehaviour
     void Die()
     {
         Debug.Log("Boss defeated! Game complete!");
-        GemManager.gemCount++;
+        GameObject gemChest = GameObject.Find("GemChest");
+        BossSceneManager bsm = FindObjectOfType<BossSceneManager>();
+        Debug.Log("BossSceneManager found: " + (bsm != null));
+        if (bsm != null) bsm.OnBossDefeated();
 		//ensure all attack methods are disabled
 		CancelInvoke();
 		gameObject.SetActive(false);

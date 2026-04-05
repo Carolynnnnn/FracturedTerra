@@ -20,6 +20,10 @@ public class GemPickup : MonoBehaviour
         if (dist <= pickupRadius && Input.GetKeyDown(KeyCode.P))
         {
             GemManager.gemCount++;
+
+            if (ExitPortal.Instance != null)
+                ExitPortal.Instance.Unlock();
+
             Destroy(gameObject);
         }
     }

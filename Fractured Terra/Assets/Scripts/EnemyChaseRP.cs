@@ -8,13 +8,17 @@ public class EnemyChaseRP : MonoBehaviour
     private Transform player;
     private Rigidbody2D rb;
     private Animator animator;
+    private PlayerController playerController;
 
     void Start()
     {
         GameObject playerObj = GameObject.FindWithTag("Player");
 
         if (playerObj != null)
+        {
             player = playerObj.transform;
+            playerController = playerObj.GetComponent<PlayerController>();
+        }
 
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
@@ -23,6 +27,15 @@ public class EnemyChaseRP : MonoBehaviour
     void FixedUpdate()
     {
         if (player == null) return;
+
+        if (playerController != null && !playerController.CanMove)
+        {
+            if (animator != null)
+                animator.SetBool("IsMoving", false);
+
+            rb.linearVelocity = Vector2.zero;
+            return;
+        }
 
         Vector2 direction = (player.position - transform.position).normalized;
         float distance = Vector2.Distance(transform.position, player.position);
@@ -38,7 +51,6 @@ public class EnemyChaseRP : MonoBehaviour
                 animator.SetBool("IsMoving", true);
             }
 
-            // flip sprite
             SpriteRenderer sr = GetComponent<SpriteRenderer>();
             if (sr != null)
             {

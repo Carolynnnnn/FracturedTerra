@@ -237,4 +237,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyAttackRP
   attackRange: 1
   attackDelay: 1.5
-  damage: 2
+  damage: 7

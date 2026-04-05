@@ -120951,7 +120951,7 @@ MonoBehaviour:
   openSprite: {fileID: 0}
   gemSprite: {fileID: -5564474249135974314, guid: 6f74c05788617214c87bd0e8f484fe6a, type: 3}
   gemOffset: {x: 0.5, y: 0}
-  gemScale: 1
+  gemScale: 3
   interactRadius: 1.5
 --- !u!1 &1455096655
 GameObject:

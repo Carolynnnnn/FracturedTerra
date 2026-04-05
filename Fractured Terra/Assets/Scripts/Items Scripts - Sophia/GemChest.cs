@@ -50,7 +50,10 @@ public class GemChest : MonoBehaviour
     void TryOpen()
     {
         // Check all 3 keys have been collected
-        if (TimeLimitManager.Instance == null || TimeLimitManager.Instance.KeysCollected < 3)
+        int keys = TimeLimitManager.Instance != null ? TimeLimitManager.Instance.KeysCollected : -1;
+        Debug.Log($"[GemChest] TryOpen called. TimeLimitManager found: {TimeLimitManager.Instance != null}, Keys: {keys}, Gem sprite assigned: {gemSprite != null}, AbilityUnlockManager found: {AbilityUnlockManagerRP.Instance != null}");
+
+        if (TimeLimitManager.Instance == null || keys < 3)
         {
             Debug.Log("[GemChest] Need all 3 keys to open this chest.");
             return;
@@ -60,6 +63,12 @@ public class GemChest : MonoBehaviour
 
         if (openSprite != null)
             sr.sprite = openSprite;
+
+        // Unlock ability
+        if (AbilityUnlockManagerRP.Instance != null)
+            AbilityUnlockManagerRP.Instance.UnlockAbility(2);
+        else
+            Debug.LogWarning("[GemChest] AbilityUnlockManagerRP.Instance is null — ability not unlocked.");
 
         // Spawn gem beside the chest
         GameObject gem = new GameObject("Gem");
@@ -72,6 +81,7 @@ public class GemChest : MonoBehaviour
         gemSr.sortingOrder = sr.sortingOrder;
 
         gem.AddComponent<GemPickup>();
+        Debug.Log($"[GemChest] Gem spawned at {gem.transform.position}, sprite: {gemSprite}");
     }
 
     void OnDrawGizmosSelected()

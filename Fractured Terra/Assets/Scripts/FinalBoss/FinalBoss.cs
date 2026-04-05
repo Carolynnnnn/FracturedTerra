@@ -21,13 +21,22 @@ public class FinalBoss : MonoBehaviour
 	public GameObject armProjPrefab;
 	public GameObject laserPrefab;
 
+	[Header("Spawn")]
+	public Vector2 leftArmOffset = new Vector2(-3f, 0f);
+	public Vector2 rightArmOffset = new Vector2(3f, 0f);
+	public Vector2 leftLaserOffset = new Vector2(-4f, 5f);
+	public Vector2 rightLaserOffset = new Vector2(4f, 5f);
+
     private float attackTimer;
     private Rigidbody2D rb;
+	private SpriteRenderer sr;
+	private float facingDirection = 1f;
 
     void Start()
     {
         currentHealth = maxHealth;
         rb = GetComponent<Rigidbody2D>();
+		sr = GetComponent<SpriteRenderer>();
         player = GameObject.FindWithTag("Player").transform;
         
         //avoid Boss moving
@@ -43,18 +52,21 @@ public class FinalBoss : MonoBehaviour
         attackTimer += Time.deltaTime;
         if (attackTimer >= attackCooldown)
         {
+	        Debug.Log("Attacking! Phase: " + currentPhase);
             Attack();
             attackTimer = 0f;
         }
     }
+    
+    void LateUpdate()
+    {
+	    transform.localScale = new Vector3(facingDirection * 10f, 10f, 1f);
+    }
 
     void FacePlayer()
     {
-        if (player == null) return;
-        if (player.position.x < transform.position.x)
-            transform.localScale = new Vector3(-10f, 10f, 1f); // face left
-        else
-            transform.localScale = new Vector3(10f, 10f, 1f);  // face right
+	    if (player == null) return;
+	    facingDirection = player.position.x < transform.position.x ? -1f : 1f;
     }
 
     void CheckPhase()
@@ -77,6 +89,8 @@ public class FinalBoss : MonoBehaviour
     void Attack()
     {
         if (player == null) return;
+		Vector2 armOffset = facingDirection > 0 ? rightArmOffset : leftArmOffset;
+    	Vector3 origin = transform.position + (Vector3)armOffset;
         
         if (currentPhase == 1)
         {
@@ -87,7 +101,7 @@ public class FinalBoss : MonoBehaviour
         {
             // Phase 2: triple shooting + laser shooting
             ShootProjectile(armProjPrefab, player.position);
-            Vector2 dir = (player.position - transform.position).normalized;
+            Vector2 dir = (player.position - origin).normalized;
             float angle = 20f;
             ShootProjectileAngle(armProjPrefab, dir, angle);
             ShootProjectileAngle(armProjPrefab, dir, -angle);
@@ -97,7 +111,7 @@ public class FinalBoss : MonoBehaviour
         {
             // Phase 3: penta shooting + double laser shooting
             ShootProjectile(armProjPrefab, player.position);
-            Vector2 dir = (player.position - transform.position).normalized;
+            Vector2 dir = (player.position - origin).normalized;
             ShootProjectileAngle(armProjPrefab, dir, 20f);
             ShootProjectileAngle(armProjPrefab, dir, -20f);
             ShootProjectileAngle(armProjPrefab, dir, 40f);
@@ -111,21 +125,21 @@ public class FinalBoss : MonoBehaviour
     void ShootProjectile(GameObject prefab, Vector3 target)
     {
 		if (prefab == null) return;
-		float facing = transform.localScale.x > 0 ? 1f : -1f;
-		Vector3 origin = transform.position + new Vector3(facing * 5f, 0f, 0f);
-        GameObject proj = Instantiate(prefab, transform.position, Quaternion.identity);
-        Vector2 dir = (target - origin).normalized;
-		Rigidbody2D projRb = proj.GetComponent<Rigidbody2D>();
+    	Vector2 armOffset = facingDirection > 0 ? rightArmOffset : leftArmOffset;
+    	Vector3 origin = transform.position + (Vector3)armOffset;
+    	GameObject proj = Instantiate(prefab, origin, Quaternion.identity);
+    	Vector2 dir = (target - origin).normalized;
+    	Rigidbody2D projRb = proj.GetComponent<Rigidbody2D>();
     	if (projRb != null)
         	projRb.linearVelocity = dir * 5f;
     	Destroy(proj, 3f);
-    }
+    	}
 
     void ShootProjectileAngle(GameObject prefab, Vector2 baseDir, float angle)
     {
 		if (prefab == null) return;
-		float facing = transform.localScale.x > 0 ? 1f : -1f;
-		Vector3 origin = transform.position + new Vector3(facing * 5f, 0f, 0f);
+		Vector2 armOffset = facingDirection > 0 ? rightArmOffset : leftArmOffset;
+		Vector3 origin = transform.position + (Vector3)armOffset;
         float rad = angle * Mathf.Deg2Rad;
         Vector2 rotated = new Vector2(
             baseDir.x * Mathf.Cos(rad) - baseDir.y * Mathf.Sin(rad),
@@ -141,13 +155,14 @@ public class FinalBoss : MonoBehaviour
 	void ShootLaser()
 	{
 		if (laserPrefab == null || player == null) return;
-		float facing = transform.localScale.x > 0 ? 1f : -1f;
-		Vector3 origin = transform.position + new Vector3(facing * 5f, 0f, 0f);
+		Debug.Log("Boss transform.position: " + transform.position);
+		Debug.Log("Player position: " + player.position);
+		Vector2 laserOffset = facingDirection > 0 ? rightLaserOffset : leftLaserOffset;
+		Vector3 origin = transform.position + (Vector3)laserOffset;
     	GameObject laser = Instantiate(laserPrefab, origin, Quaternion.identity);
     	Vector2 dir = (player.position - origin).normalized;
-    	Rigidbody2D laserRb = laser.GetComponent<Rigidbody2D>();
-    	if (laserRb != null)
-        	laserRb.linearVelocity = dir * 8f;
+    	LaserProjectile lp = laser.GetComponent<LaserProjectile>();
+    	if (lp != null) lp.SetDirection(dir);
 		//rotate to player location
     	float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
     	laser.transform.rotation = Quaternion.Euler(0, 0, angle);

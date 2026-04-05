@@ -18,6 +18,7 @@ public class PlayerAttack : MonoBehaviour
 
     private void Attack()
     {
+        Debug.Log("PlayerAttack.Attack() called!");
         if (slashEffectPrefab != null && attackPoint != null)
         {
             Instantiate(slashEffectPrefab, attackPoint.position, Quaternion.identity);
@@ -25,6 +26,7 @@ public class PlayerAttack : MonoBehaviour
 
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayer);
 
+        Debug.Log("Hit count: " + hitEnemies.Length);
         foreach (Collider2D enemyCollider in hitEnemies)
         {
             EnemyHealth enemy = enemyCollider.GetComponent<EnemyHealth>();

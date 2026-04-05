@@ -134,7 +134,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04f01faacf11740378ba562d7844cded, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LaserProjectile
-  damage: 15
+  damage: 20
   lifetime: 3
   speed: 8
 --- !u!95 &921551110263060228

@@ -12,6 +12,7 @@ public class EnemyHealth : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
+	    Debug.Log("EnemyHealth.TakeDamage called! finalBoss is: " + (finalBoss != null ? "found" : "null"));
 		if (finalBoss != null)
         {
             finalBoss.TakeDamage(damage);

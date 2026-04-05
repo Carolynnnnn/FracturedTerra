@@ -170,6 +170,7 @@ public class FinalBoss : MonoBehaviour
 	}
     public void TakeDamage(int damage)
     {
+	    Debug.Log("FinalBoss.TakeDamage called! damage: " + damage);
         currentHealth -= damage;
         Debug.Log("Boss HP: " + currentHealth + "/" + maxHealth);
         if (currentHealth <= 0) Die();

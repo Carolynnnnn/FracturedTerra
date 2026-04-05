@@ -193,6 +193,7 @@ public class FinalBoss : MonoBehaviour
         Debug.Log("Boss defeated! Game complete!");
         GameObject gemChest = GameObject.Find("GemChest");
         BossSceneManager bsm = FindObjectOfType<BossSceneManager>();
+        Debug.Log("BossSceneManager found: " + (bsm != null));
         if (bsm != null) bsm.OnBossDefeated();
 		//ensure all attack methods are disabled
 		CancelInvoke();

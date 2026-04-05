@@ -94,9 +94,9 @@ GameObject:
   - component: {fileID: 8081043022672261389}
   - component: {fileID: 1688920404449799378}
   - component: {fileID: 312363590738525081}
-  - component: {fileID: 8635747832186876403}
   - component: {fileID: 1931216419986251561}
   - component: {fileID: 3239378532838207320}
+  - component: {fileID: 3061625404512976533}
   m_Layer: 6
   m_Name: Wolf Enemy
   m_TagString: Enemy
@@ -165,9 +165,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 1189448737
+  m_SortingLayer: 1
+  m_SortingOrder: 2
   m_MaskInteraction: 0
   m_Sprite: {fileID: -4293422499735322176, guid: 053924db3b88a45518d1dcc1d29da219, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -223,21 +223,8 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.24, y: 0.17}
+  m_Size: {x: 2, y: 1.5}
   m_EdgeRadius: 0
---- !u!114 &8635747832186876403
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7351448003154172919}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b02b3c147c054d26b0ef98d29037848, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
-  health: 1
 --- !u!114 &1931216419986251561
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -266,3 +253,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyAttack
   damage: 10
   attackCooldown: 1
+--- !u!50 &3061625404512976533
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7351448003154172919}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0

@@ -12,9 +12,6 @@ TagManager:
   - Breakable
   - breakitem
   - Enemy
-  - Props
-  - GemChest
-  - ExitPortal
   layers:
   - Default
   - TransparentFX
@@ -23,8 +20,8 @@ TagManager:
   - Water
   - UI
   - Enemy
-  - Hazard
-  - Border
+  - 
+  - 
   - 
   - 
   - 
@@ -55,23 +52,20 @@ TagManager:
   - name: Ground
     uniqueID: 1189448737
     locked: 0
-  - name: Collision
-    uniqueID: 2834447809
-    locked: 0
   - name: WalkInfront
-    uniqueID: 552817789
+    uniqueID: 2344002389
+    locked: 0
+  - name: Collision
+    uniqueID: 1340479369
     locked: 0
   - name: Player
-    uniqueID: 4255978289
+    uniqueID: 2976534235
     locked: 0
   - name: WalkBehind
-    uniqueID: 2618073677
+    uniqueID: 4173243025
     locked: 0
   - name: Decor
-    uniqueID: 4241052661
-    locked: 0
-  - name: Enemy
-    uniqueID: 964877505
+    uniqueID: 76551731
     locked: 0
   m_RenderingLayers:
   - Default

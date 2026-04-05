@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29eba545bae127f488175478b5cdcb00, type: 3}
+  m_Name: FlyingSkullDialogue
+  m_EditorClassIdentifier: Assembly-CSharp::NpcDialogue
+  npcName: Skull Spirit
+  dialogueLines:
+  - Congratulations, traveller! You have unlocked the ability to jump in this island.
+  - Before we can celebrate, you must help seal the fracture.
+  - It has caused the dormant volcanos to erupt, pouring lava all over the island.
+  - Follow the path to the castle, where you will find a chest.
+  - Tread carefully, as touching lava will deplete your health.
+  - Good luck, and be weary of enemies along the way.
+  typingSpeed: 0.05
+  dialogueStates: 
+  itemWantedName: 
+  itemName: 
+  description: 
+  icon: {fileID: 0}
+  maxLife: 1
+  canUse: 0
+  worldPrefab: {fileID: 0}

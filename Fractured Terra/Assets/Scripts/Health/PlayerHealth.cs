@@ -15,6 +15,12 @@ public class PlayerHealth : MonoBehaviour
     public Image healthFillImage;
 
     private float lastDamageTime;
+    private Vector3? checkpointPosition;
+
+    public void SetCheckpoint(Vector3 position)
+    {
+        checkpointPosition = position;
+    }
 
     void Start()
     {
@@ -56,6 +62,11 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
+    public void Kill()
+    {
+        TakeDamage(currentHealth);
+    }
+
     public void Heal(float healAmount)
     {
         currentHealth += healAmount;
@@ -79,17 +90,18 @@ public class PlayerHealth : MonoBehaviour
         currentHealth = maxHealth;
         UpdateHealthBar();
         
-        // Find player spawner
-        PlayerSpawner playerSpawner = Object.FindFirstObjectByType<PlayerSpawner>();
-        
-        // Respawn player at beginning of level
-        if (playerSpawner != null)
+        // Respawn at checkpoint if one has been set, otherwise use the PlayerSpawner
+        if (checkpointPosition.HasValue)
         {
-            transform.position = playerSpawner.transform.position;
+            transform.position = checkpointPosition.Value;
         }
         else
         {
-            Debug.LogWarning("PlayerSpawner not assigned!"); // Safety net
+            PlayerSpawner playerSpawner = Object.FindFirstObjectByType<PlayerSpawner>();
+            if (playerSpawner != null)
+                transform.position = playerSpawner.transform.position;
+            else
+                Debug.LogWarning("PlayerSpawner not assigned!");
         }
 
     }

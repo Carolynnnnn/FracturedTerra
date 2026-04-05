@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29eba545bae127f488175478b5cdcb00, type: 3}
+  m_Name: FlyingSkullDialogue2
+  m_EditorClassIdentifier: Assembly-CSharp::NpcDialogue
+  npcName: Skull Spirit
+  dialogueLines:
+  - So... you made it through.
+  - You have reached the first checkpoint. If you die, you will respawn here.
+  - Few ever reach this place. Fewer still leave it.
+  - Behind the castle, you will find a chest that contains a key. You need at least
+    5 coins to open the chest.
+  - Once you have retrieved the key, you must find 2 more hidden across the island.
+  - You need to find all 3 keys to open the final chest and leave the island. Goodluck!
+  - You have 2 minutes. Your time starts now.
+  typingSpeed: 0.05
+  dialogueStates: 
+  itemWantedName: 
+  itemName: 
+  description: 
+  icon: {fileID: 0}
+  maxLife: 1
+  canUse: 0
+  worldPrefab: {fileID: 0}

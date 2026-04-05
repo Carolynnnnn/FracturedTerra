@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29eba545bae127f488175478b5cdcb00, type: 3}
+  m_Name: FlyingSkullDialogue3
+  m_EditorClassIdentifier: Assembly-CSharp::NpcDialogue
+  npcName: Skull Spirit
+  dialogueLines:
+  - Congratulations! You are almost done.
+  - Press P near the key to collect it.
+  - You can use the key to open the chest after crossing the bridge.
+  - Be careful, there might be more enemies!
+  typingSpeed: 0.05
+  dialogueStates: 
+  itemWantedName: 
+  itemName: 
+  description: 
+  icon: {fileID: 0}
+  maxLife: 1
+  canUse: 0
+  worldPrefab: {fileID: 0}

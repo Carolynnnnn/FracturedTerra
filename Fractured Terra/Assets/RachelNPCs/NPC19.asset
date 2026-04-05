@@ -23,7 +23,6 @@ MonoBehaviour:
     his normal state befor the fractures
   - ...
   - you should probably go left befor entering here and get rid of those zombies
-  - 'oh also make sure to save your game befor entering '
   typingSpeed: 0.05
   dialogueStates: 
   itemWantedName: 

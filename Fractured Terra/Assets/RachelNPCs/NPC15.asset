@@ -17,7 +17,7 @@ MonoBehaviour:
   - Hi Player, there are three chest near the angle, one has a key
   - The other two will instantly kill you
   - you should have gotten a clue from the chest in the cemetary
-  - the key will let you progress, goodluck
+  - the key will let you pass though the green crystals, goodluck
   typingSpeed: 0.05
   dialogueStates: 
   itemWantedName: 

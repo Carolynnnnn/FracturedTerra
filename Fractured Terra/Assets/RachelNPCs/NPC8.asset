@@ -21,8 +21,7 @@ MonoBehaviour:
   - feel free to take whats in them, like I said us spirts have no need for belongings
   - ...
   - well go in! we don't bite, only zombies do that
-  - zombies? well the fracture brought them, there not able to go through the village,
-    however once you exit they roam around so be cautious
+  - zombies? well the fracture brought them, they roam around so be cautious
   typingSpeed: 0.05
   dialogueStates: 
   itemWantedName: 

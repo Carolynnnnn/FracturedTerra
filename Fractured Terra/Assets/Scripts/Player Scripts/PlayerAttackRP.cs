@@ -21,6 +21,22 @@ public class PlayerAttackRP : MonoBehaviour
 
     private float nextAttackTime = 0f;
     private bool isWaterSwirlActive = false;
+    private string _sortingLayerName = "Default";
+    private int _sortingOrder = 10;
+
+    void Awake()
+    {
+        // Auto-detect sorting from the player's own SpriteRenderer
+        SpriteRenderer sr = playerSprite != null
+            ? playerSprite
+            : GetComponentInChildren<SpriteRenderer>();
+
+        if (sr != null)
+        {
+            _sortingLayerName = sr.sortingLayerName;
+            _sortingOrder = sr.sortingOrder + 1;
+        }
+    }
 
     void Update()
     {
@@ -208,6 +224,7 @@ public class PlayerAttackRP : MonoBehaviour
             Quaternion.identity
         );
 
+        ApplyEffectSortingOrder(projectileObj);
         Vector3 scale = projectileObj.transform.localScale;
         scale.x = shootDirection == Vector2.left ? -Mathf.Abs(scale.x) : Mathf.Abs(scale.x);
         projectileObj.transform.localScale = scale;
@@ -339,6 +356,7 @@ public class PlayerAttackRP : MonoBehaviour
         {
             Vector3 spawnPosition = transform.position + (Vector3)effectOffset;
             swirlEffect = Instantiate(ability.effectPrefab, spawnPosition, Quaternion.identity);
+            ApplyEffectSortingOrder(swirlEffect);
             swirlEffect.transform.SetParent(transform);
         }
 
@@ -414,7 +432,17 @@ public class PlayerAttackRP : MonoBehaviour
             Quaternion.identity
         );
 
+        ApplyEffectSortingOrder(effect);
         Destroy(effect, effectLifetime);
+    }
+
+    void ApplyEffectSortingOrder(GameObject effect)
+    {
+        foreach (SpriteRenderer sr in effect.GetComponentsInChildren<SpriteRenderer>(true))
+        {
+            sr.sortingLayerName = _sortingLayerName;
+            sr.sortingOrder = _sortingOrder;
+        }
     }
 
     int GetFinalDamage(int baseDamage)

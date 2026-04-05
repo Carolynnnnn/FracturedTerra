@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class EnemyHealthRP : MonoBehaviour
 {
-    public int maxHealth = 5;
+    public int maxHealth = 25;
     private int currentHealth;
 
     void Start()

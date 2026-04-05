@@ -116693,7 +116693,7 @@ Transform:
   m_GameObject: {fileID: 1038719077}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 95.6, y: -38.8, z: 0}
+  m_LocalPosition: {x: 95.6, y: -3.1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -120741,6 +120741,29 @@ MonoBehaviour:
   description: TBA
   icon: {fileID: -3167540134109962797, guid: 4cea85890e9294f46a4e142eb0b4163e, type: 3}
   isEquipment: 0
+--- !u!1 &1452866261 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 847858707545896673, guid: 495e8748cf8a7574d8ce77c515b7da74, type: 3}
+  m_PrefabInstance: {fileID: 1667128362}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1452866262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1452866261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87b297f8b1894479fa6369d5fd974486, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GemChest
+  closedSprite: {fileID: -5801566434257123781, guid: 70f578e1ea53ff8488b32c8997ba45e0, type: 3}
+  openSprite: {fileID: 0}
+  gemSprite: {fileID: -5564474249135974314, guid: 6f74c05788617214c87bd0e8f484fe6a, type: 3}
+  gemOffset: {x: 0.5, y: 0}
+  gemScale: 1
+  interactRadius: 1.5
 --- !u!1 &1455096655
 GameObject:
   m_ObjectHideFlags: 0
@@ -122758,16 +122781,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4258475167912547494, guid: 495e8748cf8a7574d8ce77c515b7da74, type: 3}
       propertyPath: m_SortingLayer
-      value: 3
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4258475167912547494, guid: 495e8748cf8a7574d8ce77c515b7da74, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4258475167912547494, guid: 495e8748cf8a7574d8ce77c515b7da74, type: 3}
       propertyPath: m_SortingLayerID
-      value: 552817789
+      value: -53914635
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 847858707545896673, guid: 495e8748cf8a7574d8ce77c515b7da74, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1452866262}
   m_SourcePrefab: {fileID: 100100000, guid: 495e8748cf8a7574d8ce77c515b7da74, type: 3}
 --- !u!1 &1668349205
 GameObject:

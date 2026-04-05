@@ -3692,7 +3692,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 82044545}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 6286992587047916036, guid: 1b19c271f94584bf2b909f84eb641e51, type: 3}
   m_CullingMode: 0
@@ -29666,7 +29666,7 @@ MonoBehaviour:
   target: {fileID: 2125956374}
   smoothSpeed: 0.125
   offset: {x: 0, y: 0, z: -10}
-  minX: -13.25
+  minX: -9
   maxX: 100
   minY: -100
   maxY: 100

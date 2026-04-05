@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 29eba545bae127f488175478b5cdcb00, type: 3}
-  m_Name: FlyingSkullDialogue3
+  m_Name: FlyingSkullDialogue4
   m_EditorClassIdentifier: Assembly-CSharp::NpcDialogue
   npcName: Skull Spirit
   dialogueLines:
-  - Press P near the key to collect it.
-  - You can use the keys to open the chest after crossing the bridge.
-  - Be careful, there might be more enemies!
+  - Congratulations! You are almost done.
+  - Open the chest and collect the gem by pressing P.
+  - Once you've collected the gem, you can leave the island through the exit portal.
   typingSpeed: 0.05
   dialogueStates: 
   itemWantedName: 

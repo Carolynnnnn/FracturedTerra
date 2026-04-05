@@ -15,9 +15,11 @@ MonoBehaviour:
   npcName: Skull Spirit
   dialogueLines:
   - Congratulations, traveller! You have unlocked the ability to jump in this island.
-  - Before we can celebrate, you must help seal the fracture.
-  - It has caused the dormant volcanos to erupt, pouring lava all over the island.
-  - Follow the path to the castle, where you will find a chest.
+    Pressing space will temporarily allow you to cross over hazards, like lava.
+  - Before we can celebrate, you must help seal the fracture. It has caused the dormant
+    volcanos to erupt, leaving the island covered in molten lava.
+  - Follow the path to the castle, where you will find a chest. Inside it, there
+    is a key that will help you seal the fracture.
   - Tread carefully, as touching lava will deplete your health.
   - Good luck, and be weary of enemies along the way.
   typingSpeed: 0.05

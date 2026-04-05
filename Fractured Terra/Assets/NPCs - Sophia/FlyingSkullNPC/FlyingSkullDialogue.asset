@@ -14,15 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NpcDialogue
   npcName: Skull Spirit
   dialogueLines:
-  - "...You dare speak to me?"
-  - "I have wandered these fractured lands long before you arrived."
-  - "The volcano stirs. Something ancient is waking beneath the rock."
-  - "Tread carefully, traveller. Not all who dwell here are as forgiving as I."
+  - Congratulations, traveller! You have unlocked the ability to jump in this island.
+  - Before we can celebrate, you must help seal the fracture.
+  - It has caused the dormant volcanos to erupt.
+  - Follow the path to the castle, where you will find a hidden key.
+  - Tread carefully, as touching lava will deplete your health.
+  - Good luck, and be weary of enemies along the way.
   typingSpeed: 0.05
-  dialogueStates:
-  itemWantedName:
-  itemName:
-  description:
+  dialogueStates: 
+  itemWantedName: 
+  itemName: 
+  description: 
   icon: {fileID: 0}
   maxLife: 1
   canUse: 0

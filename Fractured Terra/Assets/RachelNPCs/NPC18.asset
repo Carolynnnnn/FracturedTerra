@@ -17,7 +17,7 @@ MonoBehaviour:
   - Hi Player, up this road is the zombie spawn
   - befor versing the final boss it would be helpful to destroy there spawn
   - this will stop them from spawning
-  - interact with the grave to do this
+  - interact by pushing P with the grave to do this
   typingSpeed: 0.05
   dialogueStates: 
   itemWantedName: 

@@ -52,9 +52,9 @@ public class FinalBoss : MonoBehaviour
     {
         if (player == null) return;
         if (player.position.x < transform.position.x)
-            transform.localScale = new Vector3(-1, 1, 1); // face left
+            transform.localScale = new Vector3(-10f, 10f, 1f); // face left
         else
-            transform.localScale = new Vector3(1, 1, 1);  // face right
+            transform.localScale = new Vector3(10f, 10f, 1f);  // face right
     }
 
     void CheckPhase()
@@ -111,8 +111,10 @@ public class FinalBoss : MonoBehaviour
     void ShootProjectile(GameObject prefab, Vector3 target)
     {
 		if (prefab == null) return;
+		float facing = transform.localScale.x > 0 ? 1f : -1f;
+		Vector3 origin = transform.position + new Vector3(facing * 5f, 0f, 0f);
         GameObject proj = Instantiate(prefab, transform.position, Quaternion.identity);
-        Vector2 dir = (target - transform.position).normalized;
+        Vector2 dir = (target - origin).normalized;
 		Rigidbody2D projRb = proj.GetComponent<Rigidbody2D>();
     	if (projRb != null)
         	projRb.linearVelocity = dir * 5f;
@@ -122,12 +124,14 @@ public class FinalBoss : MonoBehaviour
     void ShootProjectileAngle(GameObject prefab, Vector2 baseDir, float angle)
     {
 		if (prefab == null) return;
+		float facing = transform.localScale.x > 0 ? 1f : -1f;
+		Vector3 origin = transform.position + new Vector3(facing * 5f, 0f, 0f);
         float rad = angle * Mathf.Deg2Rad;
         Vector2 rotated = new Vector2(
             baseDir.x * Mathf.Cos(rad) - baseDir.y * Mathf.Sin(rad),
             baseDir.x * Mathf.Sin(rad) + baseDir.y * Mathf.Cos(rad)
         );
-        GameObject proj = Instantiate(prefab, transform.position, Quaternion.identity);
+        GameObject proj = Instantiate(prefab, origin, Quaternion.identity);
         Rigidbody2D projRb = proj.GetComponent<Rigidbody2D>();
     	if (projRb != null)
         	projRb.linearVelocity = rotated * 5f;
@@ -137,8 +141,10 @@ public class FinalBoss : MonoBehaviour
 	void ShootLaser()
 	{
 		if (laserPrefab == null || player == null) return;
-    	GameObject laser = Instantiate(laserPrefab, transform.position, Quaternion.identity);
-    	Vector2 dir = (player.position - transform.position).normalized;
+		float facing = transform.localScale.x > 0 ? 1f : -1f;
+		Vector3 origin = transform.position + new Vector3(facing * 5f, 0f, 0f);
+    	GameObject laser = Instantiate(laserPrefab, origin, Quaternion.identity);
+    	Vector2 dir = (player.position - origin).normalized;
     	Rigidbody2D laserRb = laser.GetComponent<Rigidbody2D>();
     	if (laserRb != null)
         	laserRb.linearVelocity = dir * 8f;

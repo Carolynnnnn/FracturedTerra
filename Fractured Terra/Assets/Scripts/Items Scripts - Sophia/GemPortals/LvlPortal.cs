@@ -10,6 +10,13 @@ public class LvlPortal : MonoBehaviour, IInteractable
     {
         if (levelNumber == GemManager.gemCount) // Replayability of levels may be complicated, player must have exact gem count
         {
+            // Find the current player
+            GameObject player = GameObject.FindWithTag("Player");
+            if (player != null)
+            {
+                Destroy(player); // Delete them
+            }
+            
             SceneManager.LoadScene(levelSceneName); // Brings to specified scene if player has enough gems
         }
         else Debug.Log("This portal requires exactly " + levelNumber + " gems");

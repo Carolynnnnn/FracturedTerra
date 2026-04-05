@@ -3611,7 +3611,8 @@ MonoBehaviour:
   phase2Threshold: 0.5
   phase3Threshold: 0.25
   player: {fileID: 2125956374}
-  projectilePrefab: {fileID: 0}
+  armProjPrefab: {fileID: 6913212424640786453}
+  laserPrefab: {fileID: 3046408189103921859}
 --- !u!70 &82044549
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -35461,6 +35462,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4c68984b9370d4269b9c83393493b180, type: 3}
+--- !u!1 &3046408189103921859 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7294900229312583020, guid: 4c68984b9370d4269b9c83393493b180, type: 3}
+  m_PrefabInstance: {fileID: 3046408189103921858}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5813517336098354809
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35615,6 +35621,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 91081ba5e3ee6438e872dcfab0a36585, type: 3}
+--- !u!1 &6913212424640786453 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6278005164160014623, guid: 91081ba5e3ee6438e872dcfab0a36585, type: 3}
+  m_PrefabInstance: {fileID: 6913212424640786452}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &9058096926083610159
 PrefabInstance:
   m_ObjectHideFlags: 0

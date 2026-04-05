@@ -22,7 +22,11 @@ public class KeyPickup : MonoBehaviour
 
         float dist = Vector2.Distance(transform.position, player.position);
         if (dist <= pickupRadius && Input.GetKeyDown(KeyCode.P))
+        {
+            if (TimeLimitManager.Instance != null)
+                TimeLimitManager.Instance.KeyCollected();
             Destroy(gameObject);
+        }
     }
 
     void OnDrawGizmosSelected()

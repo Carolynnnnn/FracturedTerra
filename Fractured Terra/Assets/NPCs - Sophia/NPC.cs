@@ -16,6 +16,10 @@ public class NPC : MonoBehaviour, IInteractable
     [Tooltip("If checked, talking to this NPC sets a respawn checkpoint at its position.")]
     public bool isCheckpoint = false;
 
+    [Header("Timer")]
+    [Tooltip("If checked, talking to this NPC starts the time limit challenge.")]
+    public bool startsTimer = false;
+
     private int dialogueIndex;
     private bool isTyping, isDialogueActive;
     private bool playerInRange;
@@ -92,6 +96,9 @@ public class NPC : MonoBehaviour, IInteractable
             PlayerHealth ph = FindFirstObjectByType<PlayerHealth>();
             if (ph != null) ph.SetCheckpoint(transform.position);
         }
+
+        if (startsTimer && TimeLimitManager.Instance != null)
+            TimeLimitManager.Instance.StartTimer();
 
         StartDialogue(); // Starts talking to NPC
         }

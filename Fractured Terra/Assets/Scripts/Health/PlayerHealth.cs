@@ -62,6 +62,11 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
+    public void Kill()
+    {
+        TakeDamage(currentHealth);
+    }
+
     public void Heal(float healAmount)
     {
         currentHealth += healAmount;

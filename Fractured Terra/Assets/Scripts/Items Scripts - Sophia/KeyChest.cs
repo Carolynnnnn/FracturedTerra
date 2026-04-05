@@ -51,6 +51,13 @@ public class KeyChest : MonoBehaviour
 
     void OpenChest()
     {
+        if (CoinManager.coinCount < 5)
+        {
+            Debug.Log("[KeyChest] Not enough coins to open chest.");
+            return;
+        }
+
+        CoinManager.coinCount -= 5;
         isOpen = true;
 
         if (openSprite != null)

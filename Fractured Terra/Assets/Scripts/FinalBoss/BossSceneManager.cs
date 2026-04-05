@@ -10,30 +10,38 @@ public class BossSceneManager : MonoBehaviour
     public Vector3 chestRevealPosition = new Vector3(1.3f, 5.11f, 0f);
     public Vector3 portalRevealPosition = new Vector3(3.67f, 5.36f, 0f);
 
-    private bool chestOpened = false;
+    private bool bossDefeated = false;
     private bool portalRevealed = false;
-    private int previousGemCount = 0;
+    private int gemCountOnDefeat;
 
     void Update()
     {
-        if (!chestOpened && gemChest != null && 
-            GemManager.gemCount > previousGemCount)
+        if (bossDefeated && gemChest != null)
         {
-            chestOpened = true;
             gemChest.transform.position = chestRevealPosition;
         }
         
-        if (chestOpened && !portalRevealed && 
-            GemManager.gemCount > previousGemCount + 1)
+        if (bossDefeated && !portalRevealed && 
+            GemManager.gemCount > gemCountOnDefeat)
         {
             portalRevealed = true;
-            exitPortal.transform.position = portalRevealPosition;
-            previousGemCount = GemManager.gemCount;
+            if (exitPortal != null)
+                exitPortal.transform.position = portalRevealPosition;
         }
     }
 
     public void OnBossDefeated()
     {
-        previousGemCount = GemManager.gemCount;
+        Debug.Log("OnBossDefeated called!");
+        bossDefeated = true;
+        gemCountOnDefeat = GemManager.gemCount;
+    
+        if (gemChest != null)
+        {
+            gemChest.transform.position = chestRevealPosition;
+            Debug.Log("Chest moved to: " + chestRevealPosition);
+        }
+        else
+            Debug.LogWarning("gemChest is null!");
     }
 }

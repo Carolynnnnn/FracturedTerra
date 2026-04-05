@@ -22,30 +22,14 @@ public class NPC : MonoBehaviour, IInteractable
 
     private int dialogueIndex;
     private bool isTyping, isDialogueActive;
-    private Transform player;
-
-    [Header("Interaction")]
-    public float interactRadius = 2f;
 
     void Start()
     {
         if (dialoguePanel != null)
             dialoguePanel.SetActive(false);
-
-        PlayerHealth ph = FindFirstObjectByType<PlayerHealth>();
-        if (ph != null) player = ph.transform;
     }
 
-    void Update()
-    {
-        if (player == null) return;
-
-        float dist = Vector2.Distance(transform.position, player.position);
-        if (dist <= interactRadius && Input.GetKeyDown(KeyCode.P))
-            Interact();
-    }
-
-    public bool CanInteract()
+    public bool CanInteract() // NPC can be interacted with when no dialogue is active
     {
         return !isDialogueActive;
     }
@@ -58,7 +42,7 @@ public class NPC : MonoBehaviour, IInteractable
             NextLine(); // Goes to next dialogue line dialogue is active
         }
         else
-        { 
+        {
             // Check if NPC wants an item
             if (npcState == NpcState.Default && !string.IsNullOrEmpty(dialogueData.itemWantedName))
             {
@@ -68,7 +52,7 @@ public class NPC : MonoBehaviour, IInteractable
                 {
                     npcState = NpcState.QuestComplete;
                     Debug.Log("Quest item given!");
-                    
+
                     // Give item prize
                     if (dialogueData.itemName == "Gem") // If the prize is a gem
                     {
@@ -88,39 +72,41 @@ public class NPC : MonoBehaviour, IInteractable
                     }
                 }
             }
+
             if (isCheckpoint)
-        {
-            PlayerHealth ph = FindFirstObjectByType<PlayerHealth>();
-            if (ph != null) ph.SetCheckpoint(transform.position);
-        }
+            {
+                PlayerHealth ph = FindFirstObjectByType<PlayerHealth>();
+                if (ph != null) ph.SetCheckpoint(transform.position);
+            }
 
-        if (startsTimer && TimeLimitManager.Instance != null)
-            TimeLimitManager.Instance.StartTimer();
+            if (startsTimer && TimeLimitManager.Instance != null)
+                TimeLimitManager.Instance.StartTimer();
 
-        StartDialogue(); // Starts talking to NPC
+            StartDialogue(); // Starts talking to NPC
         }
     }
+
     void StartDialogue() // Controls UI display
     {
-            isDialogueActive = true;
-            if (playerController != null) playerController.CanMove = false;
-            
-            nameText.SetText(dialogueData.npcName);
-            dialoguePanel.SetActive(true);
-            
-            switch (npcState) // Figure out which index to start on
-            {
-                case NpcState.QuestComplete:
-                    dialogueIndex = dialogueData.dialogueStates[0] + 1; // Line after default
-                    break;
-                case NpcState.PostQuest:
-                    dialogueIndex = dialogueData.dialogueStates[1] + 1; // Line after quest completion
-                    break;
-                default: // When in default or no quest state
-                    dialogueIndex = 0;
-                    break;
-            }
-            StartCoroutine(TypeLine()); // Start typing
+        isDialogueActive = true;
+        if (playerController != null) playerController.CanMove = false; // Pause player movement
+
+        nameText.SetText(dialogueData.npcName);
+        dialoguePanel.SetActive(true);
+
+        switch (npcState) // Figure out which index to start on
+        {
+            case NpcState.QuestComplete:
+                dialogueIndex = dialogueData.dialogueStates[0] + 1; // Line after default
+                break;
+            case NpcState.PostQuest:
+                dialogueIndex = dialogueData.dialogueStates[1] + 1; // Line after quest completion
+                break;
+            default: // When in default or no quest state
+                dialogueIndex = 0;
+                break;
+        }
+        StartCoroutine(TypeLine()); // Start typing
     }
 
     void NextLine()
@@ -158,12 +144,12 @@ public class NPC : MonoBehaviour, IInteractable
     }
 
     public void EndDialogue()
-    { 
+    {
         StopAllCoroutines();
         isDialogueActive = false;
         dialogueText.SetText(""); // Reset text
         dialoguePanel.SetActive(false); // Close dialogue panel
-        if (playerController != null) playerController.CanMove = true;
+        if (playerController != null) playerController.CanMove = true; // Unpause the game
         if (npcState == NpcState.QuestComplete) npcState = NpcState.PostQuest; // Only show quest complete dialogue once
     }
 

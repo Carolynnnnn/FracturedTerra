@@ -121101,16 +121101,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1452866261}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 87b297f8b1894479fa6369d5fd974486, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GemChest
   closedSprite: {fileID: -5801566434257123781, guid: 70f578e1ea53ff8488b32c8997ba45e0, type: 3}
   openSprite: {fileID: 0}
-  gemSprite: {fileID: -5564474249135974314, guid: 6f74c05788617214c87bd0e8f484fe6a, type: 3}
-  gemOffset: {x: 0.5, y: 0}
-  gemScale: 3
   interactRadius: 1.5
 --- !u!1 &1455096655
 GameObject:
@@ -123137,6 +123134,10 @@ PrefabInstance:
     - target: {fileID: 4258475167912547494, guid: 495e8748cf8a7574d8ce77c515b7da74, type: 3}
       propertyPath: m_SortingLayerID
       value: -53914635
+      objectReference: {fileID: 0}
+    - target: {fileID: 4803929170815650359, guid: 495e8748cf8a7574d8ce77c515b7da74, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

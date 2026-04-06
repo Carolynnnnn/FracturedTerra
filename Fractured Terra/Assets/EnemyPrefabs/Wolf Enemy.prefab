@@ -94,7 +94,6 @@ GameObject:
   - component: {fileID: 8081043022672261389}
   - component: {fileID: 1688920404449799378}
   - component: {fileID: 312363590738525081}
-  - component: {fileID: 1931216419986251561}
   - component: {fileID: 3239378532838207320}
   - component: {fileID: 3061625404512976533}
   m_Layer: 6
@@ -225,20 +224,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 2, y: 1.5}
   m_EdgeRadius: 0
---- !u!114 &1931216419986251561
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7351448003154172919}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ba69b4b2320746a1850158e51cc515b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
-  speed: 2
-  moveDistance: 2
 --- !u!114 &3239378532838207320
 MonoBehaviour:
   m_ObjectHideFlags: 0

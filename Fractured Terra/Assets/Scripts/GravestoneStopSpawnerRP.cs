@@ -2,24 +2,24 @@ using UnityEngine;
 
 public class GravestoneStopSpawnerRP : MonoBehaviour, IInteractable
 {
-    public InfiniteArenaSpawnerRP spawner;
+    public InfiniteArenaSpawnerRP spawner; // reference to arena spawner
 
-    private bool hasBeenUsed = false;
+    private bool hasBeenUsed = false; // makes sure it can only be used once
 
     public bool CanInteract()
     {
-        return !hasBeenUsed;
+        return !hasBeenUsed; // only interact if not already used
     }
 
     public void Interact()
     {
         if (!CanInteract()) return;
 
-        hasBeenUsed = true;
+        hasBeenUsed = true; // locks it after use
 
         if (spawner != null)
         {
-            spawner.StopSpawning();
+            spawner.StopSpawning(); // stops infinite enemy waves (used as a “quit arena” option)
             Debug.Log("Gravestone used. Enemy spawning stopped.");
         }
     }

@@ -2,12 +2,13 @@ using UnityEngine;
 
 public class GravestoneInteractRP : MonoBehaviour
 {
-    public InfiniteArenaSpawnerRP spawner;
+    public InfiniteArenaSpawnerRP spawner; // reference to arena spawner
 
-    private bool playerInRange = false;
+    private bool playerInRange = false; // tracks if player is close enough to interact
 
     void Update()
     {
+        // if player is near and presses P, stop the arena spawning (basically an exit/stop mechanic)
         if (playerInRange && Input.GetKeyDown(KeyCode.P))
         {
             spawner.StopSpawning();
@@ -19,7 +20,7 @@ public class GravestoneInteractRP : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            playerInRange = true;
+            playerInRange = true; // player entered interaction zone
         }
     }
 
@@ -27,7 +28,7 @@ public class GravestoneInteractRP : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            playerInRange = false;
+            playerInRange = false; // player left interaction zone
         }
     }
 }

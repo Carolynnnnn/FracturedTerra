@@ -12,6 +12,9 @@ TagManager:
   - Breakable
   - breakitem
   - Enemy
+  - Props
+  - ExitPortal
+  - GemChest
   layers:
   - Default
   - TransparentFX
@@ -20,7 +23,7 @@ TagManager:
   - Water
   - UI
   - Enemy
-  - 
+  - Hazard
   - 
   - 
   - sophia_playerLayer

@@ -1453,6 +1453,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7351448003154172919, guid: 49ce40eb5e57c9c4d842ea4728663f23, type: 3}
       insertIndex: -1
       addedObject: {fileID: 92120004}
+    - targetCorrespondingSourceObject: {fileID: 7351448003154172919, guid: 49ce40eb5e57c9c4d842ea4728663f23, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 92120005}
   m_SourcePrefab: {fileID: 100100000, guid: 49ce40eb5e57c9c4d842ea4728663f23, type: 3}
 --- !u!4 &92120001 stripped
 Transform:
@@ -1489,6 +1492,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 876cbecc9ac2fc944a79c39d417e8787, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyStatusRP
+--- !u!114 &92120005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 92120002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: Assembly-CSharp::LuxWolfAttack
+  damage: 10
+  attackCooldown: 1
 --- !u!1001 &93110000
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1709,6 +1726,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7351448003154172919, guid: 49ce40eb5e57c9c4d842ea4728663f23, type: 3}
       insertIndex: -1
       addedObject: {fileID: 93120004}
+    - targetCorrespondingSourceObject: {fileID: 7351448003154172919, guid: 49ce40eb5e57c9c4d842ea4728663f23, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 93120005}
   m_SourcePrefab: {fileID: 100100000, guid: 49ce40eb5e57c9c4d842ea4728663f23, type: 3}
 --- !u!4 &93120001 stripped
 Transform:
@@ -1745,6 +1765,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 876cbecc9ac2fc944a79c39d417e8787, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyStatusRP
+--- !u!114 &93120005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 93120002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: Assembly-CSharp::LuxWolfAttack
+  damage: 10
+  attackCooldown: 1
 --- !u!1 &94100001 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 847858707545896673, guid: 495e8748cf8a7574d8ce77c515b7da74, type: 3}
@@ -7903,6 +7937,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7351448003154172919, guid: 49ce40eb5e57c9c4d842ea4728663f23, type: 3}
       insertIndex: -1
       addedObject: {fileID: 535310752}
+    - targetCorrespondingSourceObject: {fileID: 7351448003154172919, guid: 49ce40eb5e57c9c4d842ea4728663f23, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 535310754}
   m_SourcePrefab: {fileID: 100100000, guid: 49ce40eb5e57c9c4d842ea4728663f23, type: 3}
 --- !u!4 &535310750 stripped
 Transform:
@@ -7939,6 +7976,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealthRP
   maxHealth: 5
+--- !u!114 &535310754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535310751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: Assembly-CSharp::LuxWolfAttack
+  damage: 10
+  attackCooldown: 1
 --- !u!1 &535553143
 GameObject:
   m_ObjectHideFlags: 0
@@ -10644,6 +10695,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7351448003154172919, guid: 49ce40eb5e57c9c4d842ea4728663f23, type: 3}
       insertIndex: -1
       addedObject: {fileID: 976937996}
+    - targetCorrespondingSourceObject: {fileID: 7351448003154172919, guid: 49ce40eb5e57c9c4d842ea4728663f23, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 976937998}
   m_SourcePrefab: {fileID: 100100000, guid: 49ce40eb5e57c9c4d842ea4728663f23, type: 3}
 --- !u!4 &976937994 stripped
 Transform:
@@ -10680,6 +10734,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealthRP
   maxHealth: 5
+--- !u!114 &976937998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 976937995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: Assembly-CSharp::LuxWolfAttack
+  damage: 10
+  attackCooldown: 1
 --- !u!1 &993174545
 GameObject:
   m_ObjectHideFlags: 0

@@ -15,14 +15,11 @@ MonoBehaviour:
   npcName: 
   dialogueLines:
   - Hey! We've met before
-  - Do you still remember me?
   - I am just here to guide you to the final stage in this world
   - Now use all you have and try to defeat the Stone Boss!
   - It's fine if you loss, I'll use my power to bring you back to this point
-  - and also to this time
-  - Good luck now!
-  - It's like the novel storyline, right?
-  - The start is also the end
+  - It's really like the novel storyline, right?
+  - The start is also the end...
   typingSpeed: 0.05
   dialogueStates: 
   itemWantedName: 

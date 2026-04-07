@@ -30,6 +30,7 @@ public class FinalBoss : MonoBehaviour
     private Rigidbody2D rb;
 	private SpriteRenderer sr;
 	private float facingDirection = 1f;
+	public bool attackEnabled = false;
 
     void Start()
     {
@@ -48,6 +49,8 @@ public class FinalBoss : MonoBehaviour
         CheckPhase();
         FacePlayer(); //Always set to face player
         
+		if (!attackEnabled) return;
+
         attackTimer += Time.deltaTime;
         if (attackTimer >= attackCooldown)
         {
@@ -178,6 +181,21 @@ public class FinalBoss : MonoBehaviour
     	yield return new WaitForSeconds(delay);
 	    Debug.Log("DelayedLaser origin: " + origin);
     	ShootLaserAt(origin);
+	}
+	
+	public void EnableAttack()
+	{
+    	attackEnabled = true;
+    	Debug.Log("Boss attack enabled!");
+	}
+
+	public void DisableAttack()
+	{
+    	attackEnabled = false;
+    	attackTimer = 0f;
+    	CancelInvoke();
+    	StopAllCoroutines();
+    	Debug.Log("Boss attack disabled!");
 	}
 
     public void TakeDamage(int damage)

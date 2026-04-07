@@ -12,12 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29eba545bae127f488175478b5cdcb00, type: 3}
   m_Name: NPC2Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::NpcDialogue
-  npcName: NPC2
+  npcName: Jungle Dweller
   dialogueLines:
   - Hey! What are you doing here?
   - You have to stay safe in the jungle of Saltu.
-  - Make sure to find all gems
-  - And beware of what lurks....
+  - Make sure to find all gems to exit!
+  - 'Just a tip: finding a health potion buried in the jungle will help you with
+    what lurks ahead.....'
   typingSpeed: 0.05
   dialogueStates: 
   itemWantedName: 

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29eba545bae127f488175478b5cdcb00, type: 3}
   m_Name: JungleDialogue
   m_EditorClassIdentifier: Assembly-CSharp::NpcDialogue
-  npcName: JungleNPC
+  npcName: Wolfman
   dialogueLines:
   - Well, well... a traveler. You won't be needing those gems where you're going.
   - Be careful going deeper into the jungle.

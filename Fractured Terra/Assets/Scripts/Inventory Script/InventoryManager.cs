@@ -106,6 +106,7 @@ public class InventoryManager : MonoBehaviour
         }
         
         // Item effects: If making new item, add case here (must use EXACT item name)
+        PlayerStatsRP playerStats = Object.FindFirstObjectByType<PlayerStatsRP>(); // Get player stats
         switch (item.itemName)
         {
             case "Health Potion":
@@ -120,6 +121,33 @@ public class InventoryManager : MonoBehaviour
                 {
                     Debug.LogWarning("PlayerHealth not found!"); // Safety net
                 }
+                break;
+            case "Wood Sword":
+                Debug.Log("Equipped Wood Sword");
+                playerStats.SetWeaponDamageBonus(1); // Update player stats
+                break;
+            case "Trident":
+                Debug.Log("Equipped Trident");
+                playerStats.SetWeaponDamageBonus(2); // Update player stats
+                break;
+            case "Stone Sword":
+                Debug.Log("Equipped Stone Sword");
+                playerStats.SetWeaponDamageBonus(3); // Update player stats
+                break;
+            case "Fire Sword":
+                Debug.Log("Equipped Fire Sword");
+                playerStats.SetWeaponDamageBonus(4); // Update player stats
+                break;
+            case "Dark Sword":
+                Debug.Log("Equipped Dark Sword");
+                playerStats.SetWeaponDamageBonus(5); // Update player stats
+                break;
+            case "Light Sword":
+                Debug.Log("Equipped Fire Sword");
+                playerStats.SetWeaponDamageBonus(6); // Update player stats
+                break;
+            default:
+                Debug.Log("Item does not exist");
                 break;
         }
 

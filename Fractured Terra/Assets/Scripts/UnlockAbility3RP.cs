@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class UnlockAbility11RP : MonoBehaviour
+public class UnlockAbility3RP : MonoBehaviour
 {
     //same code as UnlockAbilityTriggerRP just with diffrent index 
     private void OnTriggerEnter2D(Collider2D other)
@@ -9,7 +9,7 @@ public class UnlockAbility11RP : MonoBehaviour
 
         if (AbilityUnlockManagerRP.Instance != null)
         {
-            AbilityUnlockManagerRP.Instance.UnlockAbility(10); // unlocks Ability 11 index 10 
+            AbilityUnlockManagerRP.Instance.UnlockAbility(2); // unlocks Ability 3 index 2
         }
 
         Destroy(gameObject);

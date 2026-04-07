@@ -51804,8 +51804,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8569003786385872269, guid: 1cc5ed625ce76f640857d5b65e839464, type: 3}
     - target: {fileID: 2330190664013676636, guid: 5186108abd895d74d8762f87d9782e06, type: 3}
-      propertyPath: isWeapon
+      propertyPath: canUse
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2330190664013676636, guid: 5186108abd895d74d8762f87d9782e06, type: 3}
+      propertyPath: isWeapon
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2330190664013676636, guid: 5186108abd895d74d8762f87d9782e06, type: 3}
       propertyPath: itemName
@@ -61951,7 +61955,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4dcde9442ea48644a4b5d7c3d25f22a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerStatsRP
-  weaponDamageBonus: 0
 --- !u!114 &2125956384
 MonoBehaviour:
   m_ObjectHideFlags: 0

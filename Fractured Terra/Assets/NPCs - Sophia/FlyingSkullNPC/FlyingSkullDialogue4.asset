@@ -17,6 +17,7 @@ MonoBehaviour:
   - Congratulations! You are almost done.
   - Open the chest and collect the gem by pressing P.
   - Once you've collected the gem, you can leave the island through the exit portal.
+  - check your customize panel to see a new ability, earned from this level
   typingSpeed: 0.05
   dialogueStates: 
   itemWantedName: 

@@ -18,11 +18,13 @@ MonoBehaviour:
   - Activate each mirror to restore the light path.
   - When all mirrors align, the way forward will open.
   - Press P near each mirror to activate it.
+  - once you reach the room with the purple chest check your customize panel
+  - you will have unlocked a new ability as a reward for completing this level
   typingSpeed: 0.05
-  dialogueStates:
-  itemWantedName:
-  itemName:
-  description:
+  dialogueStates: 
+  itemWantedName: 
+  itemName: 
+  description: 
   icon: {fileID: 0}
   maxLife: 1
   canUse: 0

@@ -7081,6 +7081,91 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 569834280}
   m_CullTransparentMesh: 1
+--- !u!1001 &573973599
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 285021835691416426, guid: 5186108abd895d74d8762f87d9782e06, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 83.253975
+      objectReference: {fileID: 0}
+    - target: {fileID: 285021835691416426, guid: 5186108abd895d74d8762f87d9782e06, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.667816
+      objectReference: {fileID: 0}
+    - target: {fileID: 285021835691416426, guid: 5186108abd895d74d8762f87d9782e06, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 285021835691416426, guid: 5186108abd895d74d8762f87d9782e06, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 285021835691416426, guid: 5186108abd895d74d8762f87d9782e06, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 285021835691416426, guid: 5186108abd895d74d8762f87d9782e06, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 285021835691416426, guid: 5186108abd895d74d8762f87d9782e06, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 285021835691416426, guid: 5186108abd895d74d8762f87d9782e06, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 285021835691416426, guid: 5186108abd895d74d8762f87d9782e06, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 285021835691416426, guid: 5186108abd895d74d8762f87d9782e06, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022730083270552479, guid: 5186108abd895d74d8762f87d9782e06, type: 3}
+      propertyPath: m_SortingLayer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022730083270552479, guid: 5186108abd895d74d8762f87d9782e06, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 76551731
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062477034809172492, guid: 5186108abd895d74d8762f87d9782e06, type: 3}
+      propertyPath: m_Name
+      value: DefaultChest
+      objectReference: {fileID: 0}
+    - target: {fileID: 2330190664013676636, guid: 5186108abd895d74d8762f87d9782e06, type: 3}
+      propertyPath: icon
+      value: 
+      objectReference: {fileID: 3978993171666484140, guid: 257a9415a4822584ebfdb97fc58aebff, type: 3}
+    - target: {fileID: 2330190664013676636, guid: 5186108abd895d74d8762f87d9782e06, type: 3}
+      propertyPath: canUse
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2330190664013676636, guid: 5186108abd895d74d8762f87d9782e06, type: 3}
+      propertyPath: itemName
+      value: Fire Sword
+      objectReference: {fileID: 0}
+    - target: {fileID: 2330190664013676636, guid: 5186108abd895d74d8762f87d9782e06, type: 3}
+      propertyPath: description
+      value: Burns with intense heat.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2330190664013676636, guid: 5186108abd895d74d8762f87d9782e06, type: 3}
+      propertyPath: inventoryManager
+      value: 
+      objectReference: {fileID: 349270584}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5186108abd895d74d8762f87d9782e06, type: 3}
 --- !u!1 &601116174
 GameObject:
   m_ObjectHideFlags: 0
@@ -128744,7 +128829,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4dcde9442ea48644a4b5d7c3d25f22a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerStatsRP
-  weaponDamageBonus: 0
 --- !u!114 &2125956384
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -129357,3 +129441,4 @@ SceneRoots:
   - {fileID: 1407814616}
   - {fileID: 1663189388}
   - {fileID: 1619149799}
+  - {fileID: 573973599}

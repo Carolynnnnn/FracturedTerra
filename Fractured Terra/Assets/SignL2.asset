@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NpcDialogue
   npcName: Sign
   dialogueLines:
-  - check customize panel to see new ability unclocked
+  - check customize panel to see new ability unlocked
   typingSpeed: 0.05
   dialogueStates: 
   itemWantedName: 

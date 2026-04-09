@@ -3,7 +3,7 @@ using UnityEngine;
 public class PlayerStatsRP : MonoBehaviour
 {
     [Header("Damage Bonus From Weapon")]
-    public static int weaponDamageBonus = 0;
+    public int weaponDamageBonus = 0;
 
     public int GetFinalDamage(int baseDamage)
     {

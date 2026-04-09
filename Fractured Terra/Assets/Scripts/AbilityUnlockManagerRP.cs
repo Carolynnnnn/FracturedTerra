@@ -2,21 +2,21 @@ using UnityEngine;
 
 public class AbilityUnlockManagerRP : MonoBehaviour
 {
-    public static AbilityUnlockManagerRP Instance;
+    public static AbilityUnlockManagerRP Instance; // singleton so I can call this from anywhere (like pickups)
 
     [Header("References")]
-    public PlayerAttackRP playerAttack;
-    public AbilityUIManagerRP abilityUIManager;
+    public PlayerAttackRP playerAttack; // holds all abilities
+    public AbilityUIManagerRP abilityUIManager; // updates UI when something unlocks
 
     void Awake()
     {
         if (Instance == null)
         {
-            Instance = this;
+            Instance = this; // set global reference
         }
         else
         {
-            Destroy(gameObject);
+            Destroy(gameObject); // prevents duplicates
         }
     }
 
@@ -29,20 +29,20 @@ public class AbilityUnlockManagerRP : MonoBehaviour
 
         if (!playerAttack.abilities[index].unlocked)
         {
-            playerAttack.abilities[index].unlocked = true;
-            
+            playerAttack.abilities[index].unlocked = true; // actually unlocks the ability (used when player picks something up)
+
             AbilitySaveSystemRP save = FindObjectOfType<AbilitySaveSystemRP>();
             if (save != null)
             {
-                save.SaveData();
+                save.SaveData(); // saves right away so progress isn’t lost
             }
-            
+
             Debug.Log("Unlocked ability: " + playerAttack.abilities[index].abilityName);
         }
 
         if (abilityUIManager != null)
         {
-            abilityUIManager.RefreshAbilityUI();
+            abilityUIManager.RefreshAbilityUI(); // updates buttons + visuals instantly
         }
     }
 
@@ -53,6 +53,6 @@ public class AbilityUnlockManagerRP : MonoBehaviour
         if (index < 0 || index >= playerAttack.abilities.Length) return false;
         if (playerAttack.abilities[index] == null) return false;
 
-        return playerAttack.abilities[index].unlocked;
+        return playerAttack.abilities[index].unlocked; // lets other scripts check if player has an ability
     }
 }

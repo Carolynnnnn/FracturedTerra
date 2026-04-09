@@ -4,23 +4,23 @@ using UnityEngine;
 public class PlayerAttackRP : MonoBehaviour
 {
     [Header("References")]
-    public Transform attackPoint;
-    public LayerMask enemyLayer;
-    public LayerMask breakableLayer;
-    public PlayerStatsRP playerStats;
-    public PlayerDefenseRP playerDefense;
-    public SpriteRenderer playerSprite;
+    public Transform attackPoint; // where attacks come from
+    public LayerMask enemyLayer; // reconsing enemies
+    public LayerMask breakableLayer; // reconsing breakable items 
+    public PlayerStatsRP playerStats; // used for damage scaling
+    public PlayerDefenseRP playerDefense; // for sheild defense
+    public SpriteRenderer playerSprite; // flips ability animation
 
     [Header("Abilities")]
-    public AbilityDataRP[] abilities = new AbilityDataRP[12];
-    public int currentAbilityIndex = 0;
+    public AbilityDataRP[] abilities = new AbilityDataRP[12]; // all abilities 
+    public int currentAbilityIndex = 0; // starting abilies 
 
     [Header("Effect Settings")]
-    public Vector2 effectOffset = Vector2.zero;
-    public float effectLifetime = 0.5f;
+    public Vector2 effectOffset = Vector2.zero; // offsets visuals a bit
+    public float effectLifetime = 0.5f; // how long the effect lasts 
 
-    private float nextAttackTime = 0f;
-    private bool isWaterSwirlActive = false;
+    private float nextAttackTime = 0f; // cooldown tracker
+    private bool isWaterSwirlActive = false; // prevents stacking abilitys 
     private string _sortingLayerName = "Default";
     private int _sortingOrder = 10;
 
@@ -42,7 +42,7 @@ public class PlayerAttackRP : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.O))
         {
-            TryUseCurrentAbility();
+            TryUseCurrentAbility(); // press o to use ability
         }
     }
 
@@ -70,13 +70,13 @@ public class PlayerAttackRP : MonoBehaviour
 
         if (!currentAbility.unlocked)
         {
-            Debug.Log("Ability is locked.");
+            Debug.Log("Ability is locked."); // can't use locked abilities
             return;
         }
 
         if (Time.time < nextAttackTime)
         {
-            return;
+            return; // still on cooldown
         }
 
         UseAbility(currentAbility);
@@ -87,9 +87,10 @@ public class PlayerAttackRP : MonoBehaviour
     {
         if (ability == null) return;
 
+        // selects ability based on type
         switch (ability.type)
         {
-            case AbilityType.Melee:
+            case AbilityType.Melee: // melee means close combat ability source of name taken from Playtank
                 UseMeleeAbility(ability);
                 break;
 
@@ -130,13 +131,15 @@ public class PlayerAttackRP : MonoBehaviour
         SpawnEffectAtPoint(ability, attackPoint.position);
 
         int finalDamage = GetFinalDamage(ability.damage);
-
+        
+        //hits enemies in a small circle in front of player
         Collider2D[] enemyHits = Physics2D.OverlapCircleAll(
             attackPoint.position,
             ability.range,
             enemyLayer
         );
 
+        // breaks objects like vases
         foreach (Collider2D hit in enemyHits)
         {
             FinalBossHealthRP boss = hit.GetComponent<FinalBossHealthRP>();
@@ -153,7 +156,8 @@ public class PlayerAttackRP : MonoBehaviour
                 }
             }
         }
-
+        
+        // hits everything around player
         Collider2D[] breakHits = Physics2D.OverlapCircleAll(
             attackPoint.position,
             ability.range,
@@ -393,7 +397,7 @@ public class PlayerAttackRP : MonoBehaviour
 
         if (playerDefense != null)
         {
-            playerDefense.SetProtected(true);
+            playerDefense.SetProtected(true); // player becomes protected
         }
 
         while (timer < duration)
@@ -448,7 +452,7 @@ public class PlayerAttackRP : MonoBehaviour
 
         if (playerDefense != null)
         {
-            playerDefense.SetProtected(false);
+            playerDefense.SetProtected(false); // turns off shield
         }
 
         if (swirlEffect != null)
@@ -472,11 +476,12 @@ public class PlayerAttackRP : MonoBehaviour
         );
 
         ApplyEffectSortingOrder(effect);
-        Destroy(effect, effectLifetime);
+        Destroy(effect, effectLifetime); // removes visual after short time
     }
 
     void ApplyEffectSortingOrder(GameObject effect)
     {
+        //makes effect render in front of player 
         foreach (SpriteRenderer sr in effect.GetComponentsInChildren<SpriteRenderer>(true))
         {
             sr.sortingLayerName = _sortingLayerName;
@@ -511,7 +516,7 @@ public class PlayerAttackRP : MonoBehaviour
             return;
         }
 
-        currentAbilityIndex = index;
+        currentAbilityIndex = index; // switches ability 
         Debug.Log("Selected ability: " + abilities[index].abilityName);
     }
 
@@ -525,6 +530,7 @@ public class PlayerAttackRP : MonoBehaviour
 
         Gizmos.color = Color.red;
 
+        // shows attack range in editor 
         if (currentAbility.type == AbilityType.Area || currentAbility.type == AbilityType.ShieldAura)
         {
             Gizmos.DrawWireSphere(transform.position, currentAbility.range);

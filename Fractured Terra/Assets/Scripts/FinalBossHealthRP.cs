@@ -2,45 +2,45 @@ using UnityEngine;
 
 public class FinalBossHealthRP : MonoBehaviour
 {
-    public int maxHealth = 50;
+    public int maxHealth = 50; // total boss health
     public int currentHealth;
 
-    public FinalBossUIRP bossUI;
+    public FinalBossUIRP bossUI; // UI for the boss health bar
     private Animator animator;
-    private bool isDead = false;
+    private bool isDead = false; // prevents extra damage after death
 
     void Start()
     {
-        currentHealth = maxHealth;
+        currentHealth = maxHealth; // sets starting health
         animator = GetComponent<Animator>();
 
         if (bossUI != null)
         {
-            bossUI.ShowBossBar();
-            bossUI.UpdateBossBar(currentHealth, maxHealth);
+            bossUI.ShowBossBar(); // shows boss bar when fight starts
+            bossUI.UpdateBossBar(currentHealth, maxHealth); // sets initial value
         }
     }
 
     public void TakeDamage(int amount)
     {
-        if (isDead) return;
+        if (isDead) return; // stops taking damage after death
 
         currentHealth -= amount;
-        currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
+        currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth); // keeps health in valid range
 
         if (animator != null)
         {
-            animator.SetTrigger("TakeHit");
+            animator.SetTrigger("TakeHit"); // plays hit animation
         }
 
         if (bossUI != null)
         {
-            bossUI.UpdateBossBar(currentHealth, maxHealth);
+            bossUI.UpdateBossBar(currentHealth, maxHealth); // updates boss health bar
         }
 
         if (currentHealth <= 0)
         {
-            Die();
+            Die(); // kills boss when health hits 0
         }
     }
 
@@ -50,9 +50,9 @@ public class FinalBossHealthRP : MonoBehaviour
 
         if (bossUI != null)
         {
-            bossUI.HideBossBar();
+            bossUI.HideBossBar(); // hides UI when boss dies
         }
 
-        Destroy(gameObject);
+        Destroy(gameObject); // removes boss from scene
     }
 }
